@@ -1,0 +1,53 @@
+SPI_GETOEMINFO = "Compaq iPAQ H3900"
+SPI_GETPLATFORMTYPE = "PocketPC"
+GetSystemInfo:
+    dwOemId ...................... 0x00000005
+    wProcessorArchitecture ....... 0x00000005
+    wReserved .................... 0x00000000
+    dwPageSize ................... 0x00001000
+    lpMinimumApplicationAddress .. 0x00010000
+    lpMaximumApplicationAddress .. 0x7fffffff
+    dwActiveProcessorMask ........ 0x00000001
+    dwNumberOfProcessors ......... 0x00000001
+    dwProcessorType .............. 0x00000a11
+    dwAllocationGranularity ...... 0x00010000
+    wProcessorLevel .............. 0x00000004
+    wProcessorRevision ........... 0x00000003
+
+************************************************
+
+GXDisplayProperties
+    cxWidth  = 240
+    cyHeight = 320
+    cbxPitch = 640
+    cbyPitch = -2
+    cBPP     = 16
+    ffFormat = 0x000000A8
+             = kfLandscape | kfDirect | kfDirect565
+
+GXIsDisplayDRAMBuffer returns 0x00000000 (FALSE)
+
+GXBeginDraw returns 0xB000229E
+
+************************************************
+
+GXKeyList
+    vkUp    = 0x0026
+    ptUp    = (120, 330)
+    vkDown  = 0x0028
+    ptDown  = (120, 390)
+    vkLeft  = 0x0025
+    ptLeft  = (70, 360)
+    vkRight = 0x0027
+    ptRight = (170, 360)
+    vkA     = 0x00C3
+    ptA     = (190, 340)
+    vkB     = 0x00C4
+    ptB     = (210, 350)
+    vkC     = 0x00C5
+    ptC     = (-40, 0)
+    vkStart = 0x0086
+    ptStart = (120, 360)
+
+************************************************
+

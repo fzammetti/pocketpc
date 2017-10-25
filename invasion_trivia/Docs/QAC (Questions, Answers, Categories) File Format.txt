@@ -1,0 +1,32 @@
+QAC File Format:
+----------------
+
+5 bytes ..... File identified ("ITQAC")
+1 byte ...... Major version #
+1 byte ...... Minor version #
+10 bytes .... Expansion padding (spaces)
+
+Struct { // Repeats x times (25 max)
+  1 Byte .... Category key
+  xx bytes .. Category name (16 bytes max)
+  1 byte .... Value 254 - "End of category" indicator
+}
+
+1 byte ...... Value 255 - "End of category list" indicator
+
+Struct { // Repeats x times (1000 max)
+  1 byte .... Category key
+  xx bytes .. Question (77 bytes max)
+  1 byte .... Value 254 - "End of question" indicator
+  xx bytes .. Answer 1 (26 bytes max)
+  1 byte .... Value 254 - "End of answer" indicator
+  xx bytes .. Answer 2 (26 bytes max)
+  1 byte .... Value 254 - "End of answer" indicator
+  xx bytes .. Answer 3 (26 bytes max)
+  1 byte .... Value 254 - "End of answer" indicator
+  xx bytes .. Answer 4 (26 bytes max)
+  1 byte .... Value 254 - "End of answer" indicator
+  1 byte .... Correct answer key (values 1, 2, 3 or 4)
+}
+
+1 byte ...... Value 255 - "End of data" indicator

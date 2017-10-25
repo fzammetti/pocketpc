@@ -1,0 +1,163 @@
+
+Hekkus Sound System (HSS), written by Thomas 'gersen' Maniero
+
+ homepage:
+    http://www.shlzero.com
+ e-mail:
+    gersen@shlzero.com
+
+
+
+12/03/2004  Release 0.99.rc1
+--------------------------------------------------------------------
+
+* Symbian support added (Series 60 smartphones)
+
+* added support for stereo WAVs
+* added support for ProTracker modules with up to 32 channels
+* added a lot of new function return code (for debug porpuose)
+
+* optimized sound mixer functions
+   - if you don't play anything the mixer do nothing ;-)
+   - new channels loop that consume less cpu cicles
+
+* no more source code included (if you want the source code please
+                                provide a donation :-)
+* no more static lib distribution, only .dll
+
+* changed classes name!
+   - Sound   -> hssSpeaker
+   - Channel -> hssChannel
+   - Module  -> hssMusic
+   - SoundFX -> hssSound
+
+* added new driver system to support multiplatforms dev
+* adjusted volume setup to support Symbian platform
+* deleted const freq tables, now are calculated when needed
+   - so now you can use whatever output frequency you want
+   - 30kb of const data are gone :)
+
+* added ability to set Musics and Sounds position at playing time
+* enhanced Musics and Sounds load to memory functions
+* fixed memory leaks on Musics and Sounds load from file
+  (thanks bluescr and A. Cicak)
+* fixed problems with changing Musics and Sounds frequency or speed
+  (thanks Miguel Vanhove)
+* fixed minor cosmetic bugs
+
+
+18/12/2003  Release 0.98.0
+--------------------------------------------------------------------
+
+* LICENSE TERMS CHANGED, NOW HEKKUS IS DONATE-WARE.
+
+* added frequency and speed function to Modules and SoundFXs
+* changed a bit the way hekkus calculate the mixer buffers length
+* fixed finetune/sample 31 PT mod bug (thanks muff for report)
+* fixed minor problems on 'note cut 0', 'set offset continue',
+  'pattern loop', 'set speed 0' PT mod effects
+* fixed minor problem on "vibrato" PT mod effect (thanks muff)
+* fixed (again) the finetunes PT mod table
+
+
+01/09/2003  Release 0.97.6
+--------------------------------------------------------------------
+
+* fixed some prob with modules loop (thanks Max Sitnikov for report)
+* added load from memory methods to SoundFX and Module (thanks Max)
+* added "pattern loop" ProTracker mod effect
+* fixed some other minor bugs that I don't remember :)
+
+
+09/08/2003  Release 0.97.5
+--------------------------------------------------------------------
+
+* added support for Microsoft ADPCM compressed mono WAVs
+* added SoundFX::maxplaybacks function to control the maximum
+  number of times a sample can play back at once
+
+
+28/06/2003  Release 0.97.0
+--------------------------------------------------------------------
+
+* added 16bit output
+* added support for 16bit mono waves
+* increased output quality, now the engine uses 16:16 fixed point
+  instead of 24:8
+* enhanced 'vibrato', 'arpeggio' and 'slide to note' mod effects
+* added another octave to support some FT2 ProTracker module
+* stereo and mono output now have the same volume
+* fixed a little issue with finetune
+* fixed a bug that crash the engine if you try to call close when
+  it is suspended (thanks muff for report)
+
+
+29/05/2003  Release 0.96.3
+--------------------------------------------------------------------
+
+* fixed a serius bug introduced on version 0.96.2 that can cause 
+  an application crash
+* fixed a minor bug to volume setup 
+
+
+14/05/2003  Release 0.96.1 - 0.96.2
+--------------------------------------------------------------------
+
+* fixed a bug that cause a click playing SFX loaded from file
+  (thanks warmi for report)
+* added SoundFX and Module pan support
+
+
+12/05/2003  Release 0.96   (first publical release)
+--------------------------------------------------------------------
+
+* some documentation added! :)
+* added one octave to increase support of MpTrack ProTracker mods
+* fixed a silly bug when loading a mod or sfx from file
+
+
+31/03/2003  Release 0.95 
+--------------------------------------------------------------------
+
+* added function for changing sfx and mod master volume
+  now you can control the global volume of module and soundfx
+* fixed a bug when changing master volume
+
+
+08/03/2003  Release 0.94
+--------------------------------------------------------------------
+
+* added function for loading sfx and mod from file
+* added function for changing master volume
+* fixed a bug when loading strange waves (thanks Presto for report)
+* clean up a bit sound thread exit code
+
+
+20/02/2003  Release 0.93
+--------------------------------------------------------------------
+
+* fixed mixing pause on some ppc (thanks fzammetti for report)
+* fixed shutdown delay problem
+* added support for mono or stereo output
+
+
+07/02/2003  Release 0.90
+--------------------------------------------------------------------
+
+* restructured sound lib, more object oriented
+* incresed sound mixing speed (all division removed!)
+* fixed a stupid finetune bug (now all mods sounds perfectly)
+* you can now play more than one mod at the same time 
+  (userful for jingle)
+* decreased latency and mixer memory
+* other that I don't remember... :)
+
+
+05/12/2002  Release 0.87
+--------------------------------------------------------------------
+
+* added ability to select output frequency
+* added wave effects and mod music loop option
+* some little sound bugfixes
+
+

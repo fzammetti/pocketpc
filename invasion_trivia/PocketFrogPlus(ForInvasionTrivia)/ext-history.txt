@@ -1,0 +1,55 @@
+
+PocketFrogPlus, written by Thomas 'gersen' Maniero
+
+ homepage:
+    http://www.digilander.libero.it/funnybits
+ e-mail:
+    gersen.new@libero.it
+
+
+18/03/2003  Release 0.2.4    based on PocketFrog 0.6.0
+--------------------------------------------------------------------
+
+* added function for loading sfx and mod from file
+* added function for changing master volume
+* fixed a bug when loading strange waves (thanks Presto for report)
+* fixed a bug on font class (thanks Mark Ramsey for the patch)
+* clean up a bit sound thread exit code
+* fixed a bug when changing master volume introduced on v. 0.2.4b2
+
+
+20/02/2003  Release 0.2.1/2/3 based on PocketFrog 0.6.0
+--------------------------------------------------------------------
+
+* fixed mixing pause on some ppc (thanks fzammetti for report)
+* fixed shutdown delay problem
+* added support for mono or stereo output
+
+
+07/02/2003  Release 0.2.0     based on PocketFrog 0.6.0
+--------------------------------------------------------------------
+
+* restructured sound lib, more object oriented
+* incresed sound mixing speed (all division removed!)
+* fixed a stupid finetune bug (now all mods sounds perfectly)
+* you can now play more than one mod at the same time 
+  (userful for jingle)
+* decreased latency and mixer memory
+* other that I don't remember... :)
+
+
+05/12/2002  Release 0.1.1/2/3 based on PocketFrog 0.6.0
+--------------------------------------------------------------------
+
+* added ability to select output frequency
+* added wave effects and mod music loop option
+* some little sound bugfixes
+
+
+23/10/2002  Release 0.1.0     based on PocketFrog 0.6.0
+--------------------------------------------------------------------
+
+* Added initial font support
+* Hack to support zoomed game window on pc mode
+* Simple sound engine: support 4 channel mod music
+  and 8 sfx channel

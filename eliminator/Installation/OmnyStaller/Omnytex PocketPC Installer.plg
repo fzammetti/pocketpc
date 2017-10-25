@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Omnytex PocketPC Installer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Resource.res" /d "NDEBUG" "C:\temp\Eliminator 1.6\Installation\OmnyStaller\Resource.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP81F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Omnytex PocketPC Installer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\temp\Eliminator 1.6\Installation\OmnyStaller\Omnytex PocketPC Installer.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP81F.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP820.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Omnytex PocketPC Installer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\temp\Eliminator 1.6\Installation\OmnyStaller\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP820.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP821.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Omnytex PocketPC Installer.pdb" /machine:I386 /out:"Release/Omnytex PocketPC Installer.exe" 
+".\Release\Omnytex PocketPC Installer.obj"
+".\Release\StdAfx.obj"
+".\Release\Resource.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP821.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Omnytex PocketPC Installer.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Omnytex PocketPC Installer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

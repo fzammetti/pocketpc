@@ -1,0 +1,27 @@
+ITH File Format:
+----------------
+
+5 bytes ..... File identified ("ITHSS")
+1 byte ...... Major version #
+1 byte ...... Minor version #
+1 byte ...... Index of font in use
+1 byte ...... Sound level
+9 bytes ..... Expansion padding (spaces)
+
+Struct { // Repeats one time for Hard difficulty level
+  1 byte .... Point level reached
+  10 bytes .. Player name
+  1 byte .... Character used
+}
+
+Struct { // Repeats one time for Normal difficulty level
+  1 byte .... Point level reached
+  10 bytes .. Player name
+  1 byte .... Character used
+}
+
+Struct { // Repeats one time for Easy difficulty level
+  1 byte .... Point level reached
+  10 bytes .. Player name
+  1 byte .... Character used
+}

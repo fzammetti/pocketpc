@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PocketFrog - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP86.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"../obj/x86/debug/" /Fd"../obj/x86/debug/" /FD /GZ /c 
+"C:\Temp\Etc\PocketFrogPlus\src\display.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\font.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\image.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\input.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\pocketpc.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\rasterizer.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\rect.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\sound.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\soundChannel.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\soundData.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\surface.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit16.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit4.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit8.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\GAPILibrary.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\graphicbuffer.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\memfile.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\raster2d.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\Win32Drivers.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\framework\game.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\framework\splashscreen.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP86.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP87.tmp" with contents
+[
+/nologo /out:"../lib/PocketFrog_x86_Debug.lib" 
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\display.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\font.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\image.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\input.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\pocketpc.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\rasterizer.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\rect.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\sound.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\soundChannel.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\soundData.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\surface.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\blit16.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\blit4.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\blit8.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\GAPILibrary.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\graphicbuffer.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\memfile.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\raster2d.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\Win32Drivers.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\game.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\debug\splashscreen.obj
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP87.tmp"
+<h3>Output Window</h3>
+Compiling...
+display.cpp
+font.cpp
+image.cpp
+input.cpp
+pocketpc.cpp
+rasterizer.cpp
+rect.cpp
+sound.cpp
+soundChannel.cpp
+soundData.cpp
+surface.cpp
+blit16.cpp
+blit4.cpp
+blit8.cpp
+GAPILibrary.cpp
+graphicbuffer.cpp
+memfile.cpp
+raster2d.cpp
+Win32Drivers.cpp
+game.cpp
+Generating Code...
+Compiling...
+splashscreen.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Blit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/blit.res" /d "_DEBUG" "C:\Temp\Etc\PocketFrogPlus\Samples\Blit\blit.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP88.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../.." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Blit.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Temp\Etc\PocketFrogPlus\Samples\Blit\blit.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP88.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP89.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Blit.pdb" /debug /machine:I386 /out:"Debug/Blit.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\blit.obj
+.\Debug\blit.res
+\Temp\Etc\PocketFrogPlus\lib\PocketFrog_x86_Debug.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP89.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+blit.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Blit.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

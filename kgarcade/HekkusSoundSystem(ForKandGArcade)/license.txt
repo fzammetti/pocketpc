@@ -1,0 +1,19 @@
+
+Hekkus Sound System is now Donate-Ware.
+If you have used Hekkus on your game and have earn enought money 
+please make a donation. 
+Something like from 25 to 50 euro will be very appreciated, 
+but if you think you don't have sell enough and you still want 
+to donate something feel free to donate the amount you feel right.
+
+You can freely use Hekkus on your free or commercial product but you have 
+to write somewhere on your game a little credit string, something like 
+'Sound provided by Hekkus Sound System - http://www.shlzero.com'.
+You HAVE also to send me an e-mail for every game you want to release 
+that use Hekkus.
+
+Source code is NOT included with the package, if you want the code make
+a donation and I'll send it to you!
+
+
+That's all, enjoy it and write good music for your games!

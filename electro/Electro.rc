@@ -1,0 +1,1210 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU SHMENUBAR MOVEABLE PURE 
+BEGIN
+    IDM_MENU, 3,
+    I_IMAGENONE, IDM_TOOLS, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_TOOLS, 0, 0,
+    I_IMAGENONE, IDM_REFERENCE, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_REFERENCE, 0, 1,
+    I_IMAGENONE, IDM_HELP, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_HELP, 0, 2,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "555 Timer Design",            IDM_TIMER555
+        MENUITEM "DC Ohm's Law",                IDM_DC_OHMS_LAW
+        MENUITEM "Delta <-> Wye Transforms",    IDM_DW_TRANS
+        MENUITEM "Energy Stored",               IDM_ENERGY_STORED
+        MENUITEM "Impedance",                   IDM_IMPEDANCE
+        MENUITEM "Morse Code Encoder",          IDM_MORSE_CODE
+        MENUITEM "R/C/I Calculator",            IDM_RCI_CALC
+        MENUITEM "Reactance",                   IDM_REACTANCE
+        MENUITEM "Resistor Color Code",         IDM_RESISTOR_COLOR_CODE
+        MENUITEM "Resonance",                   IDM_RESONANCE
+        MENUITEM "Three-Phase Connections",     IDM_THREE_PHASE_POWER
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDM_EXIT
+    END
+    POPUP "Reference"
+    BEGIN
+        MENUITEM "7400 Series Logic Chips",     IDM_CHIP_REFERENCE
+        MENUITEM "Basic Op-Amp Circuits",       IDM_OPAMPS
+        MENUITEM "Citizens Band Frequencies",   IDM_CITIZENS_BAND
+        MENUITEM "Common Connectors",           IDM_COMMON_CONNECTORS
+        MENUITEM "Copper Wire Characteristics", IDM_COPPER_WIRE
+        MENUITEM "Dialectric Constants",        IDM_DIALECTRIC_CONSTANTS
+        MENUITEM "K Factors For Attenuator Loss", IDM_KFACTORS
+        MENUITEM "Metal/Alloy Resistances",     IDM_METAL_ALLOY_RESISTANCES
+        MENUITEM "Radio Frequency Spectrum",    IDM_RADIO_FREQUENCY_SPECTRUM
+        MENUITEM "Schematic Symbols",           IDM_SCHEMATIC_SYMBOLS
+        MENUITEM "TV Channels",                 IDM_TV_CHANNELS
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Help...",                     IDM_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "About Electro",               IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,0,0,160,49
+    CTEXT           "Programmed By Frank W. Zammetti",IDC_STATIC,0,60,135,8,
+                    NOT WS_GROUP
+    CTEXT           "©2002 Omnytex Technologies",IDC_STATIC,0,81,135,8,NOT 
+                    WS_GROUP
+    CTEXT           "http://www.omnytex.com",IDC_STATIC,0,91,135,8,NOT 
+                    WS_GROUP
+    CTEXT           "All Rights Reserved",IDC_STATIC,0,100,135,8,NOT 
+                    WS_GROUP
+    CTEXT           "",IDC_VERSION,0,133,135,8,NOT WS_GROUP
+END
+
+IDD_RESISTOR_COLOR_CODE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Resistor Color Code                                                  ",
+                    IDC_DIALOG_TITLE,2,2,145,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    LTEXT           "Significant Digit 1 (Band 1):",IDC_STATIC,2,71,88,8,NOT 
+                    WS_GROUP
+    LTEXT           "Significant Digit 2 (Band 2):",IDC_STATIC,2,85,88,8,NOT 
+                    WS_GROUP
+    LTEXT           "Multiplier (Band 3):",IDC_STATIC,2,98,61,8,NOT WS_GROUP
+    LTEXT           "Tolerance (Band 4):",IDC_STATIC,2,111,64,8,NOT WS_GROUP
+    CTEXT           "",IDC_RESULTS1,2,133,134,10,WS_BORDER | NOT WS_GROUP
+    CTEXT           "",IDC_RESULTS2,2,142,134,10,WS_BORDER | NOT WS_GROUP
+    CONTROL         134,IDC_STATIC,"Static",SS_BITMAP,3,16,51,48
+    CONTROL         133,IDC_BAND_1,"Static",SS_BITMAP | SS_NOTIFY,47,16,10,
+                    48
+    CONTROL         133,IDC_BAND_2,"Static",SS_BITMAP | SS_NOTIFY,55,16,10,
+                    48
+    CONTROL         133,IDC_BAND_3,"Static",SS_BITMAP | SS_NOTIFY,63,16,10,
+                    48
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,71,16,10,48
+    CONTROL         139,IDC_BAND_4,"Static",SS_BITMAP | SS_NOTIFY,79,16,10,
+                    48
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,87,16,55,48
+    COMBOBOX        IDC_BANDCOLOR_1,94,69,42,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BANDCOLOR_2,94,83,42,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BANDCOLOR_3,94,96,42,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_BANDCOLOR_4,94,109,42,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_RESONANCE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         "Resonance Calculator                                         ",
+                    IDC_DIALOG_TITLE,"Static",SS_LEFTNOWORDWRAP,2,2,152,8
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    EDITTEXT        IDC_EDIT_L,96,16,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Capacitance (C, Farads):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,33,82,8
+    EDITTEXT        IDC_EDIT_C,96,31,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Frequency (F, Hertz):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,48,71,8
+    EDITTEXT        IDC_EDIT_F,96,46,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,94,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,94,40,12,NOT WS_TABSTOP
+    CONTROL         "Inductance (L, Henrys):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,18,78,8
+END
+
+IDD_REACTANCE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Reactance Calculator                                        ",
+                    IDC_DIALOG_TITLE,2,2,149,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,0,16,139,140
+END
+
+IDD_METAL_ALLOY_RESISTANCES DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Resistances Of Metals & Alloys Table                                        ",
+                    IDC_DIALOG_TITLE,2,2,198,8,SS_NOPREFIX | NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_DIALECTRIC_CONSTANTS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Dialectric Constants Of Materials Table                                        ",
+                    IDC_DIALOG_TITLE,2,2,204,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_DC_OHMS_LAW DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "DC Ohm's Law Calculator                                        ",
+                    IDC_DIALOG_TITLE,2,2,160,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Current (I, Amperes):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,18,71,8
+    EDITTEXT        IDC_EDIT_I,96,16,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Voltage (E, Volts):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,33,59,8
+    EDITTEXT        IDC_EDIT_E,96,31,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Resistance (R, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,48,73,8
+    EDITTEXT        IDC_EDIT_R,96,46,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Power (P, Watts):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,63,59,8
+    EDITTEXT        IDC_EDIT_P,96,61,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,94,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,94,40,12,NOT WS_TABSTOP
+END
+
+IDD_REACTANCE_INDUCTIVE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Frequency (F, Hertz):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,4,71,8
+    EDITTEXT        IDC_EDIT_F,96,2,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Inductance (L, Henrys):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,19,78,8
+    EDITTEXT        IDC_EDIT_L,96,17,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Reactance (Xl, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,34,73,8
+    EDITTEXT        IDC_EDIT_X,96,32,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+END
+
+IDD_REACTANCE_CAPACITIVE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Frequency (F, Hertz):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,4,71,8
+    EDITTEXT        IDC_EDIT_F,96,2,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Capacitance (C, Farads):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,19,82,8
+    EDITTEXT        IDC_EDIT_C,96,17,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Reactance (Xc, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,34,75,8
+    EDITTEXT        IDC_EDIT_X,96,32,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+END
+
+IDD_CHIP_REFERENCE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "7400 Series Logic Chips Reference                                                       ",
+                    IDC_DIALOG_TITLE,2,2,190,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,0,16,139,140
+END
+
+IDD_CHIP_REFERENCE_SELECTION DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    LISTBOX         IDC_CHIP_REFERENCE_LISTBOX,2,2,134,58,
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CHIP_DESCRIPTION,2,62,134,61,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+END
+
+IDD_CHIP_REFERENCE_FUNCTION_TABLE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CTEXT           "Please select a part",IDC_CHIP_DETAIL_TITLE,2,2,134,24
+    CTEXT           "Inputs",IDC_STATIC,2,29,96,11,WS_BORDER
+    CTEXT           "Outputs",IDC_STATIC,97,29,39,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_1_HEAD,2,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_2_HEAD,21,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_3_HEAD,40,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_4_HEAD,59,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_5_HEAD,78,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_6_HEAD,97,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_COL_7_HEAD,116,39,20,11,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_1,2,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_2,21,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_3,40,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_4,59,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_5,78,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_6,97,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_1_7,116,49,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_1,2,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_2,21,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_3,40,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_4,59,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_5,78,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_6,97,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_2_7,116,58,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_1,2,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_2,21,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_3,40,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_4,59,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_5,78,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_6,97,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_3_7,116,67,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_1,2,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_2,21,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_3,40,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_4,59,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_5,78,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_6,97,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_4_7,116,76,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_1,2,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_2,21,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_3,40,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_4,59,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_5,78,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_6,97,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_5_7,116,85,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_1,2,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_2,21,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_3,40,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_4,59,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_5,78,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_6,97,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_6_7,116,94,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_1,2,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_2,21,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_3,40,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_4,59,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_5,78,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_6,97,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_7_7,116,103,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_1,2,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_2,21,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_3,40,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_4,59,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_5,78,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_6,97,112,20,10,WS_BORDER
+    CTEXT           "",IDC_FT_ROW_8_7,116,112,20,10,WS_BORDER
+END
+
+IDD_CHIP_REFERENCE_PINOUT DIALOG DISCARDABLE  0, 0, 140, 133
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         154,IDC_STATIC,"Static",SS_BITMAP,40,29,67,101
+    RTEXT           "",IDC_PIN1,13,34,24,8
+    RTEXT           "",IDC_PIN2,13,46,24,8
+    RTEXT           "",IDC_PIN3,13,59,24,8
+    RTEXT           "",IDC_PIN4,13,71,24,8
+    RTEXT           "",IDC_PIN5,13,84,24,8
+    RTEXT           "",IDC_PIN6,13,96,24,8
+    RTEXT           "",IDC_PIN7,13,109,24,8
+    LTEXT           "",IDC_PIN8,101,109,24,8
+    LTEXT           "",IDC_PIN9,101,96,24,8
+    LTEXT           "",IDC_PIN10,101,84,24,8
+    LTEXT           "",IDC_PIN11,101,71,24,8
+    LTEXT           "",IDC_PIN12,101,59,24,8
+    LTEXT           "",IDC_PIN13,101,46,24,8
+    LTEXT           "",IDC_PIN14,101,34,24,8
+    CTEXT           "Please select a part",IDC_CHIP_DETAIL_TITLE,2,2,134,24
+END
+
+IDD_SCHEMATIC_SYMBOLS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Schematic Symbols Reference                                        ",
+                    IDC_DIALOG_TITLE,2,2,176,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_SINGLESEL | 
+                    LVS_AUTOARRANGE | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_RCICALC DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,0,16,139,140
+    LTEXT           "R/C/I Calculator                                                       ",
+                    IDC_DIALOG_TITLE,2,2,188,8,NOT WS_GROUP
+END
+
+IDD_RCICALC_RESISTANCE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Serial",IDC_SERIAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,2,2,33,10
+    CONTROL         "Parallel",IDC_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,37,2,39,10
+    LISTBOX         IDC_VALUES,69,22,67,42,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "New Value:",IDC_STATIC,2,13,50,8
+    EDITTEXT        IDC_NEW_VALUE,2,22,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "+",IDC_ADD,54,22,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,2,51,40,12,NOT WS_TABSTOP
+    CTEXT           "",IDC_RESULTS,2,66,134,10,WS_BORDER | NOT WS_GROUP
+    LTEXT           "Component Values:",IDC_STATIC,69,13,63,8
+    DEFPUSHBUTTON   "-",IDC_REMOVE,54,36,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "X",IDC_CLEAR,54,51,13,13,NOT WS_TABSTOP
+END
+
+IDD_RCICALC_CAPACITANCE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Serial",IDC_SERIAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,2,2,33,10
+    CONTROL         "Parallel",IDC_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,37,2,39,10
+    LISTBOX         IDC_VALUES,69,22,67,42,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "New Value:",IDC_STATIC,2,13,50,8
+    EDITTEXT        IDC_NEW_VALUE,2,22,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "+",IDC_ADD,54,22,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,2,51,40,12,NOT WS_TABSTOP
+    CTEXT           "",IDC_RESULTS,2,66,134,10,WS_BORDER | NOT WS_GROUP
+    LTEXT           "Component Values:",IDC_STATIC,69,13,63,8
+    DEFPUSHBUTTON   "-",IDC_REMOVE,54,36,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "X",IDC_CLEAR,54,51,13,13,NOT WS_TABSTOP
+END
+
+IDD_RCICALC_INDUCTANCE DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Serial",IDC_SERIAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,2,2,33,10
+    CONTROL         "Parallel",IDC_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,37,2,39,10
+    LISTBOX         IDC_VALUES,69,22,67,42,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "New Value:",IDC_STATIC,2,13,50,8
+    EDITTEXT        IDC_NEW_VALUE,2,22,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "+",IDC_ADD,54,22,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,2,51,40,12,NOT WS_TABSTOP
+    CTEXT           "",IDC_RESULTS,2,66,134,10,WS_BORDER | NOT WS_GROUP
+    LTEXT           "Component Values:",IDC_STATIC,69,13,63,8
+    DEFPUSHBUTTON   "-",IDC_REMOVE,54,36,13,13,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "X",IDC_CLEAR,54,51,13,13,NOT WS_TABSTOP
+END
+
+IDD_CITIZENS_BAND DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+    LTEXT           "Citizens Bands Frequencies Reference                                                       ",
+                    IDC_DIALOG_TITLE,2,2,188,8,NOT WS_GROUP
+END
+
+IDD_ENERGY_STORED_INDUCTOR DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Inductance (L, Henrys):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,4,78,8
+    EDITTEXT        IDC_EDIT_L,96,2,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Current (I, Amperes):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,19,71,8
+    EDITTEXT        IDC_EDIT_I,96,17,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Energy (W, Joules):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,34,65,8
+    EDITTEXT        IDC_EDIT_W,96,32,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+END
+
+IDD_ENERGY_STORED_CAPACITOR DIALOG DISCARDABLE  0, 0, 140, 126
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         "Capacitance (C, Farads):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,4,82,8
+    EDITTEXT        IDC_EDIT_C,96,2,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Voltage (E, Volts):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,19,59,8
+    EDITTEXT        IDC_EDIT_E,96,17,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Energy (W, Joules):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,34,65,8
+    EDITTEXT        IDC_EDIT_W,96,32,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+END
+
+IDD_ENERGY_STORED DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Energy Stored Calculator                                        ",
+                    IDC_DIALOG_TITLE,2,2,161,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,0,16,139,140
+END
+
+IDD_IMPEDANCE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         "Impedance Calculator                                        ",
+                    IDC_DIALOG_TITLE,"Static",SS_LEFTNOWORDWRAP,2,2,150,8
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    EDITTEXT        IDC_EDIT_R,96,31,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Reactance (X, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,48,72,8
+    EDITTEXT        IDC_EDIT_X,96,46,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Impedance (Z, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,63,73,8
+    EDITTEXT        IDC_EDIT_Z,96,61,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,94,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,94,40,12,NOT WS_TABSTOP
+    CONTROL         "Resistance (R, Ohms):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,33,73,8
+    CONTROL         "Serial",IDC_SERIAL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,2,18,33,10
+    CONTROL         "Parallel",IDC_PARALLEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | BS_NOTIFY,38,18,39,10
+END
+
+IDD_THREE_PHASE_POWER DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         "Three-Phase Power Connections                                                            ",
+                    IDC_DIALOG_TITLE,"Static",SS_LEFTNOWORDWRAP,2,2,225,8
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    EDITTEXT        IDC_EDIT_EP,96,16,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Second. Voltage (Es, Volts):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,33,90,8
+    EDITTEXT        IDC_EDIT_ES,96,31,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Turns Ratio (N):",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,
+                    2,48,52,8
+    EDITTEXT        IDC_EDIT_N,96,46,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+    CONTROL         "Primary Voltage (Ep, Volts):",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP,2,18,89,8
+    CONTROL         IDI_SCHEM_FEMALE_CONTACT_GENERAL,IDC_PIC_FROM,"Static",
+                    SS_BITMAP,1,98,79,58
+    CONTROL         IDI_SCHEM_FEMALE_CONTACT_GENERAL,IDC_PIC_TO,"Static",
+                    SS_BITMAP,69,98,79,58
+    LTEXT           "From:",IDC_STATIC,2,84,20,8
+    LTEXT           "To:",IDC_STATIC,79,83,12,8
+    COMBOBOX        IDC_DD_FROM,27,82,40,28,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DD_TO,96,81,40,28,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_COMMON_CONNECTORS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    COMBOBOX        IDC_CONNECTOR,2,27,134,68,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Connector:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,18,
+                    37,8
+    CONTROL         "",IDC_IMAGE,"Static",SS_BITMAP,1,52,159,105
+    LTEXT           "Common Connectors Reference                                                       ",
+                    IDC_DIALOG_TITLE,2,2,188,8,NOT WS_GROUP
+END
+
+IDD_TV_CHANNELS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "TV Channels                                                          ",
+                    IDC_DIALOG_TITLE,2,2,156,8,SS_NOPREFIX | NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_COPPER_WIRE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Copper Wire Characteristics                                      ",
+                    IDC_DIALOG_TITLE,2,2,166,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_DW_TRANSFORMS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,172,1
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,64,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,96,64,40,12,NOT WS_TABSTOP
+    CONTROL         IDI_SCHEM_FERRITE_BEAD2,IDC_PIC_FROM,"Static",SS_BITMAP,
+                    13,84,35,36
+    CONTROL         IDI_SCHEM_FUSE1,IDC_PIC_TO,"Static",SS_BITMAP,94,84,35,
+                    36
+    PUSHBUTTON      "-->",IDC_DW_SWAP,59,96,23,12
+    EDITTEXT        IDC_EDIT_ZA,18,16,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Zb:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,33,12,8
+    EDITTEXT        IDC_EDIT_ZB,18,31,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Zc:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,48,11,8
+    EDITTEXT        IDC_EDIT_ZC,18,46,40,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Za:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,18,12,8
+    EDITTEXT        IDC_EDIT_Z1,96,15,40,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    CONTROL         "Z2:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,80,32,12,8
+    EDITTEXT        IDC_EDIT_Z2,96,30,40,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    CONTROL         "Z3:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,80,47,12,8
+    EDITTEXT        IDC_EDIT_Z3,96,45,40,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    CONTROL         "Z1:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,80,17,12,8
+    LTEXT           "Delta <-> Wye Transformations                                                       ",
+                    IDC_DIALOG_TITLE,2,2,188,8,NOT WS_GROUP
+END
+
+IDD_KFACTORS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+    LTEXT           "K Factors For Attenuator Loss                                                       ",
+                    IDC_DIALOG_TITLE,2,2,188,8,NOT WS_GROUP
+END
+
+IDD_OPAMPS DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Basic Op-Amp Circuits                                                                                                        ",
+                    IDC_DIALOG_TITLE,2,2,174,8,SS_NOPREFIX | NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    COMBOBOX        IDC_CONFIGURATION,2,27,134,68,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Configuration:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,
+                    18,47,8
+    CONTROL         "",IDC_IMAGE,"Static",SS_BITMAP,1,42,159,105
+END
+
+IDD_MORSE_CODE DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Morse Code Encoder                                                                                                                                                        ",
+                    IDC_DIALOG_TITLE,2,2,165,8,NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Text To Encode:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,
+                    2,18,54,8
+    EDITTEXT        IDC_EDIT_TEXT,2,27,134,13,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,2,94,40,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Encode",IDC_ENCODE,96,94,40,12,NOT WS_TABSTOP
+    CONTROL         IDI_SCHEM_RHEOSTAT1,IDC_TELEGRAPH,"Static",SS_BITMAP,11,
+                    42,134,52
+END
+
+IDD_RADIO_FREQUENCY_SPECTRUM DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "Radio Frequency Spectrum                                             ",
+                    IDC_DIALOG_TITLE,2,2,177,8,SS_NOPREFIX | NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,2,16,134,136
+END
+
+IDD_TIMER555_MONOSTABLE DIALOG DISCARDABLE  0, 0, 200, 200
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         IDI_SCHEM_RHEOSTAT2,IDC_STATIC,"Static",SS_BITMAP,2,50,
+                    101,75
+    PUSHBUTTON      "Clear",IDC_CLEAR,94,65,42,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,94,50,42,12,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_RA,18,2,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Ra:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,5,12,8
+    EDITTEXT        IDC_EDIT_C,18,18,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "C:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,21,10,8
+    EDITTEXT        IDC_EDIT_T,18,33,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "T:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,36,12,8
+END
+
+IDD_TIMER555_ASTABLE DIALOG DISCARDABLE  0, 0, 200, 200
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    CONTROL         IDI_SCHEM_SATURABLE_REACTOR,IDC_STATIC,"Static",
+                    SS_BITMAP,2,50,101,75
+    EDITTEXT        IDC_EDIT_R1,18,2,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR,94,65,42,12,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Calculate",IDC_CALCULATE,94,50,42,12,NOT WS_TABSTOP
+    CONTROL         "R1:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,5,12,8
+    EDITTEXT        IDC_EDIT_R2,18,18,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "R2:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,21,12,8
+    EDITTEXT        IDC_EDIT_C,18,33,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "C:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,2,36,12,8
+    EDITTEXT        IDC_EDIT_TH,92,2,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Th:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,76,5,12,8
+    EDITTEXT        IDC_EDIT_TL,92,18,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "Tl:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,76,21,12,8
+    EDITTEXT        IDC_EDIT_F,92,33,44,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    CONTROL         "F:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,76,36,12,8
+    PUSHBUTTON      "-->",IDC_TF_SWAP,113,92,23,13,NOT WS_VISIBLE | 
+                    WS_DISABLED
+END
+
+IDD_TIMER555 DIALOG DISCARDABLE  0, 0, 140, 156
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    LTEXT           "555 Timer Circuit Designer",IDC_DIALOG_TITLE,2,2,137,10,
+                    NOT WS_GROUP
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,0,12,167,1
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,0,16,139,140
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_RESONANCE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+    END
+
+    IDD_METAL_ALLOY_RESISTANCES, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_DIALECTRIC_CONSTANTS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_DC_OHMS_LAW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+    END
+
+    IDD_SCHEMATIC_SYMBOLS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_CITIZENS_BAND, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_IMPEDANCE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+    END
+
+    IDD_THREE_PHASE_POWER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+    END
+
+    IDD_COMMON_CONNECTORS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_TV_CHANNELS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_COPPER_WIRE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_KFACTORS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_OPAMPS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_RADIO_FREQUENCY_SPECTRUM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 139
+        BOTTOMMARGIN, 155
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP_ICON            ICON    DISCARDABLE     "Misc Graphics\\AppIcon.ico"
+IDI_SCHEM_AMMETER       ICON    DISCARDABLE     "Schematic Symbols\\ammeter.ico"
+IDI_SCHEM_AND_GATE      ICON    DISCARDABLE     "Schematic Symbols\\and_gate.ico"
+IDI_SCHEM_ANTENNA_BALANCED ICON    DISCARDABLE     "Schematic Symbols\\antenna_balanced.ico"
+IDI_SCHEM_ANTENNA_GENERAL1 ICON    DISCARDABLE     "Schematic Symbols\\antenna_general1.ico"
+IDI_SCHEM_ANTENNA_GENERAL2 ICON    DISCARDABLE     "Schematic Symbols\\antenna_general2.ico"
+IDI_SCHEM_ANTENNA_LOOP_SHIELDED ICON    DISCARDABLE     "Schematic Symbols\\antenna_loop_shielded.ico"
+IDI_SCHEM_ANTENNA_LOOP_UNSHIELDED ICON    DISCARDABLE     "Schematic Symbols\\antenna_loop_unshielded.ico"
+IDI_SCHEM_ANTENNA_UNBALANCED1 ICON    DISCARDABLE     "Schematic Symbols\\antenna_unbalanced1.ico"
+IDI_SCHEM_ANTENNA_UNBALANCED2 ICON    DISCARDABLE     "Schematic Symbols\\antenna_unbalanced2.ico"
+IDI_SCHEM_ATTENUATOR_FIXED ICON    DISCARDABLE     "Schematic Symbols\\attenuator_fixed.ico"
+IDI_SCHEM_ATTENUATOR_VARIABLE ICON    DISCARDABLE     "Schematic Symbols\\attenuator_variable.ico"
+IDI_SCHEM_BATTERY       ICON    DISCARDABLE     "Schematic Symbols\\battery.ico"
+IDI_SCHEM_CAPACITOR_FEEDTHROUGH ICON    DISCARDABLE     "Schematic Symbols\\capacitor_feedthrough.ico"
+IDI_SCHEM_CAPACITOR_FIXED_NOPOLES ICON    DISCARDABLE     "Schematic Symbols\\capacitor_fixed_nopoles.ico"
+IDI_SCHEM_CAPACITOR_FIXED_POLES ICON    DISCARDABLE     "Schematic Symbols\\capacitor_fixed_poles.ico"
+IDI_SCHEM_CAPACITOR_GANGED_VARIABLE ICON    DISCARDABLE     "Schematic Symbols\\capacitor_ganged_variable.ico"
+IDI_SCHEM_CAPACITOR_GENERAL ICON    DISCARDABLE     "Schematic Symbols\\capacitor_general.ico"
+IDI_SCHEM_CAPACITOR_VARIABLE_SINGLE ICON    DISCARDABLE     "Schematic Symbols\\capacitor_variable_single.ico"
+IDI_SCHEM_CAPACITOR_VARIABLE_SPLIT_STATOR ICON    DISCARDABLE     "Schematic Symbols\\capacitor_variable_split_stator.ico"
+IDI_SCHEM_CATHODE_COLD  ICON    DISCARDABLE     "Schematic Symbols\\cathode_cold.ico"
+IDI_SCHEM_CATHODE_DIRECTLY_HEATED ICON    DISCARDABLE     "Schematic Symbols\\cathode_directly_heated.ico"
+IDI_SCHEM_CATHODE_INDIRECTLY_HEATED1 ICON    DISCARDABLE     "Schematic Symbols\\cathode_indirectly_heated1.ico"
+IDI_SCHEM_CATHODE_INDIRECTLY_HEATED2 ICON    DISCARDABLE     "Schematic Symbols\\cathode_indirectly_heated2.ico"
+IDI_SCHEM_CAVITY_RESONATOR ICON    DISCARDABLE     "Schematic Symbols\\cavity_resonator.ico"
+IDI_SCHEM_CELL          ICON    DISCARDABLE     "Schematic Symbols\\cell.ico"
+IDI_SCHEM_CIRCUIT_BREAKER ICON    DISCARDABLE     "Schematic Symbols\\circuit_breaker.ico"
+IDI_SCHEM_COAXIAL_CABLE1 ICON    DISCARDABLE     "Schematic Symbols\\coaxial_cable1.ico"
+IDI_SCHEM_COAXIAL_CABLE2 ICON    DISCARDABLE     "Schematic Symbols\\coaxial_cable2.ico"
+IDI_SCHEM_CRYSTAL_PIEZOELECTRIC ICON    DISCARDABLE     "Schematic Symbols\\crystal_piezoelectric.ico"
+IDI_SCHEM_DELAY_LINE1   ICON    DISCARDABLE     "Schematic Symbols\\delay_line1.ico"
+IDI_SCHEM_DELAY_LINE2   ICON    DISCARDABLE     "Schematic Symbols\\delay_line2.ico"
+IDI_SCHEM_DIODE_GENERAL ICON    DISCARDABLE     "Schematic Symbols\\diode_general.ico"
+IDI_SCHEM_DIODE_GUNN    ICON    DISCARDABLE     "Schematic Symbols\\diode_gunn.ico"
+IDI_SCHEM_DIODE_LIGHT_EMITTING ICON    DISCARDABLE     "Schematic Symbols\\diode_light_emitting.ico"
+IDI_SCHEM_DIODE_PHOTOSENSITIVE ICON    DISCARDABLE     "Schematic Symbols\\diode_photosensitive.ico"
+IDI_SCHEM_DIODE_PHOTOVOLTAIC ICON    DISCARDABLE     "Schematic Symbols\\diode_photovoltaic.ico"
+IDI_SCHEM_DIODE_PIN     ICON    DISCARDABLE     "Schematic Symbols\\diode_pin.ico"
+IDI_SCHEM_DIODE_VARACTOR ICON    DISCARDABLE     "Schematic Symbols\\diode_varactor.ico"
+IDI_SCHEM_DIODE_ZENER   ICON    DISCARDABLE     "Schematic Symbols\\diode_zener.ico"
+IDI_SCHEM_DIRECTIONAL_COUPLER1 ICON    DISCARDABLE     "Schematic Symbols\\directional_coupler1.ico"
+IDI_SCHEM_DIRECTIONAL_COUPLER2 ICON    DISCARDABLE     "Schematic Symbols\\directional_coupler2.ico"
+IDI_SCHEM_EXCLUSIVE_OR_GATE ICON    DISCARDABLE     "Schematic Symbols\\exclusive_or_gate.ico"
+IDI_SCHEM_FEMALE_CONTACT_GENERAL ICON    DISCARDABLE     "Schematic Symbols\\female_contact_general.ico"
+IDI_SCHEM_FERRITE_BEAD1 ICON    DISCARDABLE     "Schematic Symbols\\ferrite_bead1.ico"
+IDI_SCHEM_FERRITE_BEAD2 ICON    DISCARDABLE     "Schematic Symbols\\ferrite_bead2.ico"
+IDI_SCHEM_FUSE1         ICON    DISCARDABLE     "Schematic Symbols\\fuse1.ico"
+IDI_SCHEM_FUSE2         ICON    DISCARDABLE     "Schematic Symbols\\fuse2.ico"
+IDI_SCHEM_GALVANOMETER1 ICON    DISCARDABLE     "Schematic Symbols\\galvanometer1.ico"
+IDI_SCHEM_GALVANOMETER2 ICON    DISCARDABLE     "Schematic Symbols\\galvanometer2.ico"
+IDI_SCHEM_GROUND_CHASSIS1 ICON    DISCARDABLE     "Schematic Symbols\\ground_chassis1.ico"
+IDI_SCHEM_GROUND_CHASSIS2 ICON    DISCARDABLE     "Schematic Symbols\\ground_chassis2.ico"
+IDI_SCHEM_GROUND_EARTH  ICON    DISCARDABLE     "Schematic Symbols\\ground_earth.ico"
+IDI_SCHEM_HANDSET       ICON    DISCARDABLE     "Schematic Symbols\\handset.ico"
+IDI_SCHEM_HEADPHONE_DOUBLE ICON    DISCARDABLE     "Schematic Symbols\\headphone_double.ico"
+IDI_SCHEM_HEADPHONE_SINGLE ICON    DISCARDABLE     "Schematic Symbols\\headphone_single.ico"
+IDI_SCHEM_INDUCTOR_AIR_CORE ICON    DISCARDABLE     "Schematic Symbols\\inductor_air_core.ico"
+IDI_SCHEM_INDUCTOR_BIFILAR ICON    DISCARDABLE     "Schematic Symbols\\inductor_bifilar.ico"
+IDI_SCHEM_INDUCTOR_IRON_CORE ICON    DISCARDABLE     "Schematic Symbols\\inductor_iron_core.ico"
+IDI_SCHEM_INDUCTOR_TAPPED ICON    DISCARDABLE     "Schematic Symbols\\inductor_tapped.ico"
+IDI_SCHEM_INDUCTOR_VARIABLE1 ICON    DISCARDABLE     "Schematic Symbols\\inductor_variable1.ico"
+IDI_SCHEM_INDUCTOR_VARIABLE2 ICON    DISCARDABLE     "Schematic Symbols\\inductor_variable2.ico"
+IDI_SCHEM_INTEGRATED_CIRCUIT ICON    DISCARDABLE     "Schematic Symbols\\integrated_circuit.ico"
+IDI_SCHEM_INVERTER      ICON    DISCARDABLE     "Schematic Symbols\\inverter.ico"
+IDI_SCHEM_JACK_COAXIAL  ICON    DISCARDABLE     "Schematic Symbols\\jack_coaxial.ico"
+IDI_SCHEM_JACK_PHONE_2CONDUCTOR ICON    DISCARDABLE     "Schematic Symbols\\jack_phone_2conductor.ico"
+IDI_SCHEM_JACK_PHONE_2CONDUCTOR_INTERRUPTING ICON    DISCARDABLE     "Schematic Symbols\\jack_phone_2conductor_interrupting.ico"
+IDI_SCHEM_JACK_PHONE_3CONDUCTOR ICON    DISCARDABLE     "Schematic Symbols\\jack_phone_3conductor.ico"
+IDI_SCHEM_JACK_PHONO    ICON    DISCARDABLE     "Schematic Symbols\\jack_phono.ico"
+IDI_SCHEM_KEY_TELEGRAPH ICON    DISCARDABLE     "Schematic Symbols\\key_telegraph.ico"
+IDI_SCHEM_LAMP_INCANDESCENT ICON    DISCARDABLE     "Schematic Symbols\\lamp_incandescent.ico"
+IDI_SCHEM_LAMP_NEON     ICON    DISCARDABLE     "Schematic Symbols\\lamp_neon.ico"
+IDI_SCHEM_MALE_CONTACT_GENERAL ICON    DISCARDABLE     "Schematic Symbols\\male_contact_general.ico"
+IDI_SCHEM_MICROPHONE    ICON    DISCARDABLE     "Schematic Symbols\\microphone.ico"
+IDI_SCHEM_NAND_GATE     ICON    DISCARDABLE     "Schematic Symbols\\nand_gate.ico"
+IDI_SCHEM_NEGATIVE_VOLTAGE_CONNECTION ICON    DISCARDABLE     "Schematic Symbols\\negative_voltage_connection.ico"
+IDI_SCHEM_NOR_GATE      ICON    DISCARDABLE     "Schematic Symbols\\nor_gate.ico"
+IDI_SCHEM_OPERATIONAL_AMPLIFIER ICON    DISCARDABLE     "Schematic Symbols\\operational_amplifier.ico"
+IDI_SCHEM_OR_GATE       ICON    DISCARDABLE     "Schematic Symbols\\or_gate.ico"
+IDI_SCHEM_OUTLET_UTILITY_117_V ICON    DISCARDABLE     "Schematic Symbols\\outlet_utility_117_v.ico"
+IDI_SCHEM_OUTLET_UTILITY_234_V ICON    DISCARDABLE     "Schematic Symbols\\outlet_utility_234_v.ico"
+IDI_SCHEM_PHOTOCELL_TUBE ICON    DISCARDABLE     "Schematic Symbols\\photocell_tube.ico"
+IDI_SCHEM_PLUG_PHONE_2CONDUCTOR ICON    DISCARDABLE     "Schematic Symbols\\plug_phone_2conductor.ico"
+IDI_SCHEM_PLUG_PHONE_3CONDUCTOR ICON    DISCARDABLE     "Schematic Symbols\\plug_phone_3conductor.ico"
+IDI_SCHEM_PLUG_PHONO    ICON    DISCARDABLE     "Schematic Symbols\\plug_phono.ico"
+IDI_SCHEM_PLUG_UTILITY_117_V ICON    DISCARDABLE     "Schematic Symbols\\plug_utility_117_v.ico"
+IDI_SCHEM_PLUG_UTILITY_234_V ICON    DISCARDABLE     "Schematic Symbols\\plug_utility_234_v.ico"
+IDI_SCHEM_POSITIVE_VOLTAGE_CONNECTION ICON    DISCARDABLE     "Schematic Symbols\\positive_voltage_connection.ico"
+IDI_SCHEM_POTENTIOMETER1 ICON    DISCARDABLE     "Schematic Symbols\\potentiometer1.ico"
+IDI_SCHEM_POTENTIOMETER2 ICON    DISCARDABLE     "Schematic Symbols\\potentiometer2.ico"
+IDI_SCHEM_PROBE_RADIO_FREQUENCY ICON    DISCARDABLE     "Schematic Symbols\\probe_radio_frequency.ico"
+IDI_SCHEM_RECTIFIER_SEMICONDUCTOR ICON    DISCARDABLE     "Schematic Symbols\\rectifier_semiconductor.ico"
+IDI_SCHEM_RECTIFIER_SILICON_CONTROLLED ICON    DISCARDABLE     "Schematic Symbols\\rectifier_silicon_controlled.ico"
+IDI_SCHEM_RECTIFIER_TUBE_TYPE ICON    DISCARDABLE     "Schematic Symbols\\rectifier_tube_type.ico"
+IDI_SCHEM_RELAY_DPDT    ICON    DISCARDABLE     "Schematic Symbols\\relay_dpdt.ico"
+IDI_SCHEM_RELAY_DPST    ICON    DISCARDABLE     "Schematic Symbols\\relay_dpst.ico"
+IDI_SCHEM_RELAY_SPDT    ICON    DISCARDABLE     "Schematic Symbols\\relay_spdt.ico"
+IDI_SCHEM_RELAY_SPST    ICON    DISCARDABLE     "Schematic Symbols\\relay_spst.ico"
+IDI_SCHEM_RESISTOR      ICON    DISCARDABLE     "Schematic Symbols\\resistor.ico"
+IDI_SCHEM_RESONATOR     ICON    DISCARDABLE     "Schematic Symbols\\resonator.ico"
+IDI_SCHEM_RHEOSTAT1     ICON    DISCARDABLE     "Schematic Symbols\\rheostat1.ico"
+IDI_SCHEM_RHEOSTAT2     ICON    DISCARDABLE     "Schematic Symbols\\rheostat2.ico"
+IDI_SCHEM_SATURABLE_REACTOR ICON    DISCARDABLE     "Schematic Symbols\\saturable_reactor.ico"
+IDI_SCHEM_SHIELDING     ICON    DISCARDABLE     "Schematic Symbols\\shielding.ico"
+IDI_SCHEM_SIGNAL_GENERATOR ICON    DISCARDABLE     "Schematic Symbols\\signal_generator.ico"
+IDI_SCHEM_SPEAKER1      ICON    DISCARDABLE     "Schematic Symbols\\speaker1.ico"
+IDI_SCHEM_SPEAKER2      ICON    DISCARDABLE     "Schematic Symbols\\speaker2.ico"
+IDI_SCHEM_SWITCH_DPDT   ICON    DISCARDABLE     "Schematic Symbols\\switch_dpdt.ico"
+IDI_SCHEM_SWITCH_DPST   ICON    DISCARDABLE     "Schematic Symbols\\switch_dpst.ico"
+IDI_SCHEM_SWITCH_MOMENTARY ICON    DISCARDABLE     "Schematic Symbols\\switch_momentary.ico"
+IDI_SCHEM_SWITCH_ROTARY ICON    DISCARDABLE     "Schematic Symbols\\switch_rotary.ico"
+IDI_SCHEM_SWITCH_SPDT   ICON    DISCARDABLE     "Schematic Symbols\\switch_spdt.ico"
+IDI_SCHEM_SWITCH_SPST   ICON    DISCARDABLE     "Schematic Symbols\\switch_spst.ico"
+IDI_SCHEM_TERMINALS_BALANCED ICON    DISCARDABLE     "Schematic Symbols\\terminals_balanced.ico"
+IDI_SCHEM_TERMINALS_UNBALANCED ICON    DISCARDABLE     "Schematic Symbols\\terminals_unbalanced.ico"
+IDI_SCHEM_TEST_POINT    ICON    DISCARDABLE     "Schematic Symbols\\test_point.ico"
+IDI_SCHEM_THERMOCOUPLE1 ICON    DISCARDABLE     "Schematic Symbols\\thermocouple1.ico"
+IDI_SCHEM_THERMOCOUPLE2 ICON    DISCARDABLE     "Schematic Symbols\\thermocouple2.ico"
+IDI_SCHEM_THYRISTOR     ICON    DISCARDABLE     "Schematic Symbols\\thyristor.ico"
+IDI_SCHEM_TRANSFORMER_AIR_CORE ICON    DISCARDABLE     "Schematic Symbols\\transformer_air_core.ico"
+IDI_SCHEM_TRANSFORMER_IRON_CORE ICON    DISCARDABLE     "Schematic Symbols\\transformer_iron_core.ico"
+IDI_SCHEM_TRANSFORMER_TAPPED_PRIMARY ICON    DISCARDABLE     "Schematic Symbols\\transformer_tapped_primary.ico"
+IDI_SCHEM_TRANSFORMER_TAPPED_SECONDARY ICON    DISCARDABLE     "Schematic Symbols\\transformer_tapped_secondary.ico"
+IDI_SCHEM_TRANSISTOR_BIPOLAR_NPN ICON    DISCARDABLE     "Schematic Symbols\\transistor_bipolar_npn.ico"
+IDI_SCHEM_TRANSISTOR_BIPOLAR_PNP ICON    DISCARDABLE     "Schematic Symbols\\transistor_bipolar_pnp.ico"
+IDI_SCHEM_TRANSISTOR_FIELD_EFFECT_NCHANNEL ICON    DISCARDABLE     "Schematic Symbols\\transistor_field_effect_nchannel.ico"
+IDI_SCHEM_TRANSISTOR_FIELD_EFFECT_PCHANNEL ICON    DISCARDABLE     "Schematic Symbols\\transistor_field_effect_pchannel.ico"
+IDI_SCHEM_TRANSISTOR_METAL_OXIDE_DUALGATE ICON    DISCARDABLE     "Schematic Symbols\\transistor_metal_oxide_dualgate.ico"
+IDI_SCHEM_TRANSISTOR_METAL_OXIDE_SINGLEGATE ICON    DISCARDABLE     "Schematic Symbols\\transistor_metal_oxide_singlegate.ico"
+IDI_SCHEM_TRANSISTOR_PHOTOSENSITIVE ICON    DISCARDABLE     "Schematic Symbols\\transistor_photosensitive.ico"
+IDI_SCHEM_TRANSISTOR_UNIJUNCTION ICON    DISCARDABLE     "Schematic Symbols\\transistor_unijunction.ico"
+IDI_SCHEM_TUBE_DIODE    ICON    DISCARDABLE     "Schematic Symbols\\tube_diode.ico"
+IDI_SCHEM_TUBE_PENTODE  ICON    DISCARDABLE     "Schematic Symbols\\tube_pentode.ico"
+IDI_SCHEM_TUBE_PHOTOMULTIPLIER ICON    DISCARDABLE     "Schematic Symbols\\tube_photomultiplier.ico"
+IDI_SCHEM_TUBE_TETRODE  ICON    DISCARDABLE     "Schematic Symbols\\tube_tetrode.ico"
+IDI_SCHEM_TUBE_TRIODE   ICON    DISCARDABLE     "Schematic Symbols\\tube_triode.ico"
+IDI_SCHEM_UNSPECIFIED_COMPONENT ICON    DISCARDABLE     "Schematic Symbols\\unspecified_component.ico"
+IDI_SCHEM_VOLTMETER     ICON    DISCARDABLE     "Schematic Symbols\\voltmeter.ico"
+IDI_SCHEM_WATTMETER1    ICON    DISCARDABLE     "Schematic Symbols\\wattmeter1.ico"
+IDI_SCHEM_WATTMETER2    ICON    DISCARDABLE     "Schematic Symbols\\wattmeter2.ico"
+IDI_SCHEM_WIRES         ICON    DISCARDABLE     "Schematic Symbols\\wires.ico"
+IDI_SCHEM_WIRES_CONNECTED_CROSSING1 ICON    DISCARDABLE     "Schematic Symbols\\wires_connected_crossing1.ico"
+IDI_SCHEM_WIRES_CONNECTED_CROSSING2 ICON    DISCARDABLE     "Schematic Symbols\\wires_connected_crossing2.ico"
+IDI_SCHEM_WIRES_NOT_CONNECTED_CROSSING1 ICON    DISCARDABLE     "Schematic Symbols\\wires_not_connected_crossing1.ico"
+IDI_SCHEM_WIRES_NOT_CONNECTED_CROSSING2 ICON    DISCARDABLE     "Schematic Symbols\\wires_not_connected_crossing2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUTPIC            BITMAP  DISCARDABLE     "Misc Graphics\\AboutPic.bmp"
+IDB_RES_BAND_BLACK      BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_black.bmp"
+IDB_RES_LEFT            BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_left.bmp"
+IDB_RES_BAND_NONE       BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_none.bmp"
+IDB_RES_BAND_BROWN      BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_brown.bmp"
+IDB_RES_BAND_GOLD       BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_gold.bmp"
+IDB_RES_BAND_GREEN      BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_green.bmp"
+IDB_RES_BAND_GREY       BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_grey.bmp"
+IDB_RES_BAND_BLUE       BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_blue.bmp"
+IDB_RES_BAND_YELLOW     BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_yellow.bmp"
+IDB_RES_BAND_RED        BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_red.bmp"
+IDB_RES_BAND_SILVER     BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_silver.bmp"
+IDB_RES_BAND_VIOLET     BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_violet.bmp"
+IDB_RES_BAND_WHITE      BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_white.bmp"
+IDB_RES_BAND_ORANGE     BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_band_orange.bmp"
+IDB_RES_RIGHT           BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_right.bmp"
+IDB_RES_SPACER          BITMAP  DISCARDABLE     "Resistor Graphics\\resistor_spacer.bmp"
+IDB_TITLEPIC            BITMAP  DISCARDABLE     "Misc Graphics\\TitlePic.bmp"
+IDB_BLUELINE            BITMAP  DISCARDABLE     "Misc Graphics\\BlueLine.bmp"
+IDB_CHIP_14             BITMAP  DISCARDABLE     "Misc Graphics\\Chip14.bmp"
+IDB_SPLASH_SCREEN       BITMAP  DISCARDABLE     "Misc Graphics\\SplashScreen.bmp"
+IDB_DELTA               BITMAP  DISCARDABLE     "Misc Graphics\\Delta.bmp"
+IDB_WYE                 BITMAP  DISCARDABLE     "Misc Graphics\\Wye.bmp"
+IDB_CENTRONICS_36_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\Centronics 36 Female.bmp"
+IDB_CENTRONICS_36_MALE  BITMAP  DISCARDABLE     "Common Connectors\\Centronics 36 Male.bmp"
+IDB_CENTRONICS_50_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\Centronics 50 Female.bmp"
+IDB_CENTRONICS_50_MALE  BITMAP  DISCARDABLE     "Common Connectors\\Centronics 50 Male.bmp"
+IDB_COAX_FEMALE         BITMAP  DISCARDABLE     "Common Connectors\\Coax Female.bmp"
+IDB_COAX_MALE           BITMAP  DISCARDABLE     "Common Connectors\\Coax Male.bmp"
+IDB_DB25_FEMALE         BITMAP  DISCARDABLE     "Common Connectors\\DB25 Female.bmp"
+IDB_DB25_MALE           BITMAP  DISCARDABLE     "Common Connectors\\DB25 Male.bmp"
+IDB_DB37_FEMALE         BITMAP  DISCARDABLE     "Common Connectors\\DB37 Female.bmp"
+IDB_DB37_MALE           BITMAP  DISCARDABLE     "Common Connectors\\DB37 Male.bmp"
+IDB_DB50_FEMALE         BITMAP  DISCARDABLE     "Common Connectors\\DB50 Female.bmp"
+IDB_DB50_MALE           BITMAP  DISCARDABLE     "Common Connectors\\DB50 Male.bmp"
+IDB_DB9_FEMALE          BITMAP  DISCARDABLE     "Common Connectors\\DB9 Female.bmp"
+IDB_DB9_MALE            BITMAP  DISCARDABLE     "Common Connectors\\DB9 Male.bmp"
+IDB_FIBER_GUIDE_FDDI    BITMAP  DISCARDABLE     "Common Connectors\\Fiber Guide FDDI.bmp"
+IDB_FIBER_GUIDE_SC      BITMAP  DISCARDABLE     "Common Connectors\\Fiber Guide SC.bmp"
+IDB_FIBER_GUIDE_ST      BITMAP  DISCARDABLE     "Common Connectors\\Fiber Guide ST.bmp"
+IDB_FLAT_RIBBON_50_POSITION_EDGE_SOCKET BITMAP  DISCARDABLE     "Common Connectors\\Flat Ribbon 50 Position Edge Socket.bmp"
+IDB_FLAT_RIBBON_IDC_50_POSITION_SOCKET BITMAP  DISCARDABLE     "Common Connectors\\Flat Ribbon IDC 50 Position Socket.bmp"
+IDB_HIGH_DENSITY_DB15_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\High Density DB15 Female.bmp"
+IDB_HIGH_DENSITY_DB15_MALE BITMAP  DISCARDABLE     "Common Connectors\\High Density DB15 Male.bmp"
+IDB_INFOPORT_SERIES_I   BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series I.bmp"
+IDB_INFOPORT_SERIES_II  BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series II.bmp"
+IDB_INFOPORT_SERIES_III_KEYING_OPTION_1 BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series III Keying Option 1.bmp"
+IDB_INFOPORT_SERIES_III_KEYING_OPTION_2 BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series III Keying Option 2.bmp"
+IDB_INFOPORT_SERIES_III_KEYING_OPTION_3 BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series III Keying Option 3.bmp"
+IDB_INFOPORT_SERIES_III_KEYING_OPTION_4 BITMAP  DISCARDABLE     "Common Connectors\\Infoport Series III Keying Option 4.bmp"
+IDB_MINI_CENTRONICS_36_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 36 Female.bmp"
+IDB_MINI_CENTRONICS_36_MALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 36 Male.bmp"
+IDB_MINI_CENTRONICS_50_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 50 Female.bmp"
+IDB_MINI_CENTRONICS_50_MALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 50 Male.bmp"
+IDB_MINI_CENTRONICS_60_FEMALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 60 Female.bmp"
+IDB_MINI_CENTRONICS_60_MALE BITMAP  DISCARDABLE     "Common Connectors\\Mini Centronics 60 Male.bmp"
+IDB_MINI_DB_50_FEMALE   BITMAP  DISCARDABLE     "Common Connectors\\Mini DB 50 Female.bmp"
+IDB_MINI_DB_50_MALE     BITMAP  DISCARDABLE     "Common Connectors\\Mini DB 50 Male.bmp"
+IDB_MINI_DB68_FEMALE    BITMAP  DISCARDABLE     "Common Connectors\\Mini DB68 Female.bmp"
+IDB_MINI_DB68_MALE      BITMAP  DISCARDABLE     "Common Connectors\\Mini DB68 Male.bmp"
+IDB_MODULAR_DEC_6P6C    BITMAP  DISCARDABLE     "Common Connectors\\Modular DEC 6P6C.bmp"
+IDB_MODULAR_RJ11_6P4C   BITMAP  DISCARDABLE     "Common Connectors\\Modular RJ11 6P4C.bmp"
+IDB_MODULAR_RJ12_6P6C   BITMAP  DISCARDABLE     "Common Connectors\\Modular RJ12 6P6C.bmp"
+IDB_MODULAR_RJ45        BITMAP  DISCARDABLE     "Common Connectors\\Modular RJ45.bmp"
+IDB_MONITOR_POWER_ADAPTER BITMAP  DISCARDABLE     "Common Connectors\\Monitor Power Adapter.bmp"
+IDB_POWER_CORD          BITMAP  DISCARDABLE     "Common Connectors\\Power Cord.bmp"
+IDB_POWER_EXTENSION_CORD BITMAP  DISCARDABLE     "Common Connectors\\Power Extension Cord.bmp"
+IDB_SCSI_CONNECTOR_VHDCI BITMAP  DISCARDABLE     "Common Connectors\\SCSI Connector VHDCI.bmp"
+IDB_DELTA_TRANSFORM     BITMAP  DISCARDABLE     "Misc Graphics\\Delta Transform.bmp"
+IDB_WYE_TRANSFORM       BITMAP  DISCARDABLE     "Misc Graphics\\Wye Transform.bmp"
+IDB_TOOLBAR_ICONS       BITMAP  DISCARDABLE     "Misc Graphics\\Toolbar Icons.bmp"
+IDB_OPAMP_VOLTAGE_FOLLOWER BITMAP  DISCARDABLE     "OpAmps\\Voltage Follower Amplifier.bmp"
+IDB_OPAMP_DIFFERENTIAL_INPUT_AMPLIFIER BITMAP  DISCARDABLE     "OpAmps\\Differential Input Amplifier.bmp"
+IDB_OPAMP_DIFFERENTIATING_INPUT_AMPLIFIER BITMAP  DISCARDABLE     "OpAmps\\Differentiating Amplifier.bmp"
+IDB_OPAMP_INVERTING_AMPLIFIER BITMAP  DISCARDABLE     "OpAmps\\Inverting Amplifier.bmp"
+IDB_OPAMP_NONINVERTING_AMPLIFIER BITMAP  DISCARDABLE     "OpAmps\\Non-Inverting Amplifier.bmp"
+IDB_OPAMP_ADDING_SUBTRACTING_SCALING_AMPLIFIER BITMAP  DISCARDABLE     "OpAmps\\Adding Subtracting And Scaling Amplifier.bmp"
+IDB_TELEGRAPH           BITMAP  DISCARDABLE     "Misc Graphics\\Telegraph.bmp"
+IDB_NULLIMAGE           BITMAP  DISCARDABLE     "Misc Graphics\\NullImage.bmp"
+IDB_MONOSTABLE          BITMAP  DISCARDABLE     "Misc Graphics\\Monostable.bmp"
+IDB_ASTABLE             BITMAP  DISCARDABLE     "Misc Graphics\\Astable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_MORSECODE_0         WAVE    DISCARDABLE     "Morse Code WAVs\\0.wav"
+IDR_MORSECODE_Z         WAVE    DISCARDABLE     "Morse Code WAVs\\Z.wav"
+IDR_MORSECODE_2         WAVE    DISCARDABLE     "Morse Code WAVs\\2.wav"
+IDR_MORSECODE_3         WAVE    DISCARDABLE     "Morse Code WAVs\\3.wav"
+IDR_MORSECODE_4         WAVE    DISCARDABLE     "Morse Code WAVs\\4.wav"
+IDR_MORSECODE_5         WAVE    DISCARDABLE     "Morse Code WAVs\\5.wav"
+IDR_MORSECODE_6         WAVE    DISCARDABLE     "Morse Code WAVs\\6.wav"
+IDR_MORSECODE_7         WAVE    DISCARDABLE     "Morse Code WAVs\\7.wav"
+IDR_MORSECODE_8         WAVE    DISCARDABLE     "Morse Code WAVs\\8.wav"
+IDR_MORSECODE_9         WAVE    DISCARDABLE     "Morse Code WAVs\\9.wav"
+IDR_MORSECODE_A         WAVE    DISCARDABLE     "Morse Code WAVs\\A.wav"
+IDR_MORSECODE_B         WAVE    DISCARDABLE     "Morse Code WAVs\\B.wav"
+IDR_MORSECODE_C         WAVE    DISCARDABLE     "Morse Code WAVs\\C.wav"
+IDR_MORSECODE_D         WAVE    DISCARDABLE     "Morse Code WAVs\\D.wav"
+IDR_MORSECODE_E         WAVE    DISCARDABLE     "Morse Code WAVs\\E.wav"
+IDR_MORSECODE_F         WAVE    DISCARDABLE     "Morse Code WAVs\\F.wav"
+IDR_MORSECODE_G         WAVE    DISCARDABLE     "Morse Code WAVs\\G.wav"
+IDR_MORSECODE_H         WAVE    DISCARDABLE     "Morse Code WAVs\\H.wav"
+IDR_MORSECODE_I         WAVE    DISCARDABLE     "Morse Code WAVs\\I.wav"
+IDR_MORSECODE_J         WAVE    DISCARDABLE     "Morse Code WAVs\\J.wav"
+IDR_MORSECODE_K         WAVE    DISCARDABLE     "Morse Code WAVs\\K.wav"
+IDR_MORSECODE_L         WAVE    DISCARDABLE     "Morse Code WAVs\\L.wav"
+IDR_MORSECODE_M         WAVE    DISCARDABLE     "Morse Code WAVs\\M.wav"
+IDR_MORSECODE_N         WAVE    DISCARDABLE     "Morse Code WAVs\\N.wav"
+IDR_MORSECODE_O         WAVE    DISCARDABLE     "Morse Code WAVs\\O.wav"
+IDR_MORSECODE_P         WAVE    DISCARDABLE     "Morse Code WAVs\\P.wav"
+IDR_MORSECODE_Q         WAVE    DISCARDABLE     "Morse Code WAVs\\Q.wav"
+IDR_MORSECODE_R         WAVE    DISCARDABLE     "Morse Code WAVs\\R.wav"
+IDR_MORSECODE_S         WAVE    DISCARDABLE     "Morse Code WAVs\\S.wav"
+IDR_MORSECODE_T         WAVE    DISCARDABLE     "Morse Code WAVs\\T.wav"
+IDR_MORSECODE_U         WAVE    DISCARDABLE     "Morse Code WAVs\\U.wav"
+IDR_MORSECODE_V         WAVE    DISCARDABLE     "Morse Code WAVs\\V.wav"
+IDR_MORSECODE_W         WAVE    DISCARDABLE     "Morse Code WAVs\\W.wav"
+IDR_MORSECODE_Y         WAVE    DISCARDABLE     "Morse Code WAVs\\Y.wav"
+IDR_MORSECODE_X         WAVE    DISCARDABLE     "Morse Code WAVs\\X.wav"
+IDR_MORSECODE_1         WAVE    DISCARDABLE     "Morse Code WAVs\\1.wav"
+IDR_MORSECODE_SPACE     WAVE    DISCARDABLE     "Morse Code WAVs\\Space.wav"
+IDR_MORSECODE_COLON     WAVE    DISCARDABLE     "Morse Code WAVs\\Colon.wav"
+IDR_MORSECODE_COMMA     WAVE    DISCARDABLE     "Morse Code WAVs\\Comma.wav"
+IDR_MORSECODE_HYPHEN    WAVE    DISCARDABLE     "Morse Code WAVs\\Hyphen.wav"
+IDR_MORSECODE_PARENTHESES WAVE    DISCARDABLE     "Morse Code WAVs\\Parentheses.wav"
+IDR_MORSECODE_PERIOD    WAVE    DISCARDABLE     "Morse Code WAVs\\Period.wav"
+IDR_MORSECODE_QUESTIONMARK WAVE    DISCARDABLE     "Morse Code WAVs\\Question Mark.wav"
+IDR_MORSECODE_QUOTES    WAVE    DISCARDABLE     "Morse Code WAVs\\Quotes.wav"
+IDR_MORSECODE_APOSTROPHE WAVE    DISCARDABLE     "Morse Code WAVs\\Apostrophe.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_TOOLS           "Tools"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_HELP            "Help"
+    IDS_CAP_REFERENCE       "Reference"
+    IDS_VERSION             "Version 1.2 Trial"
+    IDS_APP_TITLE           "Electro"
+    IDS_APP_CLASS           "ELECTRO"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INITIALIZING_PLEASE_WAIT "Initializing, Please Wait..."
+    IDS_COPYRIGHT           "©2002 Omnytex Technologies"
+    IDS_ALL_RIGHTS_RESERVED "All Rights Reserved"
+    IDS_PROGRAMMEDBY        "Programmed By Frank W. Zammetti"
+    IDS_TITLE_1             "Brought to you by"
+    IDS_TITLE_2             "Omnytex Technologies"
+    IDS_TITLE_3             "http://www.omnytex.com"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

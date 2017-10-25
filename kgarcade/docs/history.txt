@@ -1,0 +1,23 @@
+v1.6 - 11/1/2005
+----------------
+* Freeware version distributed by ClickGamer
+
+v1.1 - 4/30/2004
+----------------
+* Fixed a bug that would cause the game to crash when exiting Trouble In Vectropolis played in Melee mode
+* Added high scores for mini-games
+* Changed slightly the text of the credit scroller
+* Chaged text on New Game selection screen from "Until I Say Stop" to "Play Until I Say Stop" when selecting
+  mini-game sub-mode in Melee mode
+* Lowered required scores somewhat for Trouble In Vectropolis, Muncher Dude and The Bogaz Derby
+* Changed code so that mini-game scores only count towards the overall score in Adventure mode when the
+  minimum score is achieved (previously counted regardless of the outcome of the mini-game)
+* When exiting a mini-game manually, it will now check to see if you achieved the minimum score in
+  Adventure mode (so you no longer have to "play out the clock" if you don't want to).  It also
+	does this in Melee mode for high score checking.  In both cases, you will see the Game Over screen
+	when you exit now rather than just immediately exiting.
+
+
+v1.0 - Initial release
+
+

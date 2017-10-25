@@ -1,0 +1,145 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WELCOME DIALOG DISCARDABLE  0, 0, 328, 217
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,16,16,81,
+                    160
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,16,191,
+                    297,1
+    PUSHBUTTON      "Cancel",IDC_CANCEL,208,197,49,14
+    PUSHBUTTON      "Next >",IDC_NEXT,264,197,49,14
+    ICON            IDI_ICON,IDC_STATIC,109,16,20,20
+    LTEXT           "",IDC_WELCOME1,143,16,170,24
+    LTEXT           "It is strongly recommended that you exit all Widnows programs before running this setup program.",
+                    IDC_STATIC,109,53,204,18
+    LTEXT           "Click Cancel to quit setup and then close any programs you have running.  Click Next to continue with the setup program.",
+                    IDC_STATIC,109,80,204,18
+    LTEXT           "WARNING: This program is protected by copyright law and international treaties.",
+                    IDC_STATIC,109,118,204,18
+    LTEXT           "Unauthorized reproduction or distribution of this program, or any portion of it, may result in sever civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.",
+                    IDC_STATIC,109,145,204,26
+END
+
+IDD_EULA DIALOG DISCARDABLE  0, 0, 328, 217
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "End User License Agreement (EULA)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,16,191,
+                    297,1
+    PUSHBUTTON      "Decline",IDC_DECLINE,208,197,49,14
+    PUSHBUTTON      "Accept",IDC_ACCEPT,264,197,49,14
+    ICON            IDI_ICON,IDC_STATIC,16,6,20,20
+    LTEXT           "Please read the following License Agreement.  Use the scroll bar to view the rest of the agreement.",
+                    IDC_STATIC,50,6,263,18
+    PUSHBUTTON      "< Back",IDC_BACK,158,197,49,14
+    EDITTEXT        IDC_EULA_TEXT,16,33,297,131,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "",IDC_EULA1,16,169,297,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SIDEIMAGE1          BITMAP  DISCARDABLE     "SideImage1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_NAME            "KandG Arcade"
+    IDS_APP_VERSION         "1.6"
+    IDS_EULA1               "END USER LICENSE AGREEMENT FOR OMNYTEX TECHNOLOGIES SOFTWARE\r\n\r\nIMPORTANT -- READ CAREFULLY.  Be sure to carefully read and understand all of the rights and restrictions described in this Omnytex Technologies End-User License Agreement (""EULA""). You will be asked to review and either accept or not accept the terms of the EULA. This software will not install on your mobile device unless and until you accept the terms of this EULA.\r\n\r\nYour click of the ""Accept"" button is a symbol of your signature that you accept the terms of the EULA.  Please click the ""Decline"" button if, after reading this EULA, you do not wish to be bound to all of the terms and conditions in their entirety as described in this EULA.  For your reference, a copy of this EULA can be accessed at any time from within the Help system of this software.\r\n\r\n"
+    IDS_EULA2               "This EULA is a legal agreement between you (either an individual or a single entity) and Omnytex Technologies for the Omnytex Technologies software accompanying this EULA, which includes the accompanying computer software, and may include associated media, printed materials and any ""online"" or electronic documentation (""SOFTWARE""). By installing the SOFTWARE, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, you may not install or use the SOFTWARE.\r\n\r\nSoftware PRODUCT LICENSE\r\n\r\nThe SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE is licensed, not sold.\r\n\r\n"
+    IDS_APP_CLASS           "OTXINSTALL"
+    IDS_EULA3               "1. GRANT OF LICENSE. This EULA grants you the following rights:\r\n\r\n* Software. You may install and use one copy of the SOFTWARE on a single device.\r\n\r\n* Storage. You may also store a copy of the SOFTWARE on a storage device, such as a network server or write-able media (i.e., floppy disc), used only to install or run the SOFTWARE in consideration of the first provision.\r\n\r\n2. RESTRICTIONS.\r\n\r\n* You must maintain all copyright notices on all copies of the SOFTWARE.\r\n\r\n* Limitations of Reverse Engineering. Decompilation and Disassembly: You may not reverse engineer, decompile, or disassemble the SOFTWARE, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.\r\n\r\n* Rental. You may not rent or lease or lend the SOFTWARE.\r\n\r\n"
+    IDS_EULA4               "* Transfer. You may not transfer ownership of the SOFTWARE to another individual under any circumstance in any manor or fashion.\r\n\r\n* Support Services.  Omnytex Technologies may or may not, at its sole discretion, offer support services to whatever extent it deems necessary of the SOFTWARE.\r\n\r\n* TERMINATION. Without prejudice to any other rights, Omnytex Technologies may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE and all of its component parts.\r\n\r\n"
+    IDS_EULA5               "3. DISCLAIMER OF WARRANTIES.  OMNYTEX TECHNOLOGIES AND ITS SUPPLIERS PROVIDE THE SOFTWARE ""AS IS"" AND WITH ALL FAULTS, AND HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO ANY (IF ANY) IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT. ALSO, THERE IS NO WARRANTY OR CONDITION OF TITLE, OF QUIET ENJOYMENT, OR OF NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SOFTWARE IS WITH YOU.\r\n\r\n"
+    IDS_EULA6               "4. EXCLUSION OF ALL DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL OMNYTEX TECHNOLOGIES OR ITS SUPPLIERS BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR ANY INJURY TO PERSON OR PROPERTY, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, FOR LOSS OF PRIVACY FOR FAILURE TO MEET ANY DUTY INCLUDING OF GOOD FAITH OR OF REASONABLE CARE, FOR NEGLIGENCE, AND FOR ANY PECUNIARY OR OTHER LOSS WHATSOEVER) ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF OMNYTEX TECHNOLOGIES OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS EXCLUSION OF DAMAGES SHALL BE EFFECTIVE EVEN IF ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.\r\n\r\n"
+    IDS_EULA7               "5. LIMITATION AND RELEASE OF LIABILITY.  Omnytex Technologies has included in this EULA terms that disclaim all warranties and liability for the SOFTWARE. To the full extent allowed by law, YOU HEREBY RELEASE OMNYTEX TECHNOLOGIES AND ITS SUPPLIERS FROM ANY AND ALL LIABILITY ARISING FROM OR RELATED TO ALL CLAIMS CONCERNING THE SOFTWARE OR ITS USE. If you do not wish to accept the SOFTWARE under the terms of this EULA, do not install the SOFTWARE. A refund will be made to you by the distributor from which you purchased the SOFTWARE."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

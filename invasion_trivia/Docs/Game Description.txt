@@ -1,0 +1,117 @@
+Invasion: Trivia
+A game by Frank W. Zammetti
+------------------------------------------------------------------------------
+
+The story so far:
+Well, most of us figured we weren't alone in the universe, and now we know for
+sure.  Man, ignorance truly WAS bliss...
+
+The aliens have landed, and they're not E.T.  Actually, they're more like
+Rodney Dangerfield: regular little wise-asses.  They have a sense of humor,
+it's just that they're punchlines usually ends in the destruction of a planet.
+
+This is the deal:
+
+These aliens called Ramalans go around the universe meeting other races and
+challenge them to a little game: a game of trivia.  Don't worry, they take a
+look at the target race and create the questions from that, so you won't have
+to answer questions on the mating habits of the Altarian Bolga Beetle at least!
+
+Sounds like fun, right?  Here's the catch: they pick one person to play the
+game, and for each question they get wrong, they blow up a city on the home
+planet!  If you get too many wrong, they just blow away the whole planet.
+Certainly ruins an other wise good day, wouldn't you say??
+
+Here we are dealing with two aliens in particular: Krelmac and Gentoo.  Krelmac
+is the "straight-man" and Gentoo is the "Beavis-like" character.
+
+Now, if you get to a certain point (a million Ramalan points), you save your
+planet.  The Ramalans are nice enough to give you four "Zumbugwas".  A
+Zumbugwas on the Ramalan home planet is a small creature that somehow
+always manages to live through anything.  Drop an anvil on it, it somehow
+manages to survive.  Pure luck, but it works for the Zumbugwas!  Zumbugwas
+help you answer those especially difficult questions.  Probably.  Maybe.
+
+Your four Zumbugwus are "Beam a Brelnar", "Ask the Andromedans",
+"Matter-Antimatter" and "Book of Knowledge"...
+
+Beam a Brelnar allows you to use the Ramalans transporter technology to beam
+a member of the Brelnar species in to help you.  The Brelnars are a strange
+people: some of them are smarter than any human could ever be, some are as
+stupid as a Kentuckian in love with their cousin.  You will be given a choice
+of three of them, you pick one, and hope you get the Einstein and not the
+Cletus!
+
+Ask the Andromedans allows you to poll the entire Andromedan race for the 
+answer to any one question.  Hopefully they get it right, but who knows...
+
+Matter-Antimatter... You know what happens when you have a certain amount of
+matter and 50% of it is regular matter and 50% is antimatter and they come
+together?  They annihilate each other.  So, out of four possible answers to
+each question, this will destroy two of them.  Somehow, it always manages to
+leave one wrong and one right answer.  Go figure...
+
+Book of Knowledge is the ultimate cheat: using it will skip the current
+question completely (in your favor of course).  You will NOT be allowed to
+use this Zumbugwa on the final question of the game though (you didn't think
+it's be THAT easy, did you?!?)
+
+So, that's the basic idea.  Here's how to play:
+
+YOu answer questions and each question represents a point level.  The point
+levels depend on the difficulty setting.  Easy is 15 questions, normal is 20,
+hard is 25.  Here are the point levels and what difficulty levels have which:
+
+ NH 1/2
+ENH 1
+ NH 3.14159
+ENH 50
+E H 75
+ENH 100
+ NH 250
+ENH 500
+ NH 750
+ENH 1000
+  H 1001
+ NH 2500
+ENH 5000
+ENH 10000
+ NH 16384
+E H 32000
+ NH 65535
+ENH 83456.12
+ENH 100000
+E H 184174
+ NH 250000
+ENH 500666
+ NH 750000
+E H 888888
+ENH 1000000
+
+So, it's like climbing a mountain: each question you get right gets you to
+that level.
+
+For each question, you get four answers, one is right.  You can use your
+Zumbugwas any time.  For each one you get wrong, a city is blown up.  If you
+get two wrong (on normal difficulty), they whole planet buys it.  The planet
+buys it if you get one wrong on hard difficulty and also if you get three
+wrong on easy difficulty.  Questions are choosen at random, some are hard some 
+are easy and they can come at any time.
+
+Ok, that's the game.
+
+Here's a description of the lifeline screens:
+
+A screen where you can select from three Brelnars (kind of a police lineup
+kind of thing, they just stand there making faces and stuff).  In addition,
+if the Brelnar gets the answer wrong and it was a smart when, they get
+zapped into a black hole.  If it was a stupid one, whether they got it
+right or wrong, they start chasing a butterfly, laughing and giggling, the
+co-hosts make a rude comment about the gene pool of the human race being
+IMPROVED in a few days!
+
+A screen showing the Andromedan audience (by the way, if they get the answer
+wrong, they get blown up, so we show that).
+
+A screen showing two of the answers blowing up when a Matter-Antimatter
+Zumbugwa is used.

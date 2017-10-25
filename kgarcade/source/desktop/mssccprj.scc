@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[game.dsp]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/source/desktop", XPCAAAAA
+
+[game.dsw]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/source/desktop", XPCAAAAA
+
+[game.sln]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/source/desktop", XPCAAAAA

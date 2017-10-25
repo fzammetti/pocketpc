@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PocketFrog - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP8D.tmp" with contents
+[
+/nologo /MT /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"../obj/x86/release/" /Fo"../obj/x86/release/" /Fd"../obj/x86/release/" /FD /c 
+"C:\Temp\Etc\PocketFrogPlus\src\display.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\font.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\image.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\input.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\pocketpc.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\rasterizer.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\rect.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\sound.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\soundChannel.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\soundData.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\surface.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit16.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit4.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\blit8.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\GAPILibrary.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\graphicbuffer.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\memfile.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\raster2d.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\internal\Win32Drivers.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\framework\game.cpp"
+"C:\Temp\Etc\PocketFrogPlus\src\framework\splashscreen.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8D.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8E.tmp" with contents
+[
+/nologo /out:"../lib/PocketFrog_x86.lib" 
+\Temp\Etc\PocketFrogPlus\obj\x86\release\display.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\font.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\image.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\input.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\pocketpc.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\rasterizer.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\rect.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\sound.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\soundChannel.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\soundData.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\surface.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\blit16.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\blit4.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\blit8.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\GAPILibrary.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\graphicbuffer.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\memfile.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\raster2d.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\Win32Drivers.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\game.obj
+\Temp\Etc\PocketFrogPlus\obj\x86\release\splashscreen.obj
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP8E.tmp"
+<h3>Output Window</h3>
+Compiling...
+display.cpp
+font.cpp
+image.cpp
+input.cpp
+pocketpc.cpp
+rasterizer.cpp
+rect.cpp
+sound.cpp
+soundChannel.cpp
+soundData.cpp
+surface.cpp
+blit16.cpp
+blit4.cpp
+blit8.cpp
+GAPILibrary.cpp
+graphicbuffer.cpp
+memfile.cpp
+raster2d.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xstring(525) : warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify -GX
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xstring(521) : while compiling class-template member function 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int)'
+Win32Drivers.cpp
+game.cpp
+Generating Code...
+Compiling...
+splashscreen.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+PocketFrog_x86.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

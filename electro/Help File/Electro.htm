@@ -1,0 +1,470 @@
+<html>
+<head>
+<title>Electro Help</title>
+</head>
+<body>
+
+
+<!-- PegHelp -->
+<a name="Main_Contents"></a>wcscmp(strInI, TEXT("0")) == 0
+<b><i>Electro Help - Contents</i></b>
+<br><br>
+<a href="Electro.htm#Introduction">Introduction</a><br>
+<a href="Electro.htm#EULA">End User License Agreement (EULA)</a>
+<br><br>
+<b>Tools</b>
+<br>
+<a href="Electro.htm#555Timer">555 Timer Design</a><br>
+<a href="Electro.htm#DCOhmsLaw">DC Ohm's Law</a><br>
+<a href="Electro.htm#DWTransforms">Delta <-> Wye Transforms</a><br>
+<a href="Electro.htm#EnergyStored">Energy Stored</a><br>
+<a href="Electro.htm#Impedance">Impedance</a><br>
+<a href="Electro.htm#MorseCode">Morse Code Encoder</a><br>
+<a href="Electro.htm#RCICalc">R/C/I Calculator</a><br>
+<a href="Electro.htm#Reactance">Reactance</a><br>
+<a href="Electro.htm#ResistorColorCode">Resistor Color Code</a><br>
+<a href="Electro.htm#Resonance">Resonance</a><br>
+<a href="Electro.htm#ThreePhasePower">Three-Phase Connections</a><br>
+<br><br>
+<b>Reference</b>
+<br>
+<a href="Electro.htm#ChipReference">7400 Series Logic Chips</a><br>
+<a href="Electro.htm#OpAmps">Basic Op-Amp Circuits</a><br>
+<a href="Electro.htm#CitizensBand">Citizens Band Freqencies</a><br>
+<a href="Electro.htm#CommonConnectors">Common Connectors</a><br>
+<a href="Electro.htm#CopperWire">Copper Wire Characteristics</a><br>
+<a href="Electro.htm#DialectricConstants">Dialectric Constants</a><br>
+<a href="Electro.htm#KFactors">K Factors For Attenuator Loss</a><br>
+<a href="Electro.htm#MetalAlloyResistances">Metal/Alloy Resistances</a><br>
+<a href="Electro.htm#SchematicSymbols">Schematic Symbols</a><br>
+<a href="Electro.htm#TVChannels">TV Channels</a><br>
+<a href="Electro.htm#RadioFrequencySpectrum">Radio Frequency Spectrum</a><br>
+<br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="Introduction"></a>
+<b>Introduction</b>
+<br>
+Electro is a comprehensive collection of useful tools for the electronics technician and
+electrician.
+<br><br>
+It is organized into two sections, Tools and Reference:
+<br><br>
+<i>Tools</i> - This menu contains a number of calculators and utilities to help in design and
+engineering tasks.
+<br><br>
+<i>Reference</i> - This menu contains various reference tables and collections of information
+that may be helpful in day-to-day electronics and electrical work.
+<br><br>
+You can move around the program by selecting either the Tools or Reference menu and then selecting
+the item you'd like to use.  You can freely move around to various screens at any time, there is
+no need to close each individual screen when you are done.  In fact, if you use a particular tool and
+go to another and later return to the first, it will be exactly as you left it, you won't loose an
+calculations or anything else as you move from screen to screen.
+<br><br>
+You can access help for the screen you are currently viewing by clicking the question mark on the
+toolbar.  You can of course always view the complete help file by selecting Help... under the Help menu.
+<br><br>
+You can exit Electro at any time by clicking Exit on the Tools menu.
+<br><br>
+If you find any bugs in the program, please send eMail to fzammetti@omnytex.com.  You can also send any
+suggestions for additions to that same address.  We are always thinking of future versions
+and what we can put in to make Electro the best program of it's kind for the PopketPC.
+<br><br>
+Thank you very much for your purchase and we hope you fine Electro helpful in your work!
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="EULA"></a>
+<b>End User License Agreement (EULA)</b>
+<br>
+END USER LICENSE AGREEMENT FOR OMNYTEX TECHNOLOGIES SOFTWARE
+<br><br>
+IMPORTANT -- READ CAREFULLY.  Be sure to carefully read and understand all of the rights and restrictions described in this Omnytex Technologies End-User License Agreement ("EULA"). You will be asked to review and either accept or not accept the terms of the EULA. This software will not install on your computer unless or until you accept the terms of this EULA.
+<br><br>
+Your click of the "Accept" button is a symbol of your signature that you accept the terms of the EULA.  Please click the "Decline" button if, after reading this EULA, you do not wish to be bound to all of the terms and conditions in their entirety as described in this EULA.  For your reference, a copy of this EULA can be accessed at any time from within the Help system of this software.
+<br><br>
+This EULA is a legal agreement between you (either an individual or a single entity) and Omnytex Technologies for the Omnytex Technologies software accompanying this EULA, which includes the accompanying computer software, and may include associated media, printed materials and any "online" or electronic documentation ("SOFTWARE"). By installing the SOFTWARE, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, you may not install or use the SOFTWARE.
+<br><br>
+Software PRODUCT LICENSE
+<br><br>
+The SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE is licensed, not sold.
+<br><br>
+1. GRANT OF LICENSE. This EULA grants you the following rights:
+<br><br>
+* Software. You may install and use one copy of the SOFTWARE on a single device.
+* Storage. You may also store a copy of the SOFTWARE on a storage device, such as a network server or write-able media (i.e., floppy disc), used only to install or run the SOFTWARE in consideration of the first provision.
+<br><br>
+2. RESTRICTIONS.
+<br><br>
+* You must maintain all copyright notices on all copies of the SOFTWARE.
+<br><br>
+* Limitations of Reverse Engineering. Decompilation and Disassembly: You may not reverse engineer, decompile, or disassemble the SOFTWARE, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+<br><br>
+* Rental. You may not rent or lease or lend the SOFTWARE.
+<br><br>
+* Transfer. You may not transfer ownership of the SOFTWARE to another individual under any circumstance in any manor or fashion.
+<br><br>
+* Support Services.  Omnytex Technologies may or may not, at its sole discretion, offer support services to whatever extent it deems necessary of the SOFTWARE.
+<br><br>
+* TERMINATION. Without prejudice to any other rights, Omnytex Technologies may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE and all of its component parts.
+<br><br>
+3. DISCLAIMER OF WARRANTIES: OMNYTEX TECHNOLOGIES AND ITS SUPPLIERS PROVIDE THE SOFTWARE "AS IS" AND WITH ALL FAULTS, AND HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO ANY (IF ANY) IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT. ALSO, THERE IS NO WARRANTY OR CONDITION OF TITLE, OF QUIET ENJOYMENT, OR OF NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SOFTWARE IS WITH YOU.
+<br><br>
+4. EXCLUSION OF ALL DAMAGES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL OMNYTEX TECHNOLOGIES OR ITS SUPPLIERS BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR ANY INJURY TO PERSON OR PROPERTY, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, FOR LOSS OF PRIVACY FOR FAILURE TO MEET ANY DUTY INCLUDING OF GOOD FAITH OR OF REASONABLE CARE, FOR NEGLIGENCE, AND FOR ANY PECUNIARY OR OTHER LOSS WHATSOEVER) ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF OMNYTEX TECHNOLOGIES OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS EXCLUSION OF DAMAGES SHALL BE EFFECTIVE EVEN IF ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+<br><br>
+5. LIMITATION AND RELEASE OF LIABILITY. Omnytex Technologies has included in this EULA terms that disclaim all warranties and liability for the SOFTWARE. To the full extent allowed by law, YOU HEREBY RELEASE OMNYTEX TECHNOLOGIES AND ITS SUPPLIERS FROM ANY AND ALL LIABILITY ARISING FROM OR RELATED TO ALL CLAIMS CONCERNING THE SOFTWARE OR ITS USE. If you do not wish to accept the SOFTWARE under the terms of this EULA, do not install the SOFTWARE. A refund will be made to you by the distributor from which you purchased the SOFTWARE.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="555Timer"></a>
+<b>555 Timer Design</b>
+<br>
+With this tool you can design astable (one-shot) and monostable (multivibrator) 555
+timer circuits.
+<br><br>
+Begin by selecting what mode you want to calculate for, Monostable or Astable, by clicking
+one of the tabs.
+<br><br>
+For Monostable mode, enter the following::
+<br><br>
+Ra (Ohms)
+<br>
+C1 (Farads)
+<br><br>
+Click the Calculate button and the time in seconds will be calculated for you.
+<br><br>
+For Astable mode, enter the following:
+<br><br>
+R1 (Ohms)
+<br>
+R2 (Ohms)
+<br>
+C1 (Farads)
+<br><br>
+Again click the Calculate buttons and the waveform's High Time (Th) and Low Time (Tl) will be
+calculated, as well as the frequency.
+<br><br>
+Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="DCOhmsLaw"></a>
+<b>DC Ohm's Law</b>
+<br>
+This tool is used to perform various calculations based on Ohm's Law for DC circuits.
+<br><br>
+To use this calculator, simply enter any two known values from the following:
+<br><br>
+Current (I, Amperes)
+<br>
+Voltage (E, Volts)
+<br>
+Resistance (R, Ohms)
+<br>
+Power(P, Watts)
+<br>
+Then click the Calculate button and the other two values will be calculated and shown in their respective
+boxes.  Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="DWTransforms"></a>
+<b>Delta-Wye Transforms</b>
+<br>
+This tool is used to calculate the resistor values when performing a transformation from a Delta
+configuration to a Wye configuration or vice-versa.
+<br><br>
+To use this calculator, first make sure the arrow between the Delta and Wye diagrams is pointing the
+way you want the transformation to go (initially it is set for Delta-to-Wye).  Simply click the arrow
+button to reverse the direction.  The three items appropriate for the source configuration will be
+enabled while the other three will be disabled.  Enter the values for the source
+(Za, Zb, Zc or Z1, Z3, Z3) and click Calculate.  The other three values will be calculated and shown in
+their respective boxes.  Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="EnergyStored"></a>
+<b>Energy Stored</b>
+<br>
+This tool is used to calculate the energy stored in a capacitor or inductos.
+<br><br>
+To use this calculator, begin by clicking the tab appropriate to the calculation you need to
+perform, either energy stored in a Capacitor or in an Inductor.  Then, enter any two known 
+values from the following:
+<br><br>
+Capacitance (C, Farads) or Inductance (L, Henrys)
+<br>
+Voltage (E, Volts) or Current (I, Amperes)
+<br>
+Energy (W, Joules)
+<br>
+Then click the Calculate button and the other value will be calculated and shown in the appropriate
+box.  Click Clear at any time to clear any current values and start over.  Note that the Clear
+button only effects the tab you are currently on, i.e., if you are on the Capacitor tab and
+click Clear, any values entered on the Inductor tab will remain.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="Impedance"></a>
+<b>Impedance</b>
+<br>
+This tool is used to calculate impedance in AC circuits.
+<br><br>
+To use this calculator, begin by selecting whether you are working with a Serial or
+Parallel combination of components by clicking the appropriate radio button.  Then, enter any
+two values from the following:
+<br><br>
+Resistance (R, Ohms)
+<br>
+Reactance (X, Ohms)
+<br>
+Impedance (Z, Ohms)
+<br>
+Then click the Calculate button and the other value will be calculated and shown in the appropriate
+box.  Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="MorseCode"></a>
+<b>Morse Code Encoder</b>
+<br>
+This tool will convert a text string to morse code.
+<br><br>
+To use this enter a string of text into the edit box.  You can use the letters A-Z, the
+numbers 0-9, space (to separate words) as well as the following special characters:
+<br><br>
+" ' : , - ( ) . ?
+<br><br>
+Then click the Encode button and you will hear the morse code that represents what you entered.
+Clicks Clear to clear the edit box and start again.
+<br><br>
+NOTE: If you do not hear the morse code after clicking Encode, go into your device's control
+panel (Click the Start Menu, then Settings) and select the Sounds & Reminders applet.  Be
+sure the option Programs is checked, otherwise the morse code will not be heard.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="RCICalc"></a>
+<b>R/C/I Calculator</b>
+<br>
+This tool is used to calculate total resistance, capcitance or inductance in either serial
+or parallel combinations.
+<br><br>
+To use this calculator, begin by clicking the tab appropriate to the calculation you need to
+perform, either Resistance, Capacitance or Inductance.  Then, select whether you want the
+values to be calculated in Serial or Parallel by clicking the appropriate radio button.
+<br><br>
+Next, enter as many values as needed
+into the list.  To do this, enter a value in the New Value box and click the add (+) button.
+This will add the new value to the list of Component Values.  You can delete a value from the
+list by clicking it and then clicking the remove (-) button.  You can clear all values by
+clicking the clear (X) button.  
+<br><br>
+When you have finished entering all the values you need, 
+click the Calculate button and the total will be shown in the results box at the bottom.  
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="Reactance"></a>
+<b>Reactance</b>
+<br>
+This tool is used to calculate inductive or capacitive reactance in AC circuits.
+<br><br>
+To use this calculator, begin by clicking the tab appropriate to the calculation you need to
+perform, either Inductive or Capacitive reactance.  Then, enter any two known 
+values from the following:
+<br><br>
+Frequency (F, Hertz)
+<br>
+Inductance (L, Henrys) or Capacitance (C, Farads)
+<br>
+Reactance (X, Ohms)
+<br>
+Then click the Calculate button and the other value will be calculated and shown in the appropriate
+box.  Click Clear at any time to clear any current values and start over.  Note that the Clear
+button only effects the tab you are currently on, i.e., if you are on the Inductive tab and
+click Clear, any values entered on the Capacitive tab will remain.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="ResistorColorCode"></a>
+<b>Resistor Color Cpde</b>
+<br>
+This tool is used to determine the value of a resistor based on it's color code.
+<br><br>
+Begin by setting the colors of the bands of the resistor.  This can be done in two ways: you can
+click the bands on the resistor to cycle through the colors, or select them from the drop-downs.
+Clicking the bands will update the selection in the appropriate drop-down.  When the colors are
+set properly, click the Calculate button and the resistor's value and low and high tolerance values
+will be shown below.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="Resonance"></a>
+<b>Resonance</b>
+<br>
+This tool is used to calculate the resonant frequency of an inductive/capacitive combination.
+<br><br>
+To use this calculator, simply enter any two known values from the following:
+<br><br>
+Inductance (L, Henrys)
+<br>
+Capacitance (C, Farads)
+<br>
+Frequency (F, Hertz)
+<br>
+Then click the Calculate button and the other value will be calculated and shown in the appropriate
+boxes.  Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="ThreePhasePower"></a>
+<b>Three Phase Connections</b>
+<br>
+This tool is used to calculate values for connecting three-phase power in delta and wye
+configurations.
+<br><br>
+To use this calculator, begin by selecting the From and To configurations.  Pick either Delta
+or Wye from both drop-downs.  The diagrams below will change accordingly.  Next, enter any two 
+known values from the following:
+<br><br>
+Primary Voltage (Ep, Volts)
+<br>
+Secondary Voltage (Es, Volts)
+<br>
+Turns Ratio (N)
+<br>
+Then click the Calculate button and the other value will be calculated and shown in the appropriate
+box.  Click Clear at any time to clear any current values and start over.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="ChipReference"></a>
+<b>7400 Series Logic Chips</b>
+<br>
+This reference contains data for many of the most common 7400 series logic chips.  To use it, 
+make sure you are on the Part Selection tab, then select the part you are interested in from
+the list at top.  A description of the component will be shown below when you click on it.
+<br><br>
+Click the Pinout tab to see the pinout of the chip.
+<br><br>
+Click the Function Table tab to see the function table for the function the part performs.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="OpAmps"></a>
+<b>Basic Op-Amp Circuits</b>
+<br>
+This reference contains diagrams of the basic om-amp circuit configurations and important
+equations relating to each.  To use it, simply select the name of the configuraiton from the
+drop-down box and the circuit will be show below.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="CitizensBand"></a>
+<b>Citizens Band Frequencies</b>
+<br>
+This reference contains data for the citizen's band frequencies for ham operators.  It shows
+the channel #, frequency in MHz and the lower and upper tolerances for the band.  You can
+sort the list by clicking the header for any column you wish.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="CommonConnectors"></a>
+<b>Common Connectors</b>
+<br>
+This reference contains data for many of the most common connectors found in computers and
+electronics.  To use it, simply select the name of the connector from the drop-down.  A diagram
+of the connector will appear below.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="CopperWire"></a>
+<b>Copper Wire Characteristics</b>
+<br>
+This reference contains data for copper wire guages.  It shows the AWG #, Nominal Bare Diameter,
+Nominal Circular Mils, Nominal Bare Feet Per Pound, Nominal Ohms Per 1000 Feet At 20 Degrees Celsius, 
+Current Carrying Capacity At 700 Centimeters Per Amp, Turns Per Linkear Inch Square Film Coat and
+Turns Per Linear Inch H Film Coat.  You can sort the list by clicking the header for any column you wish.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="DialectricConstants"></a>
+<b>Dialectric Constants</b>
+<br>
+This reference shows the dialetric constant range for many common materials.  It shows the
+Material Name and the Upper and Lower ends of the dialectric range.  You can sort the list by clicking the header for any column you wish.   
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="KFactors"></a>
+<b>K Factors For Attenuator Loss</b>
+<br>
+This reference shows decibel/K Factor correspondance for use in calculating attenuator loss.  
+It shows the Decibel and K Factor.  You can sort the list by clicking the header for any column you wish.   
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="MetalAlloyResistances"></a>
+<b>Metal Alloy Resistances</b>
+<br>
+This reference shows the resistance of many common materials.  It shows the Material Name, 
+Chemical Symbol and the Resistance.  You can
+sort the list by clicking the header for any column you wish.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="SchematicSymbols"></a>
+<b>Schematic Symbols</b>
+<br>
+This reference shows many of the most common schematic symbols encountered in electronics.
+Simply scroll through the list to view the symbols and a description of each.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="TVChannels"></a>
+<b>TV Channels</b>
+<br>
+This reference shows data for the most common television channels.  It shows the Channel #,
+Lower Frequency Tolerance, Upper Frequency Tolerance, Video Carrier Frequency, Color Carrier
+Frequency and Sound Carrier Frequency.  You can
+sort the list by clicking the header for any column you wish.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+<a name="RadioFrequencySpectrum"></a>
+<b>Radio Frequency Spctrum</b>
+<br>
+This reference shows the Radio Frequency Spectrum of 3 kHz to 3,000,000 MHz.  This spectrum
+is divided into the various bands shown on this screen.
+sort the list by clicking the header for any column you wish.
+<br><br><hr><br>
+
+
+<!-- PegHelp -->
+</body></html>

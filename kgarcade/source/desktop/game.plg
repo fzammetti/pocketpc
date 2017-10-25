@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: game - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP1952.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "C:\Program Files\Libraries\GapiDraw\include" /I "C:\Program Files\libraries\HekkusSoundSystem" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/game.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\temp\etc\kgarcade\source\common\process_next_frame.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1952.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1953.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/game.pdb" /map:"Release/game.map" /debug /debugtype:both /machine:I386 /out:"Release/game.exe" 
+.\Release\a_day_in_the_strife.obj
+.\Release\alien_babble.obj
+.\Release\antigravitator.obj
+.\Release\conquerror.obj
+.\Release\copycat.obj
+.\Release\cosmic_squirrel.obj
+.\Release\deathtrap.obj
+.\Release\defendoh.obj
+.\Release\engineer.obj
+.\Release\far_out_fowl.obj
+.\Release\ffopir_sirtet_paehc.obj
+.\Release\flight_of_doom.obj
+.\Release\glutton.obj
+.\Release\in_memoria.obj
+.\Release\lepar_land.obj
+.\Release\muncher_dude.obj
+.\Release\refluxive.obj
+.\Release\reluctant_hero.obj
+.\Release\son_of_eliminator.obj
+.\Release\squishem.obj
+.\Release\the_bogaz_derby.obj
+.\Release\the_escape.obj
+.\Release\the_redeye_order.obj
+.\Release\trouble_in_vectropolis.obj
+.\Release\virus.obj
+.\Release\new_adventure.obj
+.\Release\player_died.obj
+.\Release\win.obj
+.\Release\character_interaction.obj
+.\Release\credits.obj
+.\Release\final_score.obj
+.\Release\high_scores.obj
+.\Release\instructions.obj
+.\Release\intro_crackhead.obj
+.\Release\intro_omnytex.obj
+.\Release\main_menu.obj
+.\Release\new_game_type.obj
+.\Release\options.obj
+.\Release\title.obj
+.\Release\walking_around_the_ship.obj
+.\Release\input_handlers.obj
+.\Release\main.obj
+.\Release\process_next_frame.obj
+.\Release\GapiApplication.obj
+.\Release\game.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1953.tmp"
+<h3>Output Window</h3>
+Compiling...
+process_next_frame.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+game.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

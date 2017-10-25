@@ -1,0 +1,84 @@
+[Version]
+Signature   = "$Windows NT$"
+Provider    = "Omnytex"
+CESignature = "$Windows CE$"
+
+
+[CEStrings]
+AppName    = "Electro"
+InstallDir = %CE1%\%AppName% 
+
+
+[CEDevice.SH3]
+ProcessorType = 10003
+
+[CEDevice.MIPS]
+ProcessorType = 4000
+
+[CEDevice.ARM]
+ProcessorType = 2577
+
+
+[DefaultInstall]
+CEShortcuts = Shortcuts.ALL
+
+[DefaultInstall.SH3]
+CopyFiles = Files.Common, Files.SH3
+
+[DefaultInstall.MIPS]
+CopyFiles = Files.Common, Files.MIPS
+
+[DefaultInstall.ARM]
+CopyFiles = Files.Common, Files.ARM
+
+
+[SourceDisksNames]
+1 = ,"Common Files",,HELP
+
+[SourceDisksNames.MIPS]
+2 = ,"MIPS Files",,MIPS
+
+[SourceDisksNames.ARM]
+2 = ,"ARM Files",,ARM
+
+[SourceDisksNames.SH3]
+2 = ,"SH3 Files",,SH3
+
+
+[SourceDiskSFiles]
+Electro.htm = 1
+
+[SourceDisksFiles.SH3]
+Electro.exe = 2
+
+[SourceDisksFiles.MIPS]
+Electro.exe = 2
+
+[SourceDisksFiles.ARM]
+Electro.exe = 2
+
+
+[DestinationDirs]
+Shortcuts.All  = 0,%CE11%
+Files.Common   = 0,%CE2%
+Files.SH3      = 0,%InstallDir%
+Files.MIPS     = 0,%InstallDir%
+Files.ARM      = 0,%InstallDir%
+DefaultDestDir = 0,%InstallDir%
+
+
+[Shortcuts.All]
+Electro,0,Electro.exe
+
+
+[Files.Common]
+Electro.htm,,,0
+
+[Files.SH3]
+Electro.exe,,,0
+
+[Files.MIPS]
+Electro.exe,,,0
+
+[Files.ARM]
+Electro.exe,,,0

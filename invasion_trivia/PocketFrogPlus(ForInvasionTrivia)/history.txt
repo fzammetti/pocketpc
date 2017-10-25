@@ -1,0 +1,55 @@
+PocketFrog - The Game Library for Pocket PC Devices
+Copyright 2002  Thierry Tremblay
+
+Permission to use, copy, modify, distribute and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that the above copyright notice appear in all copies and
+that both that copyright notice and this permission notice appear
+in supporting documentation.  Thierry Tremblay makes no representations
+about the suitability of this software for any purpose.
+It is provided "as is" without express or implied warranty.
+
+
+
+Release 0.6.0
+=============
+
++ Blit with rotation: Rasterizer::BlitRotated()
++ Blit with stretching: Rasterizer::BlitStretch()
++ By popular request: Surface::GetPixel() method
++ New sample "Rotate" to show off blits with rotation
++ Added EVC 3.0 project files for the existing samples
+
+
+
+Release 0.5.3
+=============
+
++ Support for HPC 2000 devices.
++ Added Plasma sample by "Burning Sheep".
++ Added FPS counter to Blit sample.
+- Screen is not zoomed anymore on desktop PC.
+
+
+
+Release 0.5.2
+=============
+
++ Improved Blit sample to show how to handle stylus input.
++ #pragma used to automatically link the proper PocketFrog library.
++ Support for PocketPC emulators (PPC and PPC2002).
++ Dirty rectangle is now used in method Display::Update().
+! Fixed potential memory leak when accessing the screen DC.
+
+
+
+Release 0.5.1
+=============
+
++ Added missing method CreateRasterizer() to class DisplayDevice.
++ STL not needed anymore to use the library, only to compile it.
++ Removed need for GX.LIB (GX.DLL now linked dynamically).
++ Optimized Blit() / Clear() primitives for normal rasterizer.
++ Faster GAPI emulation (SimpleGAPI.cpp)
++ Emulation now runs zoomed (x2).
++ Emulation now works for on Windows 9x OS.

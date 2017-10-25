@@ -1,0 +1,39 @@
+[Version]
+Signature   = "$Windows NT$"
+Provider    = "Omnytex"
+CESignature = "$Windows CE$"
+
+[CEStrings]
+AppName="KandG Arcade"
+InstallDir="%CE1%\Omnytex\KGArcade"
+
+[CEDevice]
+ProcessorType=2577
+VersionMin=0.0
+VersionMax=0.0
+BuildMin=0
+BuildMax=0
+
+[SourceDisksNames]
+1=,Source1,,"files"
+
+[SourceDisksFiles]
+"gd300.dll"=1
+"hss.dll"=1
+"kgarcade.exe"=1
+
+[CopyFiles1]
+"gd300.dll",,,0x00000001
+"hss.dll",,,0x00000001
+"kgarcade.exe",,,0x00000001
+
+[CEShortcuts1]
+"KandG Arcade.lnk",0,"kgarcade.exe"
+
+[DestinationDirs]
+CopyFiles1=0,"%InstallDir%"
+CEShortcuts1=0,"%CE14%"
+
+[DefaultInstall]
+CopyFiles=CopyFiles1
+CEShortcuts=CEShortcuts1

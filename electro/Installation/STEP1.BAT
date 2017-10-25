@@ -1,0 +1,1 @@
+CABWiz "Electro.inf" /err step1err.log /cpu MIPS ARM SH3

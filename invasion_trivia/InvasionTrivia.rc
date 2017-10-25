@@ -1,0 +1,504 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_SFX_EXPLOSION       WAVE    DISCARDABLE     "Audio\\Explosion.wav"
+IDR_SFX_UFO_HUM         WAVE    DISCARDABLE     "Audio\\UFOHum.wav"
+IDR_SFX_LASER           WAVE    DISCARDABLE     "Audio\\Laser.wav"
+IDR_SFX_TICK            WAVE    DISCARDABLE     "Audio\\Tick.wav"
+IDR_SFX_TOCK            WAVE    DISCARDABLE     "Audio\\Tock.wav"
+IDR_SFX_STYLUSSOUND     WAVE    DISCARDABLE     "Audio\\StylusSound.wav"
+IDR_SFX_RETURN_TO_MENU  WAVE    DISCARDABLE     "Audio\\ReturnToMenuSound.wav"
+IDR_SFX_DROPDOWN_BUTTONS WAVE    DISCARDABLE     "Audio\\DropDownButtonsSound.wav"
+IDR_SFX_DROPDOWN_DROPPED WAVE    DISCARDABLE     "Audio\\DropDownDropped.wav"
+IDR_SFX_DROPDOWN_ITEM_SELECTED WAVE    DISCARDABLE     "Audio\\DropDownItemSelected.wav"
+IDR_SFX_POPUP_NO        WAVE    DISCARDABLE     "Audio\\PopupNo.wav"
+IDR_SFX_POPUP_YES       WAVE    DISCARDABLE     "Audio\\PopupYes.wav"
+IDR_SFX_ICON_SLIDE      WAVE    DISCARDABLE     "Audio\\IconsSlide.wav"
+IDR_SFX_CHARACTER_SELECT WAVE    DISCARDABLE     "Audio\\CharacterSelect.wav"
+IDR_SFX_DRUMROLL        WAVE    DISCARDABLE     "Audio\\DrumRoll.wav"
+IDR_SFX_K_WWYAGOR       WAVE    DISCARDABLE     "Audio\\krelmac - well well you actually got one right.wav"
+IDR_SFX_G_ILHANIBWYI    WAVE    DISCARDABLE     "Audio\\gentoo - if luck had a name itd be whatever yours is.wav"
+IDR_SFX_INSTRUCTIONS_ARROWS WAVE    DISCARDABLE     "Audio\\InstructionsArrows.wav"
+IDR_SFX_K_DWMLYSIWL     WAVE    DISCARDABLE     "Audio\\krelmac - dont worry much like your species it wont last.wav"
+IDR_SFX_G_IDBIKTNO      WAVE    DISCARDABLE     "Audio\\gentoo - i dont believe it krelmac they nailed one.wav"
+IDR_SFX_K_NMTTMTNOFS    WAVE    DISCARDABLE     "Audio\\krelmac - never mind that theyll miss the next one for sure.wav"
+IDR_SFX_G_YSHLMPITQAQT  WAVE    DISCARDABLE     "Audio\\gentoo - you should have let me put in the questions about quantum theory.wav"
+IDR_SFX_K_ITTMTOFSG     WAVE    DISCARDABLE     "Audio\\krelmac - i thought for sure theyd miss that one gentoo.wav"
+IDR_SFX_K_LSYDTA        WAVE    DISCARDABLE     "Audio\\krelmac - lets see you do that again.wav"
+IDR_SFX_G_YYGGRBG       WAVE    DISCARDABLE     "Audio\\gentoo - yeah yeah guessed guessed right but guessed.wav"
+IDR_SFX_K_HCYPKTYMHGH   WAVE    DISCARDABLE     "Audio\\krelmac - how could you possibly know that you must have guessed human.wav"
+IDR_SFX_BOUNCE_SOUND    WAVE    DISCARDABLE     "Audio\\BounceSound.wav"
+IDR_SFX_DESTRUCTION_WORDS_TOKYO WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Tokyo.wav"
+IDR_SFX_DESTRUCTION_WORDS_MOSCOW WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Moscow.wav"
+IDR_SFX_DESTRUCTION_WORDS_ST_LOUIS WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_St_Louis.wav"
+IDR_SFX_DESTRUCTION_WORDS_ROME WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Rome.wav"
+IDR_SFX_DESTRUCTION_WORDS_LONDON WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_London.wav"
+IDR_SFX_DESTRUCTION_WORDS_GIZA WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Giza.wav"
+IDR_SFX_CONGRATS_SOUND  WAVE    DISCARDABLE     "Audio\\congratsSound.wav"
+IDR_SFX_CONGRATS_DONE   WAVE    DISCARDABLE     "Audio\\congratsDone.wav"
+IDR_SFX_CONGRATS_BACKSPACE WAVE    DISCARDABLE     "Audio\\congratsBackspace.wav"
+IDR_SFX_DESTRUCTION_WORDS_PISA WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Pisa.wav"
+IDR_SFX_K_YILTSOBHFITN  WAVE    DISCARDABLE     "Audio\\krelmac - yes i love the smell of burning human flesh in the morning.wav"
+IDR_SFX_G_IWUTECKTIGBF  WAVE    DISCARDABLE     "Audio\\gentoo - im warming up the energy cannons krelmac this is gonna be fun.wav"
+IDR_SFX_K_ATTGTSOTR     WAVE    DISCARDABLE     "Audio\\krelmac - alright time to get this show on the road.wav"
+IDR_SFX_K_G             WAVE    DISCARDABLE     "Audio\\krelmac - gentoo.wav"
+IDR_SFX_G_BIWTSI        WAVE    DISCARDABLE     "Audio\\gentoo - but i wanted to say it.wav"
+IDR_SFX_G_S             WAVE    DISCARDABLE     "Audio\\gentoo - sorry.wav"
+IDR_SFX_G_WTAEOSYWPH    WAVE    DISCARDABLE     "Audio\\gentoo - welcome to another edition of save your world puny human.wav"
+IDR_SFX_K_GTWML         WAVE    DISCARDABLE     "Audio\\krelmac - gentoo that was my line.wav"
+IDR_SFX_BRELNAR_CRICKET WAVE    DISCARDABLE     "Audio\\Brelnar_Cricket.wav"
+IDR_SFX_BRELNAR_BEAM_SOUND WAVE    DISCARDABLE     "Audio\\Brelnar_BeamSound.wav"
+IDR_SFX_ANSWER_DONE     WAVE    DISCARDABLE     "Audio\\Answer_Done.wav"
+IDR_SFX_K_GTGTP         WAVE    DISCARDABLE     "Audio\\krelmac - gentoo they got the point.wav"
+IDR_SFX_G_YYLITHUYWTSAMOTA WAVE    DISCARDABLE     "Audio\\gentoo - yeah you lived in their house until you were 37 and---.wav"
+IDR_SFX_K_WNYCHRYPBST   WAVE    DISCARDABLE     "Audio\\krelmac - well nows your chance human repay your parents by saving them.wav"
+IDR_SFX_K_YKTRGTHTGAQWF WAVE    DISCARDABLE     "Audio\\krelmac - you know the rules gentoo they have to get---.wav"
+IDR_SFX_G_WWAWWFIWBS    WAVE    DISCARDABLE     "Audio\\gentoo - well what are we waiting for i wanna blast something.wav"
+IDR_SFX_K_DWGTODLTBIWBL WAVE    DISCARDABLE     "Audio\\krelmac - dont worry gentoo this one doesnt look to bright---.wav"
+IDR_SFX_G_HKCIFTECYHHCIH WAVE    DISCARDABLE     "Audio\\gentoo - krelmac can i fire the energy cannons yet huh huh can i.wav"
+IDR_SFX_HARP            WAVE    DISCARDABLE     "Audio\\BookOfKnowledge_Harp.wav"
+IDR_SFX_K_YDHABG        WAVE    DISCARDABLE     "Audio\\krelmac - you dont have a butt gentoo.wav"
+IDR_SFX_K_PHYDIIMT      WAVE    DISCARDABLE     "Audio\\krelmac - puny human your destiny is in my tentacle.wav"
+IDR_SFX_G_NWKTDIIMB     WAVE    DISCARDABLE     "Audio\\gentoo - no way krelmac their destiny is in my butt.wav"
+IDR_SFX_G_EEWW          WAVE    DISCARDABLE     "Audio\\gentoo - eeeewwww.wav"
+IDR_SFX_G_TWTASCF       WAVE    DISCARDABLE     "Audio\\gentoo - well then whats that awful smell coming from.wav"
+IDR_SFX_K_IMBTH         WAVE    DISCARDABLE     "Audio\\krelmac - it must be the human.wav"
+IDR_SFX_ASKTHEANDROMEDANS WAVE    DISCARDABLE     "Audio\\AskTheAndromedans.wav"
+IDR_SFX_K_NII           WAVE    DISCARDABLE     "Audio\\krelmac - no its impossible.wav"
+IDR_SFX_K_TNWYCDTAT     WAVE    DISCARDABLE     "Audio\\krelmac - theres no way you could do that again though.wav"
+IDR_SFX_G_YNWNWNWNW     WAVE    DISCARDABLE     "Audio\\gentoo - yeah no way no way no way.wav"
+IDR_SFX_K_FWBOOWN       WAVE    DISCARDABLE     "Audio\\krelmac - fine well be on our way now.wav"
+IDR_SFX_G_UNTA          WAVE    DISCARDABLE     "Audio\\gentoo - until next time anyway.wav"
+IDR_SFX_G_WNTCHWNWK     WAVE    DISCARDABLE     "Audio\\gentoo - what they couldnt have won no way krelmac.wav"
+IDR_SFX_K_ISHISS        WAVE    DISCARDABLE     "Audio\\krelmac - i sit here in stunned silence.wav"
+IDR_SFX_G_SSK           WAVE    DISCARDABLE     "Audio\\gentoo - say something lkrelmac.wav"
+IDR_SFX_K_IGITFUTLG     WAVE    DISCARDABLE     "Audio\\krelmac - i guess its time for us to leave gentoo.wav"
+IDR_SFX_G_BIDWGIWBSUK   WAVE    DISCARDABLE     "Audio\\gentoo - i dont wanna go i wanna blow stuff up krelmac.wav"
+IDR_SFX_K_IKGIKIASDFUHIB WAVE    DISCARDABLE     "Audio\\krelmac - i know gentoo-hyper intelligent beings.wav"
+IDR_SFX_G_NKIKLTP       WAVE    DISCARDABLE     "Audio\\gentoo - no krelmac i kinda like this place.wav"
+IDR_SFX_K_TSSITYSSS     WAVE    DISCARDABLE     "Audio\\gentoo - this sucks sucks i tell you sucks sucks sucks.wav"
+IDR_SFX_K_YWYWIDKHBYW   WAVE    DISCARDABLE     "Audio\\krelmac - you won you won i dont know how but you won.wav"
+IDR_SFX_G_KTHGIRTGIRK   WAVE    DISCARDABLE     "Audio\\gentoo - krelmac the human got it right they got it right krelmac.wav"
+IDR_SFX_G_YYSDHIBYY     WAVE    DISCARDABLE     "Audio\\gentoo - yeah yeah sad day hyper intelligent beings yeah yeah.wav"
+IDR_SFX_G_TSKSWTICSWT   WAVE    DISCARDABLE     "Audio\\gentoo - this sucks krelmac sucks worse than i can say without telepathy.wav"
+IDR_SFX_G_TCTMHNHCHW    WAVE    DISCARDABLE     "Audio\\gentoo - they cheated they must have no human could have won.wav"
+IDR_SFX_K_WSTGAFCATGO   WAVE    DISCARDABLE     "Audio\\krelmac - we said theyd get a fair chance and they got one.wav"
+IDR_SFX_K_IIDGRATTWWNT  WAVE    DISCARDABLE     "Audio\\krelmac - indeed it does gentoo but rest assured-next time.wav"
+IDR_SFX_GAMEEXITSOUND   WAVE    DISCARDABLE     "Audio\\GameExitSound.wav"
+IDR_SFX_K_FWLBWBBSD     WAVE    DISCARDABLE     "Audio\\krelmac - fine well leave but well be back someday.wav"
+IDR_SFX_G_IMK           WAVE    DISCARDABLE     "Audio\\gentoo - in mortal kombat.wav"
+IDR_SFX_K_YHDU          WAVE    DISCARDABLE     "Audio\\krelmac - you have defeated us.wav"
+IDR_SFX_K_UTHEYEIWLF    WAVE    DISCARDABLE     "Audio\\krelmac - until then human enjoy your existence---.wav"
+IDR_SFX_G_TPWCABA       WAVE    DISCARDABLE     "Audio\\gentoo - to party with chicks and beer and.wav"
+IDR_SFX_K_WGIGTDKOASA   WAVE    DISCARDABLE     "Audio\\krelmac - well gentoo-kind of a shame actually.wav"
+IDR_SFX_G_DTRTTWK       WAVE    DISCARDABLE     "Audio\\gentoo - hehe did they really think theyd win krelmac hehe.wav"
+IDR_SFX_K_IALTBD        WAVE    DISCARDABLE     "Audio\\krelmac - i actually like-banana-.wav"
+IDR_SFX_G_WTK           WAVE    DISCARDABLE     "Audio\\gentoo - whys that krelmac.wav"
+IDR_SFX_G_N             WAVE    DISCARDABLE     "Audio\\gentoo - nothing.wav"
+IDR_SFX_G_YBYWSAWYAWTV  WAVE    DISCARDABLE     "Audio\\gentoo - yeah but you were such a wuss you-.wav"
+IDR_SFX_K_WWT           WAVE    DISCARDABLE     "Audio\\krelmac - what was that.wav"
+IDR_SFX_K_FTPPALGOH     WAVE    DISCARDABLE     "Audio\\krelmac - fire the plasma pulse and lets get outta here.wav"
+IDR_SFX_K_VW            WAVE    DISCARDABLE     "Audio\\krelmac - very well.wav"
+IDR_SFX_K_GPGITCTHNIOTPOTDS WAVE    DISCARDABLE     "Audio\\krelmac - good point gentoo-in that case-.wav"
+IDR_SFX_K_HMTHITYGDMWL  WAVE    DISCARDABLE     "Audio\\krelmac - how many times-dont mess with lucas.wav"
+IDR_SFX_G_BWATBLUK      WAVE    DISCARDABLE     "Audio\\gentoo - but were about to blow lucas up krelmac.wav"
+IDR_SFX_G_IFAGDITF      WAVE    DISCARDABLE     "Audio\\gentoo - i feel a great disturbance in the force-.wav"
+IDR_SFX_G_WGRFAWLSK     WAVE    DISCARDABLE     "Audio\\gentoo - well get ready for a whole lota sink krelmac.wav"
+IDR_SFX_K_OISG          WAVE    DISCARDABLE     "Audio\\krelmac - oh it shows gentoo.wav"
+IDR_SFX_G_WIDTPIMWK     WAVE    DISCARDABLE     "Audio\\gentoo - well i do take pride in my work krelmac.wav"
+IDR_SFX_K_GSITYEDPALTM  WAVE    DISCARDABLE     "Audio\\krelmac - gentoo sometimes i think-enjoy destroying-.wav"
+IDR_SFX_K_YQWGNF        WAVE    DISCARDABLE     "Audio\\krelmac - your quite welcome gentoo now fire.wav"
+IDR_SFX_G_WTYVMK        WAVE    DISCARDABLE     "Audio\\gentoo - well thank you very much krelmac.wav"
+IDR_SFX_G_IDGI          WAVE    DISCARDABLE     "Audio\\gentoo - i dont get it.wav"
+IDR_SFX_G_SWK           WAVE    DISCARDABLE     "Audio\\gentoo - so what krelmac.wav"
+IDR_SFX_K_GIHTEWCOAS    WAVE    DISCARDABLE     "Audio\\krelmac - gentoo-earth created on april 2nd.wav"
+IDR_SFX_K_TADTL         WAVE    DISCARDABLE     "Audio\\krelmac - thats a day too late.wav"
+IDR_SFX_G_YBIHTDB       WAVE    DISCARDABLE     "Audio\\gentoo - yeah but i have the deuterium bombs.wav"
+IDR_SFX_K_AF            WAVE    DISCARDABLE     "Audio\\krelmac - april fools.wav"
+IDR_SFX_K_GYASAT        WAVE    DISCARDABLE     "Audio\\krelmac - geez your as stupid as them gentoo.wav"
+IDR_SFX_G_U             WAVE    DISCARDABLE     "Audio\\gentoo - ummm.wav"
+IDR_SFX_G_YNSACFAK      WAVE    DISCARDABLE     "Audio\\gentoo - you never show any compassion-.wav"
+IDR_SFX_G_SWIIAMAANATFEWAIAV WAVE    DISCARDABLE     "Audio\\gentoo - so what if i am man-.wav"
+IDR_SFX_K_YCR           WAVE    DISCARDABLE     "Audio\\krelmac - yeah compassion right.wav"
+IDR_SFX_K_AYCG          WAVE    DISCARDABLE     "Audio\\krelmac - are you crying gentoo.wav"
+IDR_SFX_K_IGMTPBMG      WAVE    DISCARDABLE     "Audio\\krelmac - im gonna miss that pretty blue marble gentoo.wav"
+IDR_SFX_K_RBIWJA        WAVE    DISCARDABLE     "Audio\\krelmac - relax buddy i was just asking.wav"
+IDR_SFX_G_YMTK          WAVE    DISCARDABLE     "Audio\\gentoo - yeah me too krelmac.wav"
+IDR_SFX_DESTRUCTION_WORDS_PARIS WAVE    DISCARDABLE     "Audio\\Words_CityDestruction_Paris.wav"
+IDR_SFX_G_BUHAHAHA      WAVE    DISCARDABLE     "Audio\\gentoo - buhahahaha.wav"
+IDR_SFX_G_HNACD         WAVE    DISCARDABLE     "Audio\\gentoo - hehehe not a chance dude.wav"
+IDR_SFX_G_T             WAVE    DISCARDABLE     "Audio\\gentoo - toast.wav"
+IDR_SFX_K_BUHAHAHA      WAVE    DISCARDABLE     "Audio\\krelmac - buhahahaha.wav"
+IDR_SFX_K_F             WAVE    DISCARDABLE     "Audio\\krelmac - fool.wav"
+IDR_SFX_K_OJ            WAVE    DISCARDABLE     "Audio\\krelmac - oh jeez.wav"
+IDR_SFX_G_KCIFTECYHHCI  WAVE    DISCARDABLE     "Audio\\gentoo - krelmac can i fire the energy-.wav"
+IDR_KANDG_LAUGHING      WAVE    DISCARDABLE     "Audio\\KandG_Laughing.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+IDR_UFO_002             IMAGE   DISCARDABLE     "Graphics\\UFO_002.png"
+IDR_UFO_003             IMAGE   DISCARDABLE     "Graphics\\UFO_003.png"
+IDR_UFO_004             IMAGE   DISCARDABLE     "Graphics\\UFO_004.png"
+IDR_UFO_001             IMAGE   DISCARDABLE     "Graphics\\UFO_001.png"
+IDR_EXPLOSION_002       IMAGE   DISCARDABLE     "Graphics\\Explosion_002.png"
+IDR_EXPLOSION_003       IMAGE   DISCARDABLE     "Graphics\\Explosion_003.png"
+IDR_EXPLOSION_004       IMAGE   DISCARDABLE     "Graphics\\Explosion_004.png"
+IDR_EXPLOSION_005       IMAGE   DISCARDABLE     "Graphics\\Explosion_005.png"
+IDR_EXPLOSION_001       IMAGE   DISCARDABLE     "Graphics\\Explosion_001.png"
+IDR_LASER_003           IMAGE   DISCARDABLE     "Graphics\\Laser_003.png"
+IDR_LASER_002           IMAGE   DISCARDABLE     "Graphics\\Laser_002.png"
+IDR_LASER_001           IMAGE   DISCARDABLE     "Graphics\\Laser_001.png"
+IDR_PVLOGO              IMAGE   DISCARDABLE     "Graphics\\PVLogo.png"
+IDR_OTXLOGO             IMAGE   DISCARDABLE     "Graphics\\OTXLogo.png"
+IDR_TITLE_SCENE_BACKGROUND IMAGE   DISCARDABLE     "Graphics\\Title_Screen.png"
+IDR_INVASIONTRIVIA_TITLE IMAGE   DISCARDABLE     "Graphics\\InvasionTrivia_Title.png"
+IDR_MAIN_MENU_START_GAME_0 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Start_Game_0.png"
+IDR_MAIN_MENU_CREDITS_0 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Credits_0.png"
+IDR_MAIN_MENU_EXIT_0    IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Exit_0.png"
+IDR_MAIN_MENU_HIGH_SCORES_0 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_High_Scores_0.png"
+IDR_MAIN_MENU_INSTRUCTIONS_0 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Instructions_0.png"
+IDR_MAIN_MENU_SETTINGS_0 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Settings_0.png"
+IDR_MAIN_MENU_START_GAME_1 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Start_Game_1.png"
+IDR_MAIN_MENU_CREDITS_1 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Credits_1.png"
+IDR_MAIN_MENU_EXIT_1    IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Exit_1.png"
+IDR_MAIN_MENU_HIGH_SCORES_1 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_High_Scores_1.png"
+IDR_MAIN_MENU_INSTRUCTIONS_1 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Instructions_1.png"
+IDR_MAIN_MENU_SETTINGS_1 IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Settings_1.png"
+IDR_MAIN_MENU_SHOCK_1   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_1.png"
+IDR_MAIN_MENU_SHOCK_2   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_2.png"
+IDR_MAIN_MENU_SHOCK_3   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_3.png"
+IDR_MAIN_MENU_SHOCK_4   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_4.png"
+IDR_MAIN_MENU_SHOCK_5   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_5.png"
+IDR_MAIN_MENU_SHOCK_6   IMAGE   DISCARDABLE     "Graphics\\Main_Menu_Shock_6.png"
+IDR_NEXT_QUESTION_BUTTON_0 IMAGE   DISCARDABLE     "Graphics\\Next_Question_Button_0.png"
+IDR_MATTER_ANTIMATTER_0 IMAGE   DISCARDABLE     "Graphics\\Matter_Antimatter_0.png"
+IDR_BEAM_A_BRELNAR_0    IMAGE   DISCARDABLE     "Graphics\\Beam_A_Brelnar_0.png"
+IDR_MATTER_ANTIMATTER_1 IMAGE   DISCARDABLE     "Graphics\\Matter_Antimatter_1.png"
+IDR_ASK_THE_ANDROMEDANS_1 IMAGE   DISCARDABLE     "Graphics\\Ask_The_Andromedans_1.png"
+IDR_BEAM_A_BRELNAR_1    IMAGE   DISCARDABLE     "Graphics\\Beam_A_Brelnar_1.png"
+IDR_ASK_THE_ANDROMEDANS_0 IMAGE   DISCARDABLE     "Graphics\\Ask_The_Andromedans_0.png"
+IDR_ANSWER_SCREEN_BACKGROUND IMAGE   DISCARDABLE     "Graphics\\Answer_Screen_Background.png"
+IDR_ANSWER_BOX          IMAGE   DISCARDABLE     "Graphics\\Answer_Box.png"
+IDR_MATTER_ANTIMATTER_DISABLED IMAGE   DISCARDABLE     "Graphics\\Matter_Antimatter_Disabled.png"
+IDR_ASK_THE_ANDROMEDANS_DISABLED IMAGE   DISCARDABLE     "Graphics\\Ask_The_Andromedans_Disabled.png"
+IDR_BEAM_A_BRELNAR_DISABLED IMAGE   DISCARDABLE     "Graphics\\Beam_A_Brelnar_Disabled.png"
+IDR_BOOK_OF_KNOWLEDGE_DISABLED IMAGE   DISCARDABLE     "Graphics\\Book_Of_Knowledge_Disabled.png"
+IDR_BOOK_OF_KNOWLEDGE_0 IMAGE   DISCARDABLE     "Graphics\\Book_Of_Knowledge_0.png"
+IDR_BOOK_OF_KNOWLEDGE_1 IMAGE   DISCARDABLE     "Graphics\\Book_Of_Knowledge_1.png"
+IDR_POINT_LEVELS_SCREEN_BACKGROUND IMAGE   DISCARDABLE     "Graphics\\Point_Levels_Screen_Background.png"
+IDR_ABANDON_GAME_BUTTON_1 IMAGE   DISCARDABLE     "Graphics\\Abandon_Game_Button_1.png"
+IDR_NEXT_QUESTION_BUTTON_1 IMAGE   DISCARDABLE     "Graphics\\Next_Question_Button_1.png"
+IDR_ABANDON_GAME_BUTTON_0 IMAGE   DISCARDABLE     "Graphics\\Abandon_Game_Button_0.png"
+IDR_PFE_POPUP_YES_0     IMAGE   DISCARDABLE     "Graphics\\PFE_Popup_Yes_0.png"
+IDR_PFE_POPUP_NO_0      IMAGE   DISCARDABLE     "Graphics\\PFE_Popup_No_0.png"
+IDR_PFE_POPUP_YES_1     IMAGE   DISCARDABLE     "Graphics\\PFE_Popup_Yes_1.png"
+IDR_PFE_POPUP_NO_1      IMAGE   DISCARDABLE     "Graphics\\PFE_Popup_No_1.png"
+IDR_PFE_DROPDOWN_0      IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_0.png"
+IDR_PFE_DROPDOWN_UPARROW_0 IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_UpArrow_0.png"
+IDR_PFE_DROPDOWN_DOWNARROW_0 IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DownArrow_0.png"
+IDR_PFE_DROPDOWN_ARROWDIVIDER IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_ArrowDivider.png"
+IDR_PFE_DROPDOWN_DROPBOX_LINETWO IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DropBox_LineTwo.png"
+IDR_PFE_DROPDOWN_DROPBOX IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DropBox.png"
+IDR_PFE_DROPDOWN_DROPBOX_LINEONE IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DropBox_LineOne.png"
+IDR_PFE_DROPDOWN_DROPBOX_LINETHREE IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DropBox_LineThree.png"
+IDR_PFE_DROPDOWN_UPARROW_1 IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_UpArrow_1.png"
+IDR_PFE_DROPDOWN_1      IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_1.png"
+IDR_PFE_DROPDOWN_DOWNARROW_1 IMAGE   DISCARDABLE     "Graphics\\PFE_DropDown_DownArrow_1.png"
+IDR_PFE_POPUP_BORDER    IMAGE   DISCARDABLE     "Graphics\\PFE_Popup_Border.png"
+IDR_ANSWER_BAB_ATA_BOX  IMAGE   DISCARDABLE     "Graphics\\Answer_BAB_ATA_Box.png"
+IDR_VIEWSCREEN          IMAGE   DISCARDABLE     "Graphics\\Viewscreen.png"
+IDR_ICON_TRAY_SLIDE_OUT_1 IMAGE   DISCARDABLE     "Graphics\\Icon_Tray_Slide_Out_1.png"
+IDR_ICON_TRAY_SLIDE_IN_0 IMAGE   DISCARDABLE     "Graphics\\Icon_Tray_Slide_In_0.png"
+IDR_ICON_TRAY_SLIDE_IN_1 IMAGE   DISCARDABLE     "Graphics\\Icon_Tray_Slide_In_1.png"
+IDR_ICON_TRAY_SLIDE_OUT_0 IMAGE   DISCARDABLE     "Graphics\\Icon_Tray_Slide_Out_0.png"
+IDR_CREDITS_LINE        IMAGE   DISCARDABLE     "Graphics\\CreditsLine.png"
+IDR_CHARACTER_SELECT_SCREEN_BACKGROUND IMAGE   DISCARDABLE     "Graphics\\CharacterSelectScreenBackground.png"
+IDR_CHARACTER_SELECT_BOX IMAGE   DISCARDABLE     "Graphics\\CharacterSelectBox.png"
+IDR_INS_PREV_1          IMAGE   DISCARDABLE     "Graphics\\InsPrev_1.png"
+IDR_INS_NEXT_0          IMAGE   DISCARDABLE     "Graphics\\InsNext_0.png"
+IDR_INS_NEXT_1          IMAGE   DISCARDABLE     "Graphics\\InsNext_1.png"
+IDR_INS_PREV_0          IMAGE   DISCARDABLE     "Graphics\\InsPrev_0.png"
+IDR_GENTOO_BODY_WHACKOFF IMAGE   DISCARDABLE     "Graphics\\Gentoo - Body Whackoff.png"
+IDR_GENTOO_BODY         IMAGE   DISCARDABLE     "Graphics\\Gentoo - Body.png"
+IDR_GENTOO_HEAD_EMBARASSED_BLUSHING IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Embarassed Blushing.png"
+IDR_GENTOO_HEAD_EMBARASSED IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Embarassed.png"
+IDR_GENTOO_HEAD_LOOKING_DOWN IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Looking Down.png"
+IDR_GENTOO_HEAD_MOUTH_CLOSED IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Mouth Closed.png"
+IDR_GENTOO_HEAD_MOUTH_OPENED IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Mouth Opened.png"
+IDR_GENTOO_HEAD_MOUTH_OPENED_WIDE IMAGE   DISCARDABLE     "Graphics\\Gentoo - Head Mouth Opened Wide.png"
+IDR_SHIP_INTERIOR       IMAGE   DISCARDABLE     "Graphics\\Ship Interior.png"
+IDR_KRELMAC_HEAD_MOUTH_OPENED IMAGE   DISCARDABLE     "Graphics\\Krelmac - Head Mouth Opened.png"
+IDR_KRELMAC_BODY        IMAGE   DISCARDABLE     "Graphics\\Krelmac - Body.png"
+IDR_KRELMAC_HEAD_MOUTH_CLOSED IMAGE   DISCARDABLE     "Graphics\\Krelmac - Head Mouth Closed.png"
+IDR_KRELMAC_HEAD_MOUTH_OPENED_WIDE IMAGE   DISCARDABLE     "Graphics\\Krelmac - Head Mouth Opened Wide.png"
+IDR_KRELMAC_EYEBROWS    IMAGE   DISCARDABLE     "Graphics\\Krelmac - Eyebrows.png"
+IDR_VIEWSCREEN_GENTOO   IMAGE   DISCARDABLE     "Graphics\\Viewscreen_Gentoo.png"
+IDR_VIEWSCREEN_KRELMAC  IMAGE   DISCARDABLE     "Graphics\\Viewscreen_Krelmac.png"
+IDR_VIEWSCREEN_KRELMAC_AND_GENTOO IMAGE   DISCARDABLE     "Graphics\\Viewscreen_KrelmacAndGentoo.png"
+IDR_CONGRATSBGROUND     IMAGE   DISCARDABLE     "Graphics\\CongratsBGround.png"
+IDR_LIVECITY_PARIS      IMAGE   DISCARDABLE     "Graphics\\LiveCity_Paris.png"
+IDR_DEADCITY_PARIS      IMAGE   DISCARDABLE     "Graphics\\DeadCity_Paris.png"
+IDR_DEADCITY_GIZA       IMAGE   DISCARDABLE     "Graphics\\DeadCity_Giza.png"
+IDR_DEADCITY_LONDON     IMAGE   DISCARDABLE     "Graphics\\DeadCity_London.png"
+IDR_DEADCITY_MOSCOW     IMAGE   DISCARDABLE     "Graphics\\DeadCity_Moscow.png"
+IDR_DEADCITY_TOKYO      IMAGE   DISCARDABLE     "Graphics\\DeadCity_Tokyo.png"
+IDR_DEADCITY_ROME       IMAGE   DISCARDABLE     "Graphics\\DeadCity_Rome.png"
+IDR_DEADCITY_ST_LOUIS   IMAGE   DISCARDABLE     "Graphics\\DeadCity_StLouis.png"
+IDR_LIVECITY_MOSCOW     IMAGE   DISCARDABLE     "Graphics\\LiveCity_Moscow.png"
+IDR_LIVECITY_GIZA       IMAGE   DISCARDABLE     "Graphics\\LiveCity_Giza.png"
+IDR_LIVECITY_LONDON     IMAGE   DISCARDABLE     "Graphics\\LiveCity_London.png"
+IDR_LIVECITY_TOKYO      IMAGE   DISCARDABLE     "Graphics\\LiveCity_Tokyo.png"
+IDR_LIVECITY_ROME       IMAGE   DISCARDABLE     "Graphics\\LiveCity_Rome.png"
+IDR_LIVECITY_ST_LOUIS   IMAGE   DISCARDABLE     "Graphics\\LiveCity_StLouis.png"
+IDR_CHARACTER_MALE_2_D  IMAGE   DISCARDABLE     "Graphics\\male2d.png"
+IDR_CHARACTER_MALE_1_A  IMAGE   DISCARDABLE     "Graphics\\male1a.png"
+IDR_CHARACTER_MALE_1_B  IMAGE   DISCARDABLE     "Graphics\\male1b.png"
+IDR_CHARACTER_MALE_1_C  IMAGE   DISCARDABLE     "Graphics\\male1c.png"
+IDR_CHARACTER_MALE_1_D  IMAGE   DISCARDABLE     "Graphics\\male1d.png"
+IDR_CHARACTER_MALE_2_A  IMAGE   DISCARDABLE     "Graphics\\male2a.png"
+IDR_CHARACTER_MALE_2_B  IMAGE   DISCARDABLE     "Graphics\\male2b.png"
+IDR_CHARACTER_MALE_2_C  IMAGE   DISCARDABLE     "Graphics\\male2c.png"
+IDR_CHARACTER_FEMALE_2_D IMAGE   DISCARDABLE     "Graphics\\female2d.png"
+IDR_CHARACTER_FEMALE_1_A IMAGE   DISCARDABLE     "Graphics\\female1a.png"
+IDR_CHARACTER_FEMALE_1_B IMAGE   DISCARDABLE     "Graphics\\female1b.png"
+IDR_CHARACTER_FEMALE_1_C IMAGE   DISCARDABLE     "Graphics\\female1c.png"
+IDR_CHARACTER_FEMALE_1_D IMAGE   DISCARDABLE     "Graphics\\female1d.png"
+IDR_CHARACTER_FEMALE_2_A IMAGE   DISCARDABLE     "Graphics\\female2a.png"
+IDR_CHARACTER_FEMALE_2_B IMAGE   DISCARDABLE     "Graphics\\female2b.png"
+IDR_CHARACTER_FEMALE_2_C IMAGE   DISCARDABLE     "Graphics\\female2c.png"
+IDR_CHARACTER_FEMALE_3_D IMAGE   DISCARDABLE     "Graphics\\female3d.png"
+IDR_CHARACTER_FEMALE_3_A IMAGE   DISCARDABLE     "Graphics\\female3a.png"
+IDR_CHARACTER_FEMALE_3_B IMAGE   DISCARDABLE     "Graphics\\female3b.png"
+IDR_CHARACTER_FEMALE_3_C IMAGE   DISCARDABLE     "Graphics\\female3c.png"
+IDR_CHARACTER_MALE_3_D  IMAGE   DISCARDABLE     "Graphics\\male3d.png"
+IDR_CHARACTER_MALE_3_A  IMAGE   DISCARDABLE     "Graphics\\male3a.png"
+IDR_CHARACTER_MALE_3_B  IMAGE   DISCARDABLE     "Graphics\\male3b.png"
+IDR_CHARACTER_MALE_3_C  IMAGE   DISCARDABLE     "Graphics\\male3c.png"
+IDR_LIVECITY_PISA       IMAGE   DISCARDABLE     "Graphics\\LiveCity_Pisa.png"
+IDR_DEADCITY_PISA       IMAGE   DISCARDABLE     "Graphics\\DeadCity_Pisa.png"
+IDR_BRELNAR_SHOCKED_RIGHT IMAGE   DISCARDABLE     "Graphics\\Brelnar-Shocked-Right.png"
+IDR_BRELNAR_BEAM_1      IMAGE   DISCARDABLE     "Graphics\\Brelnar-Beam-1.png"
+IDR_BRELNAR_BEAM_2      IMAGE   DISCARDABLE     "Graphics\\Brelnar-Beam-2.png"
+IDR_BRELNAR_BEAM_COMING_DOWN IMAGE   DISCARDABLE     "Graphics\\Brelnar-Beam-Coming-Down.png"
+IDR_BRELNAR_BEAM_UP_1   IMAGE   DISCARDABLE     "Graphics\\Brelnar-Beam-Up-1.png"
+IDR_BRELNAR_BEAM_UP_2   IMAGE   DISCARDABLE     "Graphics\\Brelnar-Beam-Up-2.png"
+IDR_BRELNAR_BORED       IMAGE   DISCARDABLE     "Graphics\\Brelnar-Bored.png"
+IDR_BRELNAR_SHOCKED_LEFT IMAGE   DISCARDABLE     "Graphics\\Brelnar-Shocked-Left.png"
+IDR_BRELNAR_BACKGROUND  IMAGE   DISCARDABLE     "Graphics\\Brelnar-Background.png"
+IDR_BRELNAR_WHAT_THE    IMAGE   DISCARDABLE     "Graphics\\Brelnar-What-The.png"
+IDR_BRELNAR_BRIGHT_IDEA IMAGE   DISCARDABLE     "Graphics\\Brelnar-Bright-Idea.png"
+IDR_BRELNAR_LATER_JOE   IMAGE   DISCARDABLE     "Graphics\\Brelnar-Later-Joe.png"
+IDR_BRELNAR_QUIZZICAL   IMAGE   DISCARDABLE     "Graphics\\Brelnar-Quizzical.png"
+IDR_BRELNAR_WORDS_THANKYOUNOWGETOUT IMAGE   DISCARDABLE     "Graphics\\Brelnar-Words-ThankYouNowGetOut.png"
+IDR_BRELNAR_WORDS_CHOOSEANANSWER IMAGE   DISCARDABLE     "Graphics\\Brelnar-Words-ChooseAnAnswer.png"
+IDR_BRELNAR_WORDS_PITIFULBRELNAR IMAGE   DISCARDABLE     "Graphics\\Brelnar-Words-PitifulBrelnar.png"
+IDR_BOK_BACKGROUND      IMAGE   DISCARDABLE     "Graphics\\BookOfKnowledge_Background.png"
+IDR_BOK_1               IMAGE   DISCARDABLE     "Graphics\\Book-of-Knowledge-1.png"
+IDR_BOK_2               IMAGE   DISCARDABLE     "Graphics\\Book-of-Knowledge-2.png"
+IDR_BOK_3               IMAGE   DISCARDABLE     "Graphics\\Book-of-Knowledge-3.png"
+IDR_BOK_4               IMAGE   DISCARDABLE     "Graphics\\Book-of-Knowledge-4.png"
+IDR_BOK_5               IMAGE   DISCARDABLE     "Graphics\\Book-of-Knowledge-5.png"
+IDR_ASKTHEANDROMEDANS   IMAGE   DISCARDABLE     "Graphics\\AskTheAndromedans.png"
+IDR_DESTRUCTION_EARTH_DESTROYED IMAGE   DISCARDABLE     "Graphics\\Destruction_Earth_Destroyed.png"
+IDR_DESTRUCTION_EARTH   IMAGE   DISCARDABLE     "Graphics\\Destruction_Earth.png"
+IDR_DESTRUCTION_UFO_ZOOM_03 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_03.png"
+IDR_DESTRUCTION_UFO_ZOOM_02 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_02.png"
+IDR_DESTRUCTION_UFO_ZOOM_01 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_01.png"
+IDR_DESTRUCTION_UFO_ZOOM_06 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_06.png"
+IDR_DESTRUCTION_UFO_ZOOM_05 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_05.png"
+IDR_DESTRUCTION_UFO_ZOOM_04 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_04.png"
+IDR_DESTRUCTION_UFO_ZOOM_10 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_10.png"
+IDR_DESTRUCTION_UFO_ZOOM_08 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_08.png"
+IDR_DESTRUCTION_UFO_ZOOM_09 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_09.png"
+IDR_DESTRUCTION_UFO_ZOOM_07 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_07.png"
+IDR_DESTRUCTION_UFO_ZOOM_14 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_14.png"
+IDR_DESTRUCTION_UFO_ZOOM_12 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_12.png"
+IDR_DESTRUCTION_UFO_ZOOM_13 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_13.png"
+IDR_DESTRUCTION_UFO_ZOOM_11 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_11.png"
+IDR_DESTRUCTION_UFO_ZOOM_15 IMAGE   DISCARDABLE     "Graphics\\Destruction_UFO_Zoom_15.png"
+IDR_KGSHIP_FULLSCREEN   IMAGE   DISCARDABLE     "Graphics\\KGShip_FullScreen.png"
+IDR_HS_NONE             IMAGE   DISCARDABLE     "Graphics\\HS_None.png"
+IDR_ANTIATOM_04         IMAGE   DISCARDABLE     "Graphics\\antiatom04.png"
+IDR_ANTIATOM_01         IMAGE   DISCARDABLE     "Graphics\\antiatom01.png"
+IDR_ANTIATOM_02         IMAGE   DISCARDABLE     "Graphics\\antiatom02.png"
+IDR_ANTIATOM_03         IMAGE   DISCARDABLE     "Graphics\\antiatom03.png"
+IDR_ANTIATOM_08         IMAGE   DISCARDABLE     "Graphics\\antiatom08.png"
+IDR_ANTIATOM_05         IMAGE   DISCARDABLE     "Graphics\\antiatom05.png"
+IDR_ANTIATOM_06         IMAGE   DISCARDABLE     "Graphics\\antiatom06.png"
+IDR_ANTIATOM_07         IMAGE   DISCARDABLE     "Graphics\\antiatom07.png"
+IDR_ANTIATOM_12         IMAGE   DISCARDABLE     "Graphics\\antiatom12.png"
+IDR_ANTIATOM_09         IMAGE   DISCARDABLE     "Graphics\\antiatom09.png"
+IDR_ANTIATOM_10         IMAGE   DISCARDABLE     "Graphics\\antiatom10.png"
+IDR_ANTIATOM_11         IMAGE   DISCARDABLE     "Graphics\\antiatom11.png"
+IDR_ATOM_04             IMAGE   DISCARDABLE     "Graphics\\atom04.png"
+IDR_ATOM_01             IMAGE   DISCARDABLE     "Graphics\\atom01.png"
+IDR_ATOM_02             IMAGE   DISCARDABLE     "Graphics\\atom02.png"
+IDR_ATOM_03             IMAGE   DISCARDABLE     "Graphics\\atom03.png"
+IDR_ATOM_08             IMAGE   DISCARDABLE     "Graphics\\atom08.png"
+IDR_ATOM_05             IMAGE   DISCARDABLE     "Graphics\\atom05.png"
+IDR_ATOM_06             IMAGE   DISCARDABLE     "Graphics\\atom06.png"
+IDR_ATOM_07             IMAGE   DISCARDABLE     "Graphics\\atom07.png"
+IDR_ATOM_12             IMAGE   DISCARDABLE     "Graphics\\atom12.png"
+IDR_ATOM_09             IMAGE   DISCARDABLE     "Graphics\\atom09.png"
+IDR_ATOM_10             IMAGE   DISCARDABLE     "Graphics\\atom10.png"
+IDR_ATOM_11             IMAGE   DISCARDABLE     "Graphics\\atom11.png"
+IDR_CLICKGAMER          IMAGE   DISCARDABLE     "Graphics\\clickgamer splash screen.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// QAC
+//
+
+IDR_QAC                 QAC     DISCARDABLE     "QAC\\qac.qac"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SCRIPTS
+//
+
+IDR_TITLE_SCENE_SCRIPT  SCRIPTS DISCARDABLE     "SceneScripts\\TitleScreen.oss"
+IDR_START_GAME_INTRO_1_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\StartGameIntro1.oss"
+IDR_CORRECT_ANSWER_1_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\CorrectAnswer1.oss"
+IDR_WORLD_DESTRUCTION_1_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\WorldDestruction1.oss"
+IDR_PLAYER_WINS_1_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\PlayerWins1.oss"
+IDR_CORRECT_ANSWER_5_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\CorrectAnswer5.oss"
+IDR_CORRECT_ANSWER_3_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\CorrectAnswer3.oss"
+IDR_CORRECT_ANSWER_4_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\CorrectAnswer4.oss"
+IDR_CORRECT_ANSWER_2_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\CorrectAnswer2.oss"
+IDR_PLAYER_WINS_5_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\PlayerWins5.oss"
+IDR_PLAYER_WINS_3_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\PlayerWins3.oss"
+IDR_PLAYER_WINS_4_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\PlayerWins4.oss"
+IDR_PLAYER_WINS_2_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\PlayerWins2.oss"
+IDR_START_GAME_INTRO_5_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\StartGameIntro5.oss"
+IDR_START_GAME_INTRO_3_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\StartGameIntro3.oss"
+IDR_START_GAME_INTRO_4_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\StartGameIntro4.oss"
+IDR_START_GAME_INTRO_2_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\StartGameIntro2.oss"
+IDR_WORLD_DESTRUCTION_5_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\WorldDestruction5.oss"
+IDR_WORLD_DESTRUCTION_3_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\WorldDestruction3.oss"
+IDR_WORLD_DESTRUCTION_4_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\WorldDestruction4.oss"
+IDR_WORLD_DESTRUCTION_2_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\WorldDestruction2.oss"
+IDR_MATTER_ANTIMATTER_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\ZumbugwaMatterAntimatter.oss"
+IDR_ASK_THE_ANDROMEDANS_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\ZumbugwaAskTheAndromedans.oss"
+IDR_BEAM_A_BRELNAR_SCENE_SCRIPT SCRIPTS DISCARDABLE     "SceneScripts\\ZumbugwaBeamABrelnar.oss"
+IDR_BOOK_OF_KNOWLEDGE_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\ZumbugwaBookOfKnowledge.oss"
+IDR_DESTRUCTION_PARIS_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionParis.oss"
+IDR_DESTRUCTION_GIZA_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionGiza.oss"
+IDR_DESTRUCTION_LONDON_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionLondon.oss"
+IDR_DESTRUCTION_MOSCOW_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionMoscow.oss"
+IDR_DESTRUCTION_TOKYO_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionTokyo.oss"
+IDR_DESTRUCTION_PISA_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionPisa.oss"
+IDR_DESTRUCTION_ROME_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionRome.oss"
+IDR_DESTRUCTION_ST_LOUIS_SCENE_SCRIPT SCRIPTS DISCARDABLE     "Scenescripts\\DestructionStLouis.oss"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "Icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FONTS
+//
+
+IDR_FONT_DEFAULT        FONTS   DISCARDABLE     "Fonts\\Default.fnt"
+IDR_FONT_20S            FONTS   DISCARDABLE     "Fonts\\20s.fnt"
+IDR_FONT_ANTIQUE        FONTS   DISCARDABLE     "Fonts\\Antique.fnt"
+IDR_FONT_ART            FONTS   DISCARDABLE     "Fonts\\Art.fnt"
+IDR_FONT_BOLD           FONTS   DISCARDABLE     "Fonts\\Bold.fnt"
+IDR_FONT_BOXROUND       FONTS   DISCARDABLE     "Fonts\\Boxround.fnt"
+IDR_FONT_CP112          FONTS   DISCARDABLE     "Fonts\\Cp112.fnt"
+IDR_FONT_KANA           FONTS   DISCARDABLE     "Fonts\\Kana.fnt"
+IDR_FONT_MERP           FONTS   DISCARDABLE     "Fonts\\Merp.fnt"
+IDR_FONT_MODERN         FONTS   DISCARDABLE     "Fonts\\Modern.fnt"
+IDR_FONT_POOTER         FONTS   DISCARDABLE     "Fonts\\Pooter.fnt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PTMOD
+//
+
+IDR_THEME_MUSIC         PTMOD   DISCARDABLE     "Audio\\ThemeMusic.mod"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BRELNAR_MEANWHILE   "Meanwhile..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

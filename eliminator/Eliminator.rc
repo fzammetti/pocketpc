@@ -1,0 +1,483 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Game"
+    BEGIN
+        MENUITEM "New Game",                    IDM_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Options",                     IDM_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDM_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "How To Play...",              IDM_HOWTOPLAY
+        MENUITEM SEPARATOR
+        MENUITEM "About Eliminator",            IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PLAYFIELD DIALOG DISCARDABLE  0, 0, 141, 152
+STYLE WS_POPUP
+FONT 8, "System"
+BEGIN
+    CONTROL         105,IDC_TILE_1_1,"Static",SS_BITMAP | SS_NOTIFY,9,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_2,"Static",SS_BITMAP | SS_NOTIFY,21,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_3,"Static",SS_BITMAP | SS_NOTIFY,33,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_4,"Static",SS_BITMAP | SS_NOTIFY,45,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_5,"Static",SS_BITMAP | SS_NOTIFY,57,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_6,"Static",SS_BITMAP | SS_NOTIFY,69,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_7,"Static",SS_BITMAP | SS_NOTIFY,81,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_8,"Static",SS_BITMAP | SS_NOTIFY,93,27,13,
+                    12
+    CONTROL         105,IDC_TILE_1_9,"Static",SS_BITMAP | SS_NOTIFY,105,27,
+                    13,12
+    CONTROL         105,IDC_TILE_1_10,"Static",SS_BITMAP | SS_NOTIFY,117,27,
+                    13,12
+    CONTROL         105,IDC_TILE_2_1,"Static",SS_BITMAP | SS_NOTIFY,9,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_2,"Static",SS_BITMAP | SS_NOTIFY,21,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_3,"Static",SS_BITMAP | SS_NOTIFY,33,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_4,"Static",SS_BITMAP | SS_NOTIFY,45,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_5,"Static",SS_BITMAP | SS_NOTIFY,57,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_6,"Static",SS_BITMAP | SS_NOTIFY,69,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_7,"Static",SS_BITMAP | SS_NOTIFY,81,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_8,"Static",SS_BITMAP | SS_NOTIFY,93,39,13,
+                    12
+    CONTROL         105,IDC_TILE_2_9,"Static",SS_BITMAP | SS_NOTIFY,105,39,
+                    13,12
+    CONTROL         105,IDC_TILE_2_10,"Static",SS_BITMAP | SS_NOTIFY,117,39,
+                    13,12
+    CONTROL         105,IDC_TILE_3_1,"Static",SS_BITMAP | SS_NOTIFY,9,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_2,"Static",SS_BITMAP | SS_NOTIFY,21,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_3,"Static",SS_BITMAP | SS_NOTIFY,33,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_4,"Static",SS_BITMAP | SS_NOTIFY,45,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_5,"Static",SS_BITMAP | SS_NOTIFY,57,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_6,"Static",SS_BITMAP | SS_NOTIFY,69,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_7,"Static",SS_BITMAP | SS_NOTIFY,81,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_8,"Static",SS_BITMAP | SS_NOTIFY,93,51,13,
+                    12
+    CONTROL         105,IDC_TILE_3_9,"Static",SS_BITMAP | SS_NOTIFY,105,51,
+                    13,12
+    CONTROL         105,IDC_TILE_3_10,"Static",SS_BITMAP | SS_NOTIFY,117,51,
+                    13,12
+    CONTROL         105,IDC_TILE_4_1,"Static",SS_BITMAP | SS_NOTIFY,9,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_2,"Static",SS_BITMAP | SS_NOTIFY,21,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_3,"Static",SS_BITMAP | SS_NOTIFY,33,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_4,"Static",SS_BITMAP | SS_NOTIFY,45,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_5,"Static",SS_BITMAP | SS_NOTIFY,57,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_6,"Static",SS_BITMAP | SS_NOTIFY,69,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_7,"Static",SS_BITMAP | SS_NOTIFY,81,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_8,"Static",SS_BITMAP | SS_NOTIFY,93,63,13,
+                    12
+    CONTROL         105,IDC_TILE_4_9,"Static",SS_BITMAP | SS_NOTIFY,105,63,
+                    13,12
+    CONTROL         105,IDC_TILE_4_10,"Static",SS_BITMAP | SS_NOTIFY,117,63,
+                    13,12
+    CONTROL         105,IDC_TILE_5_1,"Static",SS_BITMAP | SS_NOTIFY,9,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_2,"Static",SS_BITMAP | SS_NOTIFY,21,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_3,"Static",SS_BITMAP | SS_NOTIFY,33,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_4,"Static",SS_BITMAP | SS_NOTIFY,45,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_5,"Static",SS_BITMAP | SS_NOTIFY,57,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_6,"Static",SS_BITMAP | SS_NOTIFY,69,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_7,"Static",SS_BITMAP | SS_NOTIFY,81,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_8,"Static",SS_BITMAP | SS_NOTIFY,93,75,13,
+                    12
+    CONTROL         105,IDC_TILE_5_9,"Static",SS_BITMAP | SS_NOTIFY,105,75,
+                    13,12
+    CONTROL         105,IDC_TILE_5_10,"Static",SS_BITMAP | SS_NOTIFY,117,75,
+                    13,12
+    CONTROL         105,IDC_TILE_6_1,"Static",SS_BITMAP | SS_NOTIFY,9,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_2,"Static",SS_BITMAP | SS_NOTIFY,21,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_3,"Static",SS_BITMAP | SS_NOTIFY,33,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_4,"Static",SS_BITMAP | SS_NOTIFY,45,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_5,"Static",SS_BITMAP | SS_NOTIFY,57,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_6,"Static",SS_BITMAP | SS_NOTIFY,69,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_7,"Static",SS_BITMAP | SS_NOTIFY,81,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_8,"Static",SS_BITMAP | SS_NOTIFY,93,87,13,
+                    12
+    CONTROL         105,IDC_TILE_6_9,"Static",SS_BITMAP | SS_NOTIFY,105,87,
+                    13,12
+    CONTROL         105,IDC_TILE_6_10,"Static",SS_BITMAP | SS_NOTIFY,117,87,
+                    13,12
+    CONTROL         105,IDC_TILE_7_1,"Static",SS_BITMAP | SS_NOTIFY,9,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_2,"Static",SS_BITMAP | SS_NOTIFY,21,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_3,"Static",SS_BITMAP | SS_NOTIFY,33,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_4,"Static",SS_BITMAP | SS_NOTIFY,45,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_5,"Static",SS_BITMAP | SS_NOTIFY,57,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_6,"Static",SS_BITMAP | SS_NOTIFY,69,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_7,"Static",SS_BITMAP | SS_NOTIFY,81,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_8,"Static",SS_BITMAP | SS_NOTIFY,93,99,13,
+                    12
+    CONTROL         105,IDC_TILE_7_9,"Static",SS_BITMAP | SS_NOTIFY,105,99,
+                    13,12
+    CONTROL         105,IDC_TILE_7_10,"Static",SS_BITMAP | SS_NOTIFY,117,99,
+                    13,12
+    CONTROL         105,IDC_TILE_8_1,"Static",SS_BITMAP | SS_NOTIFY,9,111,13,
+                    12
+    CONTROL         105,IDC_TILE_8_2,"Static",SS_BITMAP | SS_NOTIFY,21,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_3,"Static",SS_BITMAP | SS_NOTIFY,33,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_4,"Static",SS_BITMAP | SS_NOTIFY,45,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_5,"Static",SS_BITMAP | SS_NOTIFY,57,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_6,"Static",SS_BITMAP | SS_NOTIFY,69,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_7,"Static",SS_BITMAP | SS_NOTIFY,81,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_8,"Static",SS_BITMAP | SS_NOTIFY,93,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_9,"Static",SS_BITMAP | SS_NOTIFY,105,111,
+                    13,12
+    CONTROL         105,IDC_TILE_8_10,"Static",SS_BITMAP | SS_NOTIFY,117,111,
+                    13,12
+    CONTROL         105,IDC_TILE_9_1,"Static",SS_BITMAP | SS_NOTIFY,9,123,13,
+                    12
+    CONTROL         105,IDC_TILE_9_2,"Static",SS_BITMAP | SS_NOTIFY,21,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_3,"Static",SS_BITMAP | SS_NOTIFY,33,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_4,"Static",SS_BITMAP | SS_NOTIFY,45,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_5,"Static",SS_BITMAP | SS_NOTIFY,57,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_6,"Static",SS_BITMAP | SS_NOTIFY,69,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_7,"Static",SS_BITMAP | SS_NOTIFY,81,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_8,"Static",SS_BITMAP | SS_NOTIFY,93,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_9,"Static",SS_BITMAP | SS_NOTIFY,105,123,
+                    13,12
+    CONTROL         105,IDC_TILE_9_10,"Static",SS_BITMAP | SS_NOTIFY,117,123,
+                    13,12
+    CONTROL         105,IDC_TILE_10_1,"Static",SS_BITMAP | SS_NOTIFY,9,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_2,"Static",SS_BITMAP | SS_NOTIFY,21,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_3,"Static",SS_BITMAP | SS_NOTIFY,33,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_4,"Static",SS_BITMAP | SS_NOTIFY,45,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_5,"Static",SS_BITMAP | SS_NOTIFY,57,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_6,"Static",SS_BITMAP | SS_NOTIFY,69,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_7,"Static",SS_BITMAP | SS_NOTIFY,81,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_8,"Static",SS_BITMAP | SS_NOTIFY,93,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_9,"Static",SS_BITMAP | SS_NOTIFY,105,135,
+                    13,12
+    CONTROL         105,IDC_TILE_10_10,"Static",SS_BITMAP | SS_NOTIFY,117,
+                    135,13,12
+    LTEXT           "Pieces Left:",IDC_STATIC,9,6,38,8
+    LTEXT           "",IDC_REMAINING,50,6,17,8
+    LTEXT           "Elapsed:",IDC_STATIC,73,6,28,8
+    LTEXT           "",IDC_ELAPSED,104,6,26,8
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,0,18,160,1
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 168, 153
+STYLE WS_POPUP
+FONT 8, "System"
+BEGIN
+    LTEXT           "Pattern:",IDC_STATIC,4,66,28,8
+    COMBOBOX        IDC_PATTERN,35,64,72,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         144,IDC_PATTERN_PREVIEW,"Static",SS_BITMAP,112,59,23,22
+    LTEXT           "Pieces:",IDC_STATIC,4,95,24,8
+    COMBOBOX        IDC_PIECES,35,93,72,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         109,IDC_PIECES_PREVIEW,"Static",SS_BITMAP,116,93,13,12
+    LTEXT           "Sound:",IDC_STATIC,4,120,24,8
+    CONTROL         "",IDC_SOUND,"Button",BS_AUTOCHECKBOX | BS_NOTIFY | 
+                    WS_TABSTOP,35,119,16,12
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,2,11,160,29
+    CTEXT           "Game Options",IDC_STATIC,17,39,104,10
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 200, 199
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         165,IDC_STATIC,"Static",SS_BITMAP,0,0,163,49
+    CTEXT           "Programmed By Frank W. Zammetti",IDC_STATIC,0,60,135,8
+    CTEXT           "(C)opyright 2001 By",IDC_STATIC,0,93,135,8
+    CTEXT           "Omnytex Technologies",IDC_STATIC,0,103,135,8
+    CTEXT           "www.omnytex.com",IDC_STATIC,0,112,135,8
+    CTEXT           "-",IDC_VERSION,0,133,135,8
+    CTEXT           "Completion screens by Anthony Volpe",IDC_STATIC,0,70,
+                    135,8
+END
+
+IDD_INSTRUCTIONS DIALOG DISCARDABLE  0, 0, 168, 153
+STYLE WS_POPUP
+FONT 8, "System"
+BEGIN
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,2,11,160,28
+    CTEXT           "How To Play",IDC_STATIC,17,39,104,10
+    LTEXT           "",IDC_INSTRUCTIONS,2,53,134,51,WS_BORDER
+    PUSHBUTTON      "Next >>",IDC_NEXT,88,107,48,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,2,107,48,14
+    CTEXT           "And the most important instructions of all: HAVE FUN AND GOOD LUCK!",
+                    IDC_STATIC,2,131,134,19
+END
+
+IDD_WONLOST DIALOG DISCARDABLE  0, 0, 200, 199
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    CONTROL         "",IDC_WONLOST,"Static",SS_BITMAP,0,0,163,49
+END
+
+IDD_HOF DIALOG DISCARDABLE  0, 0, 168, 153
+STYLE WS_POPUP
+FONT 8, "System"
+BEGIN
+    CONTROL         147,-1,"Static",SS_BITMAP,2,11,160,29
+    CTEXT           "Hall Of Fame",-1,17,39,104,10
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    WS_BORDER,4,59,129,87
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_MENU, 2,
+    I_IMAGENONE, IDM_GAME, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_GAME, 0, 0,
+    I_IMAGENONE, IDM_HELP, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_HELP, 0, 1,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BLANK_TILE          BITMAP  DISCARDABLE     "Blank_Tile.bmp"
+IDB_MARBLE_BLUE_UP      BITMAP  DISCARDABLE     "Marble_Blue_Up.bmp"
+IDB_MARBLE_EMPTY        BITMAP  DISCARDABLE     "Marble_Empty.bmp"
+IDB_MARBLE_LIME         BITMAP  DISCARDABLE     "Marble_Lime.bmp"
+IDB_MARBLE_LIME_UP      BITMAP  DISCARDABLE     "Marble_Lime_Up.bmp"
+IDB_MARBLE_BROWN        BITMAP  DISCARDABLE     "Marble_Brown.bmp"
+IDB_MARBLE_BROWN_UP     BITMAP  DISCARDABLE     "Marble_Brown_Up.bmp"
+IDB_MARBLE_PURPLE       BITMAP  DISCARDABLE     "Marble_Purple.bmp"
+IDB_MARBLE_PURPLE_UP    BITMAP  DISCARDABLE     "Marble_Purple_Up.bmp"
+IDB_MARBLE_RED          BITMAP  DISCARDABLE     "Marble_Red.bmp"
+IDB_MARBLE_RED_UP       BITMAP  DISCARDABLE     "Marble_Red_Up.bmp"
+IDB_MARBLE_BLUE         BITMAP  DISCARDABLE     "Marble_Blue.bmp"
+IDB_THINLINE            BITMAP  DISCARDABLE     "thinline.bmp"
+IDB_PREVIEW_PATTERN_FULLBOARD BITMAP  DISCARDABLE     "Preview_Pattern_FullBoard.bmp"
+IDB_PREVIEW_PATTERN_BIGCROSS BITMAP  DISCARDABLE     "Preview_Pattern_BigCross.bmp"
+IDB_ELIMINATOR          BITMAP  DISCARDABLE     "Eliminator.bmp"
+IDB_BYFWZ               BITMAP  DISCARDABLE     "ByFWZ.bmp"
+IDB_PREVIEW_PATTERN_DIAMOND BITMAP  DISCARDABLE     "Preview_Pattern_Diamond.bmp"
+IDB_HAPPYMAN            BITMAP  DISCARDABLE     "HappyMan.bmp"
+IDB_ABOUTPIC            BITMAP  DISCARDABLE     "AboutPic.bmp"
+IDB_BROUGHTTOYOUBY      BITMAP  DISCARDABLE     "TitleWords.bmp"
+IDB_PREVIEW_PATTERN_HORSESHOE BITMAP  DISCARDABLE     "Preview_Pattern_Horseshoe.bmp"
+IDB_PREVIEW_PATTERN_PYRAMID BITMAP  DISCARDABLE     "Preview_Pattern_Pyramid.bmp"
+IDB_PREVIEW_PATTERN_INVERTEDPYRAMID BITMAP  DISCARDABLE     "Preview_Pattern_InvertedPyramid.bmp"
+IDB_PREVIEW_PATTERN_XMARKSTHESPOT BITMAP  DISCARDABLE     "Preview_Pattern_XMarksTheSpot.bmp"
+IDB_PREVIEW_PATTERN_THEBARS BITMAP  DISCARDABLE     "Preview_Pattern_TheBars.bmp"
+IDB_PREVIEW_PATTERN_HEXAGONAL BITMAP  DISCARDABLE     "Preview_Pattern_Hexagonal.bmp"
+IDB_YOUWON              BITMAP  DISCARDABLE     "youwon.bmp"
+IDB_YOULOST             BITMAP  DISCARDABLE     "youlost.bmp"
+IDB_PREVIEW_PATTERN_SPIRAL BITMAP  DISCARDABLE     "Preview_Pattern_Spiral.bmp"
+IDB_PREVIEW_PATTERN_BRIDGES BITMAP  DISCARDABLE     "Preview_Pattern_Bridges.bmp"
+IDB_PREVIEW_PATTERN_HEART BITMAP  DISCARDABLE     "Preview_Pattern_Heart.bmp"
+IDB_PREVIEW_PATTERN_INVADERS BITMAP  DISCARDABLE     "Preview_Pattern_Invaders.bmp"
+IDB_PREVIEW_PATTERN_CHECKERBOARD BITMAP  DISCARDABLE     "Preview_Pattern_Checkerboard.bmp"
+IDB_PREVIEW_PATTERN_ENTROPY BITMAP  DISCARDABLE     "Preview_Pattern_Entropy.bmp"
+IDB_CLICKGAMER          BITMAP  DISCARDABLE     "clickgamer splash screen.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_LOST_1              WAVE    DISCARDABLE     "lost_1.wav"
+IDR_WON_5               WAVE    DISCARDABLE     "won_5.wav"
+IDR_LOST_3              WAVE    DISCARDABLE     "lost_3.wav"
+IDR_LOST_4              WAVE    DISCARDABLE     "lost_4.wav"
+IDR_LOST_5              WAVE    DISCARDABLE     "lost_5.wav"
+IDR_PIECE_REMOVE        WAVE    DISCARDABLE     "piece_remove.wav"
+IDR_PIECE_UP            WAVE    DISCARDABLE     "piece_up.wav"
+IDR_WON_1               WAVE    DISCARDABLE     "won_1.wav"
+IDR_WON_2               WAVE    DISCARDABLE     "won_2.wav"
+IDR_WON_3               WAVE    DISCARDABLE     "won_3.wav"
+IDR_WON_4               WAVE    DISCARDABLE     "won_4.wav"
+IDR_LOST_2              WAVE    DISCARDABLE     "lost_2.wav"
+IDR_PIECE_DOWN          WAVE    DISCARDABLE     "piece_down.wav"
+IDR_WON_10              WAVE    DISCARDABLE     "won_10.wav"
+IDR_LOST_6              WAVE    DISCARDABLE     "lost_6.wav"
+IDR_LOST_7              WAVE    DISCARDABLE     "lost_7.wav"
+IDR_LOST_8              WAVE    DISCARDABLE     "lost_8.wav"
+IDR_LOST_9              WAVE    DISCARDABLE     "lost_9.wav"
+IDR_LOST_10             WAVE    DISCARDABLE     "lost_10.wav"
+IDR_WON_6               WAVE    DISCARDABLE     "won_6.wav"
+IDR_WON_7               WAVE    DISCARDABLE     "won_7.wav"
+IDR_WON_8               WAVE    DISCARDABLE     "won_8.wav"
+IDR_WON_9               WAVE    DISCARDABLE     "won_9.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP_ICON            ICON    DISCARDABLE     "App_Icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Eliminator"
+    IDS_VERSION             "Version 1.6"
+    IDS_APP_CLASS           "ELIMINATOR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_HELP            "Help"
+    IDS_CAP_GAME            "Game"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

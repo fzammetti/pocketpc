@@ -1,0 +1,43 @@
+[Version]
+Signature   = "$Windows NT$"
+Provider    = "Omnytex"
+CESignature = "$Windows CE$"
+
+
+[CEStrings]
+AppName    = "Eliminator"
+InstallDir = %CE1%\%AppName% 
+
+
+[CEDevice.ARM]
+ProcessorType = 2577
+
+
+[DefaultInstall]
+CEShortcuts = Shortcuts.ALL
+
+
+[DefaultInstall.ARM]
+CopyFiles = Files.ARM
+
+
+[SourceDisksNames.ARM]
+2 = ,"ARM Files",,ARM
+
+
+[SourceDisksFiles.ARM]
+Eliminator.exe = 2
+
+
+[DestinationDirs]
+Shortcuts.All  = 0,%CE11%
+Files.ARM      = 0,%InstallDir%
+DefaultDestDir = 0,%InstallDir%
+
+
+[Shortcuts.All]
+Eliminator,0,Eliminator.exe
+
+
+[Files.ARM]
+Eliminator.exe,,,0

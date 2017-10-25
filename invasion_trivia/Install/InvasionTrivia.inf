@@ -1,0 +1,44 @@
+[Version]
+Signature   = "$Windows NT$"
+Provider    = "Omnytex"
+CESignature = "$Windows CE$"
+
+
+[CEStrings]
+AppName     = "Invasion Trivia"
+InstallDir  = %CE1%\Omnytex\InvasionTrivia
+
+
+[CEDevice.ARM]
+ProcessorType = 2577
+
+
+[DefaultInstall]
+CEShortcuts = Shortcuts.ALL
+
+[DefaultInstall.ARM]
+CopyFiles = Files.ARM
+
+
+[SourceDisksNames.ARM]
+2 = ,"ARM Files",,ARM
+
+
+[SourceDisksFiles.ARM]
+InvasionTrivia.exe = 2
+gx.dll = 2
+
+
+[DestinationDirs]
+Shortcuts.All  = 0,%CE11%
+Files.ARM      = 0,%InstallDir%
+DefaultDestDir = 0,%InstallDir%
+
+
+[Shortcuts.All]
+Invasion Trivia,0,InvasionTrivia.exe,%CE14%
+
+
+[Files.ARM]
+InvasionTrivia.exe,,,0
+gx.dll,,,0

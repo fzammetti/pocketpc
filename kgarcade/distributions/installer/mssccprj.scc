@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[Omnytex PocketPC Installer.dsp]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/distributions/installer", HKAAAAAA
+
+[Omnytex PocketPC Installer.dsw]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/distributions/installer", HKAAAAAA
+
+[Omnytex PocketPC Installer.mak]
+SCC_Aux_Path = "\\192.168.123.250\infinity_d\SourceSafe"
+SCC_Project_Name = "$/KandG Arcade/1.0/distributions/installer", HKAAAAAA

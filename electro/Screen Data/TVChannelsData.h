@@ -1,0 +1,110 @@
+
+	typedef struct tagTVCHANNELS {
+			TCHAR szChannelNumber[8];
+			TCHAR szFrequencyLower[8];
+		  TCHAR szFrequencyUpper[8];
+			TCHAR szVideoCarrier[8];
+		  TCHAR szColorCarrier[8];
+			TCHAR szSoundCarrier[8];
+	} TVCHANNELS;
+
+	typedef struct tagTVCHANNELSCOLS {
+			TCHAR szText[12];
+		  int intSize;
+	} TVCHANNELSCOLS;
+  
+	TVCHANNELSCOLS TVChannelsColsTable[] = {
+    {TEXT("Channel"),   60},
+    {TEXT("F-Lower"),   60},
+    {TEXT("F-Upper"),   60},
+	  {TEXT("V-Carrier"), 70},
+		{TEXT("C-Carrier"), 70},
+		{TEXT("S-Carrier"), 70}
+  };
+
+	int numItemsTVChannels = 82;
+
+  TVCHANNELS TVChannelsTable[] = {	
+		{TEXT("2"),  TEXT("54"),  TEXT(" 60"), TEXT(" 55.25"), TEXT(" 58.83"), TEXT(" 59.75")},
+		{TEXT("3"),  TEXT("60"),  TEXT(" 66"), TEXT(" 61.25"), TEXT(" 64.83"), TEXT(" 65.75")},
+		{TEXT("4"),  TEXT("66"),  TEXT(" 72"), TEXT(" 67.25"), TEXT(" 70.83"), TEXT(" 71.75")},
+		{TEXT("5"),  TEXT("76"),  TEXT(" 82"), TEXT(" 77.25"), TEXT(" 80.83"), TEXT(" 81.75")},
+		{TEXT("6"),  TEXT("82"),  TEXT(" 88"), TEXT(" 83.25"), TEXT(" 86.83"), TEXT(" 87.75")},
+		{TEXT("7"),  TEXT("174"), TEXT("180"), TEXT("175.25"), TEXT("178.83"), TEXT("179.75")},
+		{TEXT("8"),  TEXT("180"), TEXT("186"), TEXT("181.25"), TEXT("184.83"), TEXT("185.75")},
+		{TEXT("9"),  TEXT("186"), TEXT("192"), TEXT("187.25"), TEXT("190.83"), TEXT("191.75")},
+		{TEXT("10"), TEXT("192"), TEXT("198"), TEXT("193.25"), TEXT("196.83"), TEXT("197.75")},
+		{TEXT("11"), TEXT("198"), TEXT("204"), TEXT("199.25"), TEXT("202.83"), TEXT("203.75")},
+		{TEXT("12"), TEXT("204"), TEXT("210"), TEXT("205.25"), TEXT("208.83"), TEXT("209.75")},
+		{TEXT("13"), TEXT("210"), TEXT("216"), TEXT("211.25"), TEXT("214.83"), TEXT("215.75")},
+		{TEXT("14"), TEXT("470"), TEXT("476"), TEXT("471.25"), TEXT("474.83"), TEXT("475.75")},
+		{TEXT("15"), TEXT("476"), TEXT("482"), TEXT("477.25"), TEXT("480.83"), TEXT("481.75")},
+		{TEXT("16"), TEXT("482"), TEXT("488"), TEXT("483.25"), TEXT("486.83"), TEXT("487.75")},
+		{TEXT("17"), TEXT("488"), TEXT("494"), TEXT("489.25"), TEXT("492.83"), TEXT("493.75")},
+		{TEXT("18"), TEXT("494"), TEXT("500"), TEXT("495.25"), TEXT("498.83"), TEXT("499.75")},
+		{TEXT("19"), TEXT("500"), TEXT("506"), TEXT("501.25"), TEXT("504.83"), TEXT("505.75")},
+		{TEXT("20"), TEXT("506"), TEXT("512"), TEXT("507.25"), TEXT("510.83"), TEXT("511.75")},
+		{TEXT("21"), TEXT("512"), TEXT("518"), TEXT("513.25"), TEXT("516.83"), TEXT("517.75")},
+		{TEXT("22"), TEXT("518"), TEXT("524"), TEXT("519.25"), TEXT("522.83"), TEXT("523.75")},
+		{TEXT("23"), TEXT("524"), TEXT("530"), TEXT("525.25"), TEXT("528.83"), TEXT("529.75")},
+		{TEXT("24"), TEXT("530"), TEXT("536"), TEXT("531.25"), TEXT("534.83"), TEXT("535.75")},
+		{TEXT("25"), TEXT("536"), TEXT("542"), TEXT("537.25"), TEXT("540.83"), TEXT("541.75")},
+		{TEXT("26"), TEXT("542"), TEXT("548"), TEXT("543.25"), TEXT("546.83"), TEXT("547.75")},
+		{TEXT("27"), TEXT("548"), TEXT("554"), TEXT("549.25"), TEXT("552.83"), TEXT("553.75")},
+		{TEXT("28"), TEXT("554"), TEXT("560"), TEXT("555.25"), TEXT("558.83"), TEXT("559.75")},
+		{TEXT("29"), TEXT("560"), TEXT("566"), TEXT("561.25"), TEXT("564.83"), TEXT("565.75")},
+		{TEXT("30"), TEXT("566"), TEXT("572"), TEXT("567.25"), TEXT("570.83"), TEXT("571.75")},
+		{TEXT("31"), TEXT("572"), TEXT("578"), TEXT("573.25"), TEXT("576.83"), TEXT("577.75")},
+		{TEXT("32"), TEXT("578"), TEXT("584"), TEXT("579.25"), TEXT("582.83"), TEXT("583.75")},
+		{TEXT("33"), TEXT("584"), TEXT("590"), TEXT("585.25"), TEXT("588.83"), TEXT("589.75")},
+		{TEXT("34"), TEXT("590"), TEXT("596"), TEXT("591.25"), TEXT("594.83"), TEXT("595.75")},
+		{TEXT("35"), TEXT("596"), TEXT("602"), TEXT("597.25"), TEXT("600.83"), TEXT("601.75")},
+		{TEXT("36"), TEXT("602"), TEXT("608"), TEXT("603.25"), TEXT("606.83"), TEXT("607.75")},
+		{TEXT("37"), TEXT("608"), TEXT("614"), TEXT("609.25"), TEXT("612.83"), TEXT("613.75")},
+		{TEXT("38"), TEXT("614"), TEXT("620"), TEXT("615.25"), TEXT("618.83"), TEXT("619.75")},
+		{TEXT("39"), TEXT("620"), TEXT("626"), TEXT("621.25"), TEXT("624.83"), TEXT("625.75")},
+		{TEXT("40"), TEXT("626"), TEXT("632"), TEXT("627.25"), TEXT("630.83"), TEXT("631.75")},
+		{TEXT("41"), TEXT("632"), TEXT("638"), TEXT("633.25"), TEXT("636.83"), TEXT("637.75")},
+		{TEXT("42"), TEXT("638"), TEXT("644"), TEXT("639.25"), TEXT("642.83"), TEXT("643.75")},
+		{TEXT("43"), TEXT("644"), TEXT("650"), TEXT("645.25"), TEXT("648.83"), TEXT("649.75")},
+		{TEXT("44"), TEXT("650"), TEXT("656"), TEXT("651.25"), TEXT("654.83"), TEXT("655.75")},
+		{TEXT("45"), TEXT("656"), TEXT("662"), TEXT("657.25"), TEXT("660.83"), TEXT("661.75")},
+		{TEXT("46"), TEXT("662"), TEXT("668"), TEXT("663.25"), TEXT("666.83"), TEXT("667.75")},
+		{TEXT("47"), TEXT("668"), TEXT("674"), TEXT("669-25"), TEXT("672.83"), TEXT("673.75")},
+		{TEXT("48"), TEXT("674"), TEXT("680"), TEXT("675.25"), TEXT("678.83"), TEXT("679.75")},
+		{TEXT("49"), TEXT("680"), TEXT("686"), TEXT("681.25"), TEXT("684.83"), TEXT("685.75")},
+		{TEXT("50"), TEXT("686"), TEXT("692"), TEXT("687.25"), TEXT("690.83"), TEXT("691.75")},
+		{TEXT("51"), TEXT("692"), TEXT("698"), TEXT("693.25"), TEXT("696.83"), TEXT("697.75")},
+		{TEXT("52"), TEXT("698"), TEXT("704"), TEXT("699.25"), TEXT("702.83"), TEXT("703.75")},
+		{TEXT("53"), TEXT("704"), TEXT("710"), TEXT("705.25"), TEXT("708.83"), TEXT("709.75")},
+		{TEXT("54"), TEXT("710"), TEXT("716"), TEXT("711.25"), TEXT("714.83"), TEXT("715.75")},
+		{TEXT("55"), TEXT("716"), TEXT("722"), TEXT("717.25"), TEXT("720.83"), TEXT("721.75")},
+		{TEXT("56"), TEXT("722"), TEXT("728"), TEXT("723.25"), TEXT("726.83"), TEXT("727.75")},
+		{TEXT("57"), TEXT("728"), TEXT("734"), TEXT("729.25"), TEXT("732.83"), TEXT("733.75")},
+		{TEXT("58"), TEXT("734"), TEXT("740"), TEXT("735.25"), TEXT("738.83"), TEXT("739.75")},
+		{TEXT("59"), TEXT("740"), TEXT("746"), TEXT("741.25"), TEXT("744.83"), TEXT("745.75")},
+		{TEXT("60"), TEXT("746"), TEXT("752"), TEXT("747.25"), TEXT("750.83"), TEXT("751.75")},
+		{TEXT("61"), TEXT("752"), TEXT("758"), TEXT("753.25"), TEXT("756.83"), TEXT("757.75")},
+		{TEXT("62"), TEXT("758"), TEXT("764"), TEXT("759.25"), TEXT("762.83"), TEXT("763.75")},
+		{TEXT("63"), TEXT("764"), TEXT("770"), TEXT("765.25"), TEXT("768.83"), TEXT("769.75")},
+		{TEXT("64"), TEXT("770"), TEXT("776"), TEXT("771.25"), TEXT("774.83"), TEXT("775.75")},
+		{TEXT("65"), TEXT("776"), TEXT("782"), TEXT("777.25"), TEXT("780.83"), TEXT("781.75")},
+		{TEXT("66"), TEXT("782"), TEXT("788"), TEXT("783.25"), TEXT("786.83"), TEXT("787.75")},
+		{TEXT("67"), TEXT("788"), TEXT("794"), TEXT("789.25"), TEXT("792.83"), TEXT("793.75")},
+		{TEXT("68"), TEXT("794"), TEXT("800"), TEXT("795.25"), TEXT("798.83"), TEXT("799.75")},
+		{TEXT("69"), TEXT("800"), TEXT("806"), TEXT("801.25"), TEXT("804.83"), TEXT("805.75")},
+		{TEXT("70"), TEXT("806"), TEXT("812"), TEXT("807.25"), TEXT("810.83"), TEXT("811.75")},
+		{TEXT("71"), TEXT("812"), TEXT("818"), TEXT("813.25"), TEXT("816.83"), TEXT("817.75")},
+		{TEXT("72"), TEXT("818"), TEXT("824"), TEXT("819.25"), TEXT("822.83"), TEXT("823.75")},
+		{TEXT("73"), TEXT("824"), TEXT("830"), TEXT("825.25"), TEXT("828.83"), TEXT("829.75")},
+		{TEXT("74"), TEXT("830"), TEXT("836"), TEXT("831.25"), TEXT("834.83"), TEXT("835.75")},
+		{TEXT("75"), TEXT("836"), TEXT("842"), TEXT("837.25"), TEXT("840.83"), TEXT("841.75")},
+		{TEXT("76"), TEXT("842"), TEXT("848"), TEXT("843.25"), TEXT("846.83"), TEXT("847.75")},
+		{TEXT("77"), TEXT("848"), TEXT("854"), TEXT("849.25"), TEXT("852.83"), TEXT("853.75")},
+		{TEXT("78"), TEXT("854"), TEXT("860"), TEXT("855.25"), TEXT("858.83"), TEXT("859.75")},
+		{TEXT("79"), TEXT("860"), TEXT("866"), TEXT("861.25"), TEXT("864.83"), TEXT("865.75")},
+		{TEXT("80"), TEXT("866"), TEXT("872"), TEXT("867.25"), TEXT("870.83"), TEXT("871.75")},
+		{TEXT("81"), TEXT("872"), TEXT("878"), TEXT("873.25"), TEXT("876.83"), TEXT("877.75")},
+		{TEXT("82"), TEXT("878"), TEXT("884"), TEXT("879.25"), TEXT("882.83"), TEXT("883.75")},
+		{TEXT("83"), TEXT("884"), TEXT("890"), TEXT("885.25"), TEXT("888.83"), TEXT("889.75")}
+  };
