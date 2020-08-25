@@ -1,0 +1,149 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SXLIBTEST           ICON    DISCARDABLE     "SXLibTest.ICO"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TEST_DIALOG DIALOG DISCARDABLE  0, 0, 214, 198
+STYLE WS_POPUP
+EXSTYLE 0x80000000L
+FONT 8, "System"
+BEGIN
+    PUSHBUTTON      "Play Loop 1",IDC_PLAY_LOOP_1,16,19,47,17
+    PUSHBUTTON      "Play Loop 2",IDC_PLAY_LOOP_2,72,19,47,17
+    PUSHBUTTON      "Play FX 1",IDC_PLAY_FX_1,16,43,47,17
+    PUSHBUTTON      "Play FX 2",IDC_PLAY_FX_2,72,43,47,17
+    PUSHBUTTON      "Silence Music",IDC_SILENCE_MUSIC,41,89,51,17
+    PUSHBUTTON      "Play Silent Music",IDC_PLAY_SILENT_MUSIC,36,66,61,17
+    PUSHBUTTON      "Stop All",IDC_STOP_ALL,41,112,51,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "",                            IDM_DUMMY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU SHMENUBAR DISCARDABLE 
+BEGIN
+    IDM_MENU, 1,
+    I_IMAGENONE, IDM_DUMMY, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 40020, 0, 0,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_LOOP_2              WAVE    DISCARDABLE     "Loop2.wav"
+IDR_FX_2                WAVE    DISCARDABLE     "FX2.wav"
+IDR_LOOP_1              WAVE    DISCARDABLE     "Loop1.wav"
+IDR_FX_1                WAVE    DISCARDABLE     "FX1.wav"
+IDR_SILENTLOOP          WAVE    DISCARDABLE     "SilentLoop.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "SXLibTest"
+    IDC_SXLIBTEST           "SXLIBTEST"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_FILE            "File"
+    IDS_CAP_MENUITEM40011   "File"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_MENUITEM40015   "Exit"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,267 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "FontTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FONTS
+//
+
+IDR_20S                 FONTS   DISCARDABLE     "..\\Fonts\\20s.fnt"
+IDR_8X14                FONTS   DISCARDABLE     "..\\Fonts\\8x14.fnt"
+IDR_9X16SMSF            FONTS   DISCARDABLE     "..\\Fonts\\9x16smsf.fnt"
+IDR_AMBASSAD            FONTS   DISCARDABLE     "..\\Fonts\\Ambassad.fnt"
+IDR_ANTIQUE             FONTS   DISCARDABLE     "..\\Fonts\\Antique.fnt"
+IDR_APEAUS              FONTS   DISCARDABLE     "..\\Fonts\\Apeaus.fnt"
+IDR_APLS10              FONTS   DISCARDABLE     "..\\Fonts\\Apls10.fnt"
+IDR_APLS20              FONTS   DISCARDABLE     "..\\Fonts\\Apls20.fnt"
+IDR_ARMENIAN            FONTS   DISCARDABLE     "..\\Fonts\\Armenian.fnt"
+IDR_ART                 FONTS   DISCARDABLE     "..\\Fonts\\Art.fnt"
+IDR_ASCIIHX             FONTS   DISCARDABLE     "..\\Fonts\\Asciihx.fnt"
+IDR_BACKSLNT            FONTS   DISCARDABLE     "..\\Fonts\\Backslnt.fnt"
+IDR_BAUHAUS             FONTS   DISCARDABLE     "..\\Fonts\\Bauhaus.fnt"
+IDR_BIG                 FONTS   DISCARDABLE     "..\\Fonts\\Big.fnt"
+IDR_BIGSERIF            FONTS   DISCARDABLE     "..\\Fonts\\Bigserif.fnt"
+IDR_BINARY              FONTS   DISCARDABLE     "..\\Fonts\\Binary.fnt"
+IDR_BLOCK               FONTS   DISCARDABLE     "..\\Fonts\\Block.fnt"
+IDR_BLOODY              FONTS   DISCARDABLE     "..\\Fonts\\Bloody.fnt"
+IDR_BODONI              FONTS   DISCARDABLE     "..\\Fonts\\Bodoni.fnt"
+IDR_BOLD                FONTS   DISCARDABLE     "..\\Fonts\\Bold.fnt"
+IDR_BOLD0               FONTS   DISCARDABLE     "..\\Fonts\\Bold0.fnt"
+IDR_BOLD1               FONTS   DISCARDABLE     "..\\Fonts\\Bold1.fnt"
+IDR_BOLD2               FONTS   DISCARDABLE     "..\\Fonts\\Bold2.fnt"
+IDR_BOLD3               FONTS   DISCARDABLE     "..\\Fonts\\Bold3.fnt"
+IDR_BOLD4               FONTS   DISCARDABLE     "..\\Fonts\\Bold4.fnt"
+IDR_BOLD5               FONTS   DISCARDABLE     "..\\Fonts\\Bold5.fnt"
+IDR_BOX                 FONTS   DISCARDABLE     "..\\Fonts\\Box.fnt"
+IDR_BOXROUND            FONTS   DISCARDABLE     "..\\Fonts\\Boxround.fnt"
+IDR_BRAILLE             FONTS   DISCARDABLE     "..\\Fonts\\Braille.fnt"
+IDR_BRUSH               FONTS   DISCARDABLE     "..\\Fonts\\Brush.fnt"
+IDR_CALCULAT            FONTS   DISCARDABLE     "..\\Fonts\\Calculat.fnt"
+IDR_CAPITAL             FONTS   DISCARDABLE     "..\\Fonts\\Capital.fnt"
+IDR_CAPS                FONTS   DISCARDABLE     "..\\Fonts\\Caps.fnt"
+IDR_CIRCLE              FONTS   DISCARDABLE     "..\\Fonts\\Circle.fnt"
+IDR_CNTDOWN             FONTS   DISCARDABLE     "..\\Fonts\\Cntdown.fnt"
+IDR_COMPUTR1            FONTS   DISCARDABLE     "..\\Fonts\\Computr1.fnt"
+IDR_COMPUTR2            FONTS   DISCARDABLE     "..\\Fonts\\Computr2.fnt"
+IDR_COMPUTR3            FONTS   DISCARDABLE     "..\\Fonts\\Computr3.fnt"
+IDR_COMPUTR4            FONTS   DISCARDABLE     "..\\Fonts\\Computr4.fnt"
+IDR_COURIER1            FONTS   DISCARDABLE     "..\\Fonts\\Courier1.fnt"
+IDR_COURIER2            FONTS   DISCARDABLE     "..\\Fonts\\Courier2.fnt"
+IDR_CP111               FONTS   DISCARDABLE     "..\\Fonts\\Cp111.fnt"
+IDR_CP112               FONTS   DISCARDABLE     "..\\Fonts\\Cp112.fnt"
+IDR_CYRILL1             FONTS   DISCARDABLE     "..\\Fonts\\Cyrill1.fnt"
+IDR_CYRILL4             FONTS   DISCARDABLE     "..\\Fonts\\Cyrill4.fnt"
+IDR_CYRILL5             FONTS   DISCARDABLE     "..\\Fonts\\Cyrill5.fnt"
+IDR_CYRILL6             FONTS   DISCARDABLE     "..\\Fonts\\Cyrill6.fnt"
+IDR_DECORATE            FONTS   DISCARDABLE     "..\\Fonts\\Decorate.fnt"
+IDR_DEFAULT             FONTS   DISCARDABLE     "..\\Fonts\\Default.fnt"
+IDR_DONNA               FONTS   DISCARDABLE     "..\\Fonts\\Donna.fnt"
+IDR_ELEGAND3            FONTS   DISCARDABLE     "..\\Fonts\\Elegand3.fnt"
+IDR_ELEGANT1            FONTS   DISCARDABLE     "..\\Fonts\\Elegant1.fnt"
+IDR_ELEGANT2            FONTS   DISCARDABLE     "..\\Fonts\\Elegant2.fnt"
+IDR_ELERGON             FONTS   DISCARDABLE     "..\\Fonts\\Elergon.fnt"
+IDR_EZVGA1              FONTS   DISCARDABLE     "..\\Fonts\\Ezvga1.fnt"
+IDR_EZVGA2              FONTS   DISCARDABLE     "..\\Fonts\\Ezvga2.fnt"
+IDR_FE8X16              FONTS   DISCARDABLE     "..\\Fonts\\Fe8x16.fnt"
+IDR_FLORI               FONTS   DISCARDABLE     "..\\Fonts\\Flori.fnt"
+IDR_FRESNO              FONTS   DISCARDABLE     "..\\Fonts\\Fresno.fnt"
+IDR_FUTURE              FONTS   DISCARDABLE     "..\\Fonts\\Future.fnt"
+IDR_FYVUSH              FONTS   DISCARDABLE     "..\\Fonts\\Fyvush.fnt"
+IDR_GAELIC              FONTS   DISCARDABLE     "..\\Fonts\\Gaelic.fnt"
+IDR_GOTHIC1             FONTS   DISCARDABLE     "..\\Fonts\\Gothic1.fnt"
+IDR_GOTHIC2             FONTS   DISCARDABLE     "..\\Fonts\\Gothic2.fnt"
+IDR_GOTHNEW             FONTS   DISCARDABLE     "..\\Fonts\\Gothnew.fnt"
+IDR_GRCKSSRF            FONTS   DISCARDABLE     "..\\Fonts\\Grckssrf.fnt"
+IDR_GREEK               FONTS   DISCARDABLE     "..\\Fonts\\Greek.fnt"
+IDR_HACK4TH             FONTS   DISCARDABLE     "..\\Fonts\\Hack4th.fnt"
+IDR_HANDUGLY            FONTS   DISCARDABLE     "..\\Fonts\\Handugly.fnt"
+IDR_HANDWRIT            FONTS   DISCARDABLE     "..\\Fonts\\Handwrit.fnt"
+IDR_HEARST              FONTS   DISCARDABLE     "..\\Fonts\\Hearst.fnt"
+IDR_HEB7BIT             FONTS   DISCARDABLE     "..\\Fonts\\Heb7bit.fnt"
+IDR_HEBBOLD1            FONTS   DISCARDABLE     "..\\Fonts\\Hebbold1.fnt"
+IDR_HEBBOLD2            FONTS   DISCARDABLE     "..\\Fonts\\Hebbold2.fnt"
+IDR_HEBREW              FONTS   DISCARDABLE     "..\\Fonts\\Hebrew.fnt"
+IDR_HEBUGLY             FONTS   DISCARDABLE     "..\\Fonts\\Hebugly.fnt"
+IDR_HELV1               FONTS   DISCARDABLE     "..\\Fonts\\Helv1.fnt"
+IDR_HELV2               FONTS   DISCARDABLE     "..\\Fonts\\Helv2.fnt"
+IDR_IBM                 FONTS   DISCARDABLE     "..\\Fonts\\Ibm.fnt"
+IDR_ITALIC1             FONTS   DISCARDABLE     "..\\Fonts\\Italic1.fnt"
+IDR_ITALIC2             FONTS   DISCARDABLE     "..\\Fonts\\Italic2.fnt"
+IDR_ITALIC3             FONTS   DISCARDABLE     "..\\Fonts\\Italic3.fnt"
+IDR_KANA                FONTS   DISCARDABLE     "..\\Fonts\\Kana.fnt"
+IDR_KING                FONTS   DISCARDABLE     "..\\Fonts\\King.fnt"
+IDR_KNIGHT              FONTS   DISCARDABLE     "..\\Fonts\\Knight.fnt"
+IDR_KOOL                FONTS   DISCARDABLE     "..\\Fonts\\Kool.fnt"
+IDR_LBITALIC            FONTS   DISCARDABLE     "..\\Fonts\\Lbitalic.fnt"
+IDR_LBLARGE             FONTS   DISCARDABLE     "..\\Fonts\\Lblarge.fnt"
+IDR_LBOCR               FONTS   DISCARDABLE     "..\\Fonts\\Lbocr.fnt"
+IDR_LCD                 FONTS   DISCARDABLE     "..\\Fonts\\Lcd.fnt"
+IDR_LEGEND              FONTS   DISCARDABLE     "..\\Fonts\\Legend.fnt"
+IDR_LITE                FONTS   DISCARDABLE     "..\\Fonts\\Lite.fnt"
+IDR_MACNTOSH            FONTS   DISCARDABLE     "..\\Fonts\\Macntosh.fnt"
+IDR_MEDIEVIL            FONTS   DISCARDABLE     "..\\Fonts\\Medievil.fnt"
+IDR_MERP                FONTS   DISCARDABLE     "..\\Fonts\\Merp.fnt"
+IDR_MERP1               FONTS   DISCARDABLE     "..\\Fonts\\Merp1.fnt"
+IDR_MERP2               FONTS   DISCARDABLE     "..\\Fonts\\Merp2.fnt"
+IDR_MODERN1             FONTS   DISCARDABLE     "..\\Fonts\\Modern1.fnt"
+IDR_MODERN4             FONTS   DISCARDABLE     "..\\Fonts\\Modern4.fnt"
+IDR_MODERN5             FONTS   DISCARDABLE     "..\\Fonts\\Modern5.fnt"
+IDR_MORSE               FONTS   DISCARDABLE     "..\\Fonts\\Morse.fnt"
+IDR_NUTSO               FONTS   DISCARDABLE     "..\\Fonts\\Nutso.fnt"
+IDR_OLDENG1             FONTS   DISCARDABLE     "..\\Fonts\\Oldeng1.fnt"
+IDR_OLDENG2             FONTS   DISCARDABLE     "..\\Fonts\\Oldeng2.fnt"
+IDR_OLDENG3             FONTS   DISCARDABLE     "..\\Fonts\\Oldeng3.fnt"
+IDR_OLDENG4             FONTS   DISCARDABLE     "..\\Fonts\\Oldeng4.fnt"
+IDR_OLDENG6             FONTS   DISCARDABLE     "..\\Fonts\\Oldeng6.fnt"
+IDR_ORATOR              FONTS   DISCARDABLE     "..\\Fonts\\Orator.fnt"
+IDR_OUTLINE             FONTS   DISCARDABLE     "..\\Fonts\\Outline.fnt"
+IDR_PARKAVE             FONTS   DISCARDABLE     "..\\Fonts\\Parkave.fnt"
+IDR_PEKIGORD            FONTS   DISCARDABLE     "..\\Fonts\\Pekigord.fnt"
+IDR_PERCY               FONTS   DISCARDABLE     "..\\Fonts\\Percy.fnt"
+IDR_PERSIAN             FONTS   DISCARDABLE     "..\\Fonts\\Persian.fnt"
+IDR_POLICE              FONTS   DISCARDABLE     "..\\Fonts\\Police.fnt"
+IDR_POOTER              FONTS   DISCARDABLE     "..\\Fonts\\Pooter.fnt"
+IDR_PPROMAN             FONTS   DISCARDABLE     "..\\Fonts\\Pproman.fnt"
+IDR_PPSSER              FONTS   DISCARDABLE     "..\\Fonts\\Ppsser.fnt"
+IDR_PRESTIG1            FONTS   DISCARDABLE     "..\\Fonts\\Prestig1.fnt"
+IDR_PRESTIG2            FONTS   DISCARDABLE     "..\\Fonts\\Prestig2.fnt"
+IDR_READABL1            FONTS   DISCARDABLE     "..\\Fonts\\Readabl1.fnt"
+IDR_READABL2            FONTS   DISCARDABLE     "..\\Fonts\\Readabl2.fnt"
+IDR_REVERSE             FONTS   DISCARDABLE     "..\\Fonts\\Reverse.fnt"
+IDR_ROMAN1              FONTS   DISCARDABLE     "..\\Fonts\\Roman1.fnt"
+IDR_ROMAN2              FONTS   DISCARDABLE     "..\\Fonts\\Roman2.fnt"
+IDR_ROMANY              FONTS   DISCARDABLE     "..\\Fonts\\Romany.fnt"
+IDR_ROYAL               FONTS   DISCARDABLE     "..\\Fonts\\Royal.fnt"
+IDR_RUNES               FONTS   DISCARDABLE     "..\\Fonts\\Runes.fnt"
+IDR_RUSSIAN             FONTS   DISCARDABLE     "..\\Fonts\\Russian.fnt"
+IDR_SANSERF1            FONTS   DISCARDABLE     "..\\Fonts\\Sanserf1.fnt"
+IDR_SANSERF2            FONTS   DISCARDABLE     "..\\Fonts\\Sanserf2.fnt"
+IDR_SANSERF3            FONTS   DISCARDABLE     "..\\Fonts\\Sanserf3.fnt"
+IDR_SCRIPT1             FONTS   DISCARDABLE     "..\\Fonts\\Script1.fnt"
+IDR_SCRIPT2             FONTS   DISCARDABLE     "..\\Fonts\\Script2.fnt"
+IDR_SCRIPT3             FONTS   DISCARDABLE     "..\\Fonts\\Script3.fnt"
+IDR_SCRIPT4             FONTS   DISCARDABLE     "..\\Fonts\\Script4.fnt"
+IDR_SERIF               FONTS   DISCARDABLE     "..\\Fonts\\Serif.fnt"
+IDR_SERIFBIG            FONTS   DISCARDABLE     "..\\Fonts\\Serifbig.fnt"
+IDR_SHADE               FONTS   DISCARDABLE     "..\\Fonts\\Shade.fnt"
+IDR_SIGGLY              FONTS   DISCARDABLE     "..\\Fonts\\Siggly.fnt"
+IDR_SIMPAGAR            FONTS   DISCARDABLE     "..\\Fonts\\Simpagar.fnt"
+IDR_SIMPLE              FONTS   DISCARDABLE     "..\\Fonts\\Simple.fnt"
+IDR_SLANT               FONTS   DISCARDABLE     "..\\Fonts\\Slant.fnt"
+IDR_SMALL               FONTS   DISCARDABLE     "..\\Fonts\\Small.fnt"
+IDR_SMOOTH              FONTS   DISCARDABLE     "..\\Fonts\\Smooth.fnt"
+IDR_SMVGA               FONTS   DISCARDABLE     "..\\Fonts\\Smvga.fnt"
+IDR_SPRANT01            FONTS   DISCARDABLE     "..\\Fonts\\Sprant01.fnt"
+IDR_SPRANTO2            FONTS   DISCARDABLE     "..\\Fonts\\Spranto2.fnt"
+IDR_SQUARE              FONTS   DISCARDABLE     "..\\Fonts\\Square.fnt"
+IDR_STANDARD            FONTS   DISCARDABLE     "..\\Fonts\\Standard.fnt"
+IDR_STRETCH             FONTS   DISCARDABLE     "..\\Fonts\\Stretch.fnt"
+IDR_SUBSCR1             FONTS   DISCARDABLE     "..\\Fonts\\Subscr1.fnt"
+IDR_SUBSCR2             FONTS   DISCARDABLE     "..\\Fonts\\Subscr2.fnt"
+IDR_SUPER               FONTS   DISCARDABLE     "..\\Fonts\\Super.fnt"
+IDR_SUPSCR1             FONTS   DISCARDABLE     "..\\Fonts\\Supscr1.fnt"
+IDR_SUPSCR2             FONTS   DISCARDABLE     "..\\Fonts\\Supscr2.fnt"
+IDR_SWISS1              FONTS   DISCARDABLE     "..\\Fonts\\Swiss1.fnt"
+IDR_TALLTHIN            FONTS   DISCARDABLE     "..\\Fonts\\Tallthin.fnt"
+IDR_TENGWAR             FONTS   DISCARDABLE     "..\\Fonts\\Tengwar.fnt"
+IDR_TEXMATH             FONTS   DISCARDABLE     "..\\Fonts\\Texmath.fnt"
+IDR_THAI                FONTS   DISCARDABLE     "..\\Fonts\\Thai.fnt"
+IDR_THICK               FONTS   DISCARDABLE     "..\\Fonts\\Thick.fnt"
+IDR_THIN                FONTS   DISCARDABLE     "..\\Fonts\\Thin.fnt"
+IDR_THINSS              FONTS   DISCARDABLE     "..\\Fonts\\Thinss.fnt"
+IDR_THNSERIF            FONTS   DISCARDABLE     "..\\Fonts\\Thnserif.fnt"
+IDR_TINY                FONTS   DISCARDABLE     "..\\Fonts\\Tiny.fnt"
+IDR_TTHINSS             FONTS   DISCARDABLE     "..\\Fonts\\Tthinss.fnt"
+IDR_UNDERLIN            FONTS   DISCARDABLE     "..\\Fonts\\Underlin.fnt"
+IDR_VGAROM              FONTS   DISCARDABLE     "..\\Fonts\\Vgarom.fnt"
+IDR_VOGUE               FONTS   DISCARDABLE     "..\\Fonts\\Vogue.fnt"
+IDR_VOYNICH             FONTS   DISCARDABLE     "..\\Fonts\\Voynich.fnt"
+IDR_WACKY               FONTS   DISCARDABLE     "..\\Fonts\\Wacky.fnt"
+IDR_WEIRD               FONTS   DISCARDABLE     "..\\Fonts\\Weird.fnt"
+IDR_WIGGLY              FONTS   DISCARDABLE     "..\\Fonts\\Wiggly.fnt"
+IDR_YIDDISH             FONTS   DISCARDABLE     "..\\Fonts\\Yiddish.fnt"
+IDR_BROADWAY            FONTS   DISCARDABLE     "Broadway.fnt"
+IDR_JULIE               FONTS   DISCARDABLE     "Julie.fnt"
+IDR_SCRAWL              FONTS   DISCARDABLE     "Scrawl.fnt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE               "FontTest"
+    IDS_WINDOWCLASS         "FontTest"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

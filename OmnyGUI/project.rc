@@ -1,0 +1,99 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// OMNYGUI
+//
+
+OG_IMG_BUTTON_UP        OMNYGUI DISCARDABLE     "resources\\og_button_up.gif"
+OG_IMG_BUTTON_DISABLED  OMNYGUI DISCARDABLE     "resources\\og_button_disabled.gif"
+OG_IMG_BUTTON_DOWN      OMNYGUI DISCARDABLE     "resources\\og_button_down.gif"
+OG_IMG_CHECKBOX_UNCHECKED OMNYGUI DISCARDABLE     "resources\\og_checkbox_unchecked.gif"
+OG_IMG_CHECKBOX_CHECKED OMNYGUI DISCARDABLE     "resources\\og_checkbox_checked.gif"
+OG_FNT_VGA              OMNYGUI DISCARDABLE     "resources\\vga.fnt"
+OG_IMG_RADIO_UNSELECTED_DISABLED OMNYGUI DISCARDABLE     "resources\\og_radio_unselected_disabled.gif"
+OG_IMG_RADIO_SELECTED   OMNYGUI DISCARDABLE     "resources\\og_radio_selected.gif"
+OG_IMG_RADIO_SELECTED_DISABLED OMNYGUI DISCARDABLE     "resources\\og_radio_selected_disabled.gif"
+OG_IMG_RADIO_UNSELECTED OMNYGUI DISCARDABLE     "resources\\og_radio_unselected.gif"
+OG_IMG_CHECKBOX_UNCHECKED_DISABLED OMNYGUI DISCARDABLE     "resources\\og_checkbox_unchecked_disabled.gif"
+OG_IMG_CHECKBOX_CHECKED_DISABLED OMNYGUI DISCARDABLE     "resources\\og_checkbox_checked_disabled.gif"
+OG_IMG_SPINNER_TOP_BUTTON_DOWN OMNYGUI DISCARDABLE     "resources\\og_spinner_top_button_down.gif"
+OG_IMG_SPINNER_BOTTOM_BUTTON_DOWN OMNYGUI DISCARDABLE     "resources\\og_spinner_bottom_button_down.gif"
+OG_IMG_SPINNER_BUTTONS  OMNYGUI DISCARDABLE     "resources\\og_spinner_buttons.gif"
+OG_IMG_SPINNER_BUTTONS_DISABLED OMNYGUI DISCARDABLE     "resources\\og_spinner_buttons_disabled.gif"
+OG_IMG_SPINNER_TEXTBOX  OMNYGUI DISCARDABLE     "resources\\og_spinner_textbox.gif"
+OG_IMG_SPINNER_TEXTBOX_DISABLED OMNYGUI DISCARDABLE     "resources\\og_spinner_textbox_disabled.gif"
+OG_IMG_SLIDER_LINE      OMNYGUI DISCARDABLE     "resources\\og_slider_line.gif"
+OG_IMG_SLIDER_KNOB      OMNYGUI DISCARDABLE     "resources\\og_slider_knob.gif"
+OG_IMG_SLIDER_KNOB_GRABBED OMNYGUI DISCARDABLE     "resources\\og_slider_knob_grabbed.gif"
+OG_IMG_SLIDER_LINE_DISABLED OMNYGUI DISCARDABLE     "resources\\og_slider_line_disabled.gif"
+OG_IMG_SLIDER_KNOB_DISABLED OMNYGUI DISCARDABLE     "resources\\og_slider_knob_disabled.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGES
+//
+
+IMAGE1                  IMAGES  DISCARDABLE     "resources\\image1.gif"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

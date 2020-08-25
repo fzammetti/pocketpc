@@ -1,0 +1,167 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "GXLibTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FONTS
+//
+
+IDR_BOX                 FONTS   DISCARDABLE     "Graphics\\Box.fnt.compressed"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MAX_FPS_TEST
+//
+
+IDR_MAX_FPS_TEST_BACKGROUND MAX_FPS_TEST DISCARDABLE "Graphics\\Background.raw.compressed"
+IDR_MAX_FPS_TEST_BACKGROUND_PALETTE MAX_FPS_TEST DISCARDABLE "Graphics\\Background Palette.pal.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_PALETTE MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Palette.pal.compressed"
+IDR_MAX_FPS_TEST_SPRITE_1_PALETTE MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 1 Palette.pal.compressed"
+IDR_MAX_FPS_TEST_SPRITE_1_FRAME_3 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 1 Frame 3.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_1_FRAME_2 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 1 Frame 2.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_1_FRAME_1 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 1 Frame 1.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_10 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 10.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_1 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 1.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_2 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 2.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_3 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 3.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_4 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 4.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_5 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 5.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_6 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 6.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_7 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 7.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_8 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 8.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_2_FRAME_9 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 2 Frame 9.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_3_PALETTE MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 3 Palette.pal.compressed"
+IDR_MAX_FPS_TEST_SPRITE_3_FRAME_2 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 3 Frame 2.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_3_FRAME_1 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 3 Frame 1.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_PALETTE MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Palette.pal.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_10 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 10.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_11 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 11.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_12 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 12.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_13 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 13.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_14 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 14.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_15 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 15.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_2 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 2.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_3 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 3.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_4 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 4.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_5 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 5.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_9 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 9.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_6 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 6.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_7 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 7.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_8 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 8.raw.compressed"
+IDR_MAX_FPS_TEST_SPRITE_4_FRAME_1 MAX_FPS_TEST DISCARDABLE "Graphics\\Sprite 4 Frame 1.raw.compressed"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WALLS
+//
+
+IDR_WALLS_MOVING_4      WALLS   DISCARDABLE     "Graphics\\Wall Moving 4.raw.compressed"
+IDR_WALLS_MOVING_1      WALLS   DISCARDABLE     "Graphics\\Wall Moving 1.raw.compressed"
+IDR_WALLS_MOVING_2_PALETTE WALLS   DISCARDABLE     "Graphics\\Wall Moving 2 Palette.pal.compressed"
+IDR_WALLS_MOVING_2      WALLS   DISCARDABLE     "Graphics\\Wall Moving 2.raw.compressed"
+IDR_WALLS_MOVING_3_PALETTE WALLS   DISCARDABLE     "Graphics\\Wall Moving 3 Palette.pal.compressed"
+IDR_WALLS_MOVING_3      WALLS   DISCARDABLE     "Graphics\\Wall Moving 3.raw.compressed"
+IDR_WALLS_MOVING_4_PALETTE WALLS   DISCARDABLE     "Graphics\\Wall Moving 4 Palette.pal.compressed"
+IDR_WALLS_MOVING_1_PALETTE WALLS   DISCARDABLE     "Graphics\\Wall Moving 1 Palette.pal.compressed"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GRADIENT
+//
+
+IDR_GRADIENT            GRADIENT DISCARDABLE    "Graphics\\Gradient.raw.compressed"
+IDR_GRADIENT_PALETTE    GRADIENT DISCARDABLE    "Graphics\\Gradient Palette.pal.compressed"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MISC
+//
+
+IDR_HFLIP               MISC    DISCARDABLE     "Graphics\\HFlipTest.raw.compressed"
+IDR_VFLIP               MISC    DISCARDABLE     "Graphics\\VFlipTest.raw.compressed"
+IDR_FULLSCREENBOX       MISC    DISCARDABLE     "Graphics\\fullscreenbox.raw.compressed"
+IDR_FULLSCREENBOXPALETTE MISC    DISCARDABLE     "Graphics\\fullscreenbox.pal.compressed"
+IDR_PICTURE             MISC    DISCARDABLE     "Graphics\\Misc Background.raw.compressed"
+IDR_PICTURE_PALETTE     MISC    DISCARDABLE     "Graphics\\Misc Background Palette.pal.compressed"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE               "GXLibTest"
+    IDS_WINDOWCLASS         "GXLibTest"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
